@@ -4,7 +4,8 @@ baseURL = "https://blog.rkr-networks.com/"
 locale = "en-US"
 title = "RKR Networks Blog"
 theme = "PaperMod"
-enableRobotsTXT = true
+enableRobotsTXT = false
+copyright = "© 2026 RKR Networks. All rights reserved. Content may not be used to train AI models."
 
 [pagination]
   pagerSize = 10
@@ -22,6 +23,7 @@ enableRobotsTXT = true
 
 [caches.images]
   dir = ":cacheDir/images"
+
 
 [params]
   env = "production"          # PaperMod: emits Open Graph, Twitter card and schema.org meta
