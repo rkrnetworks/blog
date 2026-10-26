@@ -1,0 +1,20 @@
+{{- /* The newest post, shown large under the hero on the first home page. Context: a page. */ -}}
+{{- $hasCover := and .Params.cover.image (not (.Param "cover.hiddenInList")) }}
+<article class="post-entry featured{{ if not $hasCover }} no-cover{{ end }}">
+  <div class="card-media">
+    {{- if $hasCover }}
+    {{- partial "cover.html" (dict "cxt" . "IsSingle" false "isHidden" false) }}
+    {{- else }}
+    {{- partial "card_placeholder.html" . }}
+    {{- end }}
+  </div>
+  <div class="featured-body">
+    <p class="featured-flag">Latest post</p>
+    <h2 class="featured-title">{{ .Title }}{{ if .Draft }} <span class="entry-hint">(draft)</span>{{ end }}</h2>
+    {{- if ne (.Param "hideSummary") true }}
+    <p class="featured-desc">{{ with .Description }}{{ . | plainify }}{{ else }}{{ .Summary | plainify | htmlUnescape }}{{ end }}</p>
+    {{- end }}
+    {{- partial "card_meta.html" . }}
+  </div>
+  <a class="entry-link" aria-label="{{ .Title | plainify }}" href="{{ .Permalink }}"></a>
+</article>

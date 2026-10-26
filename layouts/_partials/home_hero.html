@@ -1,15 +1,25 @@
+{{- /* Home hero: headline, sub-line and the demo line on the left, the synthetic twin illustration on the right. Copy comes from [params.hero] in hugo.toml. */ -}}
 {{- with site.Params.hero }}
 <section class="home-hero" aria-labelledby="hero-title">
-  <p class="hero-kicker">{{ .kicker | default site.Title }}</p>
-  <h1 id="hero-title" class="hero-title">{{ .title }}</h1>
-  {{- with .subtitle }}
-  <p class="hero-sub">{{ . }}</p>
-  {{- end }}
-  {{- with .ctaText }}
-  <p class="hero-cta">
-    <span>{{ . }}</span>
-    {{ with $.Site.Params.hero.ctaEmail }}<a class="hero-cta-link" href="mailto:{{ . }}">{{ . }}</a>{{ end }}
-  </p>
-  {{- end }}
+  <div class="hero-copy">
+    <h1 id="hero-title" class="hero-title">{{ .title }}</h1>
+    {{- with .subtitle }}
+    <p class="hero-sub">{{ . }}</p>
+    {{- end }}
+    {{- with .ctaText }}
+    <p class="hero-cta">
+      <span>{{ . }}</span>
+      {{- with site.Params.hero.ctaEmail }}
+      <a class="btn-demo" href="mailto:{{ . }}">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="m4 7 8 6 8-6"/></svg>
+        {{ . }}
+      </a>
+      {{- end }}
+    </p>
+    {{- end }}
+  </div>
+  <div class="hero-art">
+    {{- partial "twin_art.html" . }}
+  </div>
 </section>
 {{- end }}

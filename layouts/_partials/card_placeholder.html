@@ -1,0 +1,5 @@
+{{- /* Cover stand-in for posts without cover.image: a small hall-and-twin mark on navy, labelled with the first tag. Context: a page. */ -}}
+<div class="card-placeholder" aria-hidden="true">
+  {{- partial "mini_twin.html" . }}
+  <span class="card-placeholder-label">{{ with .Params.tags }}{{ index . 0 }}{{ else }}RKR Networks{{ end }}</span>
+</div>

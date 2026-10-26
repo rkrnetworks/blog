@@ -1,0 +1,11 @@
+{{- define "main" }}
+<section class="nf" aria-labelledby="nf-title">
+  <div class="nf-code" aria-hidden="true"><span class="nf-twin">404</span><span class="nf-solid">404</span></div>
+  <h1 id="nf-title">Page not found</h1>
+  <p>There is no page at this address. It may have moved, or the link may have a typo.</p>
+  <p class="nf-actions">
+    <a class="btn-demo" href="{{ "posts/" | relLangURL }}">See all posts</a>
+    <a class="btn-ghost" href="{{ "" | relLangURL }}">Go to the home page</a>
+  </p>
+</section>
+{{- end }}{{/* end main */ -}}

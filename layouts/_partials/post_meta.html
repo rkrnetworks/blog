@@ -1,0 +1,15 @@
+{{- /* Post meta as separate spans; the separators are drawn in CSS (.post-meta .pm + .pm). */ -}}
+{{- if not .Date.IsZero }}
+<span class="pm"><time datetime="{{ .Date | time.Format "2006-01-02T15:04:05-07:00" }}">{{ .Date | time.Format (default ":date_long" site.Params.DateFormat) }}</time></span>
+{{- end }}
+{{- if (.Param "ShowReadingTime") }}
+<span class="pm">{{ i18n "read_time" .ReadingTime | default (printf "%d min" .ReadingTime) }}</span>
+{{- end }}
+{{- if (.Param "ShowWordCount") }}
+<span class="pm">{{ i18n "words" .WordCount | default (printf "%d words" .WordCount) }}</span>
+{{- end }}
+{{- if not (.Param "hideAuthor") }}
+{{- with (partial "author.html" .) }}
+<span class="pm">{{ . }}</span>
+{{- end }}
+{{- end }}

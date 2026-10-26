@@ -1,0 +1,29 @@
+{{- /*
+  Click-to-load YouTube embed. Replaces Hugo's built-in shortcode so a post page
+  does not load YouTube's player until the reader asks for it (keeps Lighthouse
+  high). Same call as before: {{< youtube ID >}} or {{< youtube id="ID" title="..." start="30" >}}.
+  Without JS the poster is a plain link to the video on YouTube.
+*/ -}}
+{{- $id := "" }}{{ $title := "YouTube video" }}{{ $start := "" }}
+{{- if .IsNamedParams }}
+{{- $id = .Get "id" }}
+{{- with .Get "title" }}{{ $title = . }}{{ end }}
+{{- with .Get "start" }}{{ $start = . }}{{ end }}
+{{- else }}
+{{- $id = .Get 0 }}
+{{- end }}
+{{- with $id }}
+<div class="yt" data-yt="{{ . }}" data-start="{{ $start }}" data-title="{{ $title }}">
+  <a class="yt-poster" href="https://www.youtube.com/watch?v={{ . }}{{ with $start }}&amp;t={{ . }}s{{ end }}" rel="noopener" aria-label="Play video: {{ $title }}">
+    <img src="https://i.ytimg.com/vi/{{ . }}/hqdefault.jpg" alt="" width="480" height="360" loading="lazy" decoding="async">
+    <span class="yt-play" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M7 4.5v15l13-7.5z"/></svg></span>
+    {{- if ne $title "YouTube video" }}<span class="yt-title">{{ $title }}</span>{{ end }}
+  </a>
+</div>
+{{- if not ($.Page.Store.Get "rkr-yt-js") }}
+{{- $.Page.Store.Set "rkr-yt-js" true }}
+<script>
+document.addEventListener("click",function(e){var a=e.target.closest&&e.target.closest(".yt-poster");if(!a)return;var w=a.parentNode,id=w.getAttribute("data-yt");if(!id)return;e.preventDefault();var f=document.createElement("iframe"),st=w.getAttribute("data-start");f.src="https://www.youtube-nocookie.com/embed/"+encodeURIComponent(id)+"?autoplay=1&rel=0"+(st?"&start="+encodeURIComponent(st):"");f.title=w.getAttribute("data-title")||"YouTube video";f.allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";f.allowFullscreen=true;f.referrerPolicy="strict-origin-when-cross-origin";w.replaceChildren(f);f.focus()});
+</script>
+{{- end }}
+{{- end }}

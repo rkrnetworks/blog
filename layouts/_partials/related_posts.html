@@ -1,0 +1,15 @@
+{{- /* "Keep reading": up to three related posts (by tags and keywords), topped up with the newest posts. Context: a page. */ -}}
+{{- $all := where site.RegularPages "Type" "in" site.Params.mainSections }}
+{{- $pick := where (site.RegularPages.Related .) "Type" "in" site.Params.mainSections }}
+{{- $pick = union $pick $all }}
+{{- $pick = first 3 (where $pick "Permalink" "!=" .Permalink) }}
+{{- with $pick }}
+<section class="related" aria-labelledby="related-title">
+  <h2 id="related-title" class="related-title">Keep reading</h2>
+  <div class="card-grid related-grid">
+    {{- range . }}
+    {{- partial "post_card.html" (dict "page" .) }}
+    {{- end }}
+  </div>
+</section>
+{{- end }}

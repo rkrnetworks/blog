@@ -11,9 +11,9 @@
     {{ .Title }}
     {{- if and (or (eq .Kind `term`) (eq .Kind `section`)) (.Param "ShowRssButtonInSectionTermList") }}
     {{- with .OutputFormats.Get "rss" }}
-    <a href="{{ .RelPermalink }}" title="RSS" aria-label="RSS">
+    <a href="{{ .RelPermalink }}" title="RSS feed" aria-label="RSS feed">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" height="23">
+        stroke-linecap="round" stroke-linejoin="round" height="22" aria-hidden="true">
         <path d="M4 11a9 9 0 0 1 9 9" />
         <path d="M4 4a16 16 0 0 1 16 16" />
         <circle cx="5" cy="19" r="1" />
@@ -46,14 +46,24 @@
 {{- end }}
 
 {{- $paginator := .Paginate $pages }}
+{{- $firstHome := and .IsHome (eq $paginator.PageNumber 1) }}
 
-{{- if and .IsHome (eq $paginator.PageNumber 1) }}
+{{- if $firstHome }}
 {{- partial "home_hero.html" . }}
 {{- end }}
 
-{{- with $paginator.Pages }}
+{{- $list := $paginator.Pages }}
+{{- if and $firstHome (gt (len $list) 0) }}
+{{- partial "featured_post.html" (index $list 0) }}
+{{- $list = after 1 $list }}
+{{- end }}
+
+{{- with $list }}
 {{- if $.IsHome }}
-<h2 class="section-label">Latest posts</h2>
+<div class="index-head">
+  <h2 class="index-title">{{ if $firstHome }}More posts{{ else }}Posts{{ end }}</h2>
+  {{- partial "topic_chips.html" $ }}
+</div>
 {{- end }}
 <div class="card-grid">
 {{- range $index, $page := . }}
@@ -64,21 +74,17 @@
 
 {{- if gt $paginator.TotalPages 1 }}
 <footer class="page-footer">
-  <nav class="pagination">
+  <nav class="pagination" aria-label="Pages">
     {{- if $paginator.HasPrev }}
     <a class="prev" href="{{ $paginator.Prev.URL | absURL }}">
-      «&nbsp;{{ i18n "prev_page" }}&nbsp;
-      {{- if (.Param "ShowPageNums") }}
-      {{- sub $paginator.PageNumber 1 }}/{{ $paginator.TotalPages }}
-      {{- end }}
+      Newer posts
+      {{- if (.Param "ShowPageNums") }}&nbsp;{{- sub $paginator.PageNumber 1 }}/{{ $paginator.TotalPages }}{{- end }}
     </a>
     {{- end }}
     {{- if $paginator.HasNext }}
     <a class="next" href="{{ $paginator.Next.URL | absURL }}">
-      {{- i18n "next_page" }}&nbsp;
-      {{- if (.Param "ShowPageNums") }}
-      {{- add 1 $paginator.PageNumber }}/{{ $paginator.TotalPages }}
-      {{- end }}&nbsp;»
+      Older posts
+      {{- if (.Param "ShowPageNums") }}&nbsp;{{- add 1 $paginator.PageNumber }}/{{ $paginator.TotalPages }}{{- end }}
     </a>
     {{- end }}
   </nav>

@@ -1,9 +1,10 @@
-{{- /* "Listen to this post" player. Front matter: audio: ["/audio/<slug>.mp3"] (must be a list for PaperMod's og:audio), optional audioDuration: "6:46" */ -}}
+{{- /* "Listen to this post" player. Front matter: audio: ["/audio/<slug>.mp3"] (must be a list for PaperMod's og:audio), optional audioDuration: "6:46". Without JS the native audio control shows instead. */ -}}
 {{- with .Params.audio }}
 {{- $src := cond (reflect.IsSlice .) (index . 0) . }}
 {{- $dur := $.Params.audioDuration | default "" }}
 <div class="rkr-listen" data-listen>
   <button class="rkr-listen-btn" type="button" aria-label="Play audio version of this post" hidden>
+    <span class="rkr-listen-ring" aria-hidden="true"></span>
     <svg class="i-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg>
     <svg class="i-pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5h4v14H7zM13 5h4v14h-4z"/></svg>
   </button>
@@ -13,25 +14,29 @@
       <span class="rkr-listen-time" hidden><span data-cur>0:00</span> / <span data-dur>{{ $dur | default "--:--" }}</span></span>
       {{- with $dur }}<span class="rkr-listen-len" data-len>{{ . }}</span>{{ end }}
     </div>
-    <div class="rkr-listen-bar" hidden><input type="range" min="0" max="1000" value="0" step="1" aria-label="Seek"></div>
+    <div class="rkr-listen-bar" hidden>
+      <span class="rkr-wave" aria-hidden="true"></span>
+      <input type="range" min="0" max="1000" value="0" step="1" aria-label="Seek">
+    </div>
     <audio class="rkr-listen-native" controls preload="none" src="{{ $src | relURL }}">
       <a href="{{ $src | relURL }}">Download the audio (MP3)</a>
     </audio>
   </div>
-  <button class="rkr-listen-speed" type="button" aria-label="Playback speed" hidden>1×</button>
+  <button class="rkr-listen-speed" type="button" aria-label="Playback speed, 1 times" hidden>1×</button>
 </div>
 <script>
 (function(){var r=document.currentScript.previousElementSibling,a=r.querySelector("audio"),b=r.querySelector(".rkr-listen-btn"),s=r.querySelector("input"),sp=r.querySelector(".rkr-listen-speed"),t=r.querySelector(".rkr-listen-time"),c=r.querySelector("[data-cur]"),d=r.querySelector("[data-dur]"),l=r.querySelector("[data-len]"),rates=[1,1.25,1.5,1.75,2,0.75],ri=0;
 function f(x){x=Math.floor(x||0);return Math.floor(x/60)+":"+("0"+x%60).slice(-2)}
+function p(v){r.style.setProperty("--p",v/10+"%");s.setAttribute("aria-valuetext",f(a.currentTime)+(a.duration?" of "+f(a.duration):""))}
 a.controls=false;a.hidden=true;b.hidden=false;s.parentNode.hidden=false;sp.hidden=false;r.classList.add("js");
 b.onclick=function(){if(a.paused){a.play()}else{a.pause()}};
 a.onplay=function(){r.classList.add("playing");b.setAttribute("aria-label","Pause");t.hidden=false;if(l)l.hidden=true};
 a.onpause=function(){r.classList.remove("playing");b.setAttribute("aria-label","Play audio version of this post")};
 a.onloadedmetadata=function(){d.textContent=f(a.duration)};
-a.ontimeupdate=function(){c.textContent=f(a.currentTime);if(a.duration){var v=a.currentTime/a.duration*1000;s.value=v;s.style.setProperty("--p",v/10+"%")}};
-s.oninput=function(){if(a.duration){a.currentTime=s.value/1000*a.duration}else{a.preload="metadata";a.load()}s.style.setProperty("--p",s.value/10+"%")};
-sp.onclick=function(){ri=(ri+1)%rates.length;a.playbackRate=rates[ri];sp.textContent=rates[ri]+"×"};
-a.onended=function(){s.value=0;s.style.setProperty("--p","0%")};
+a.ontimeupdate=function(){c.textContent=f(a.currentTime);if(a.duration){var v=a.currentTime/a.duration*1000;s.value=v;p(v)}};
+s.oninput=function(){if(a.duration){a.currentTime=s.value/1000*a.duration}else{a.preload="metadata";a.load()}p(s.value)};
+sp.onclick=function(){ri=(ri+1)%rates.length;a.playbackRate=rates[ri];sp.textContent=rates[ri]+"×";sp.setAttribute("aria-label","Playback speed, "+rates[ri]+" times")};
+a.onended=function(){s.value=0;p(0)};
 })();
 </script>
 {{- end }}

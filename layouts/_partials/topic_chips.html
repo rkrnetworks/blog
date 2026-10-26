@@ -1,0 +1,11 @@
+{{- /* Most-used tags as chips beside the home post index. Hide with params.hideTopicChips = true. */ -}}
+{{- if not site.Params.hideTopicChips }}
+{{- with site.Taxonomies.tags }}
+<nav class="topic-chips" aria-label="Topics">
+  {{- range first 7 .ByCount }}
+  <a href="{{ .Page.RelPermalink }}">{{ .Page.LinkTitle }}<span class="chip-count">{{ .Count }}</span></a>
+  {{- end }}
+  <a class="chip-all" href="{{ "tags/" | relLangURL }}">All topics</a>
+</nav>
+{{- end }}
+{{- end }}

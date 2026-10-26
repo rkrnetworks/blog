@@ -1,0 +1,13 @@
+{{- /* Copy link, device share sheet, and the side rail that shows while the reader is in the body of a post. */ -}}
+<script>
+(function(){var st=document.querySelectorAll(".rkr-share-status");
+function say(t){st.forEach(function(s){s.textContent=t;clearTimeout(s._t);s._t=setTimeout(function(){s.textContent=""},2400)})}
+document.querySelectorAll("[data-copy]").forEach(function(b){b.addEventListener("click",function(){var u=b.getAttribute("data-copy");function ok(){document.querySelectorAll("[data-copy]").forEach(function(x){x.classList.add("is-done")});say("Link copied");setTimeout(function(){document.querySelectorAll("[data-copy]").forEach(function(x){x.classList.remove("is-done")})},2000)}
+if(navigator.clipboard&&window.isSecureContext){navigator.clipboard.writeText(u).then(ok,function(){prompt("Copy this link:",u)})}else{prompt("Copy this link:",u)}})});
+if(navigator.share){document.querySelectorAll("[data-native]").forEach(function(b){b.hidden=false;b.addEventListener("click",function(){navigator.share({title:b.getAttribute("data-title"),url:b.getAttribute("data-url")}).catch(function(){})})})}
+var rail=document.querySelector("[data-share-rail]"),head=document.querySelector(".post-header"),end=document.querySelector(".post-footer");
+if(rail&&head&&end&&"IntersectionObserver" in window){var past=false,atEnd=false;function u(){rail.classList.toggle("is-on",past&&!atEnd)}
+new IntersectionObserver(function(e){past=!e[0].isIntersecting&&e[0].boundingClientRect.top<0;u()}).observe(head);
+new IntersectionObserver(function(e){atEnd=e[0].isIntersecting||e[0].boundingClientRect.top<0;u()}).observe(end)}
+})();
+</script>

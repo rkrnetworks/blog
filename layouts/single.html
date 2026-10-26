@@ -27,7 +27,13 @@
       {{- partial "post_canonical.html" . -}}
     </div>
     {{- end }}
+    {{- if ne .Params.disableShare true }}
+    {{- partial "share_post.html" (dict "page" . "variant" "inline") }}
+    {{- end }}
   </header>
+  {{- if ne .Params.disableShare true }}
+  {{- partial "share_post.html" (dict "page" . "variant" "rail") }}
+  {{- end }}
   {{- partial "listen.html" . }}
   {{- $isHidden := (.Param "cover.hiddenInSingle") | default (.Param "cover.hidden") | default false }}
   {{- partial "cover.html" (dict "cxt" . "IsSingle" true "isHidden" $isHidden) }}
@@ -47,22 +53,32 @@
 
   <footer class="post-footer">
     {{- $tags := .Language.Params.Taxonomies.tag | default "tags" }}
-    <ul class="post-tags">
-      {{- range ($.GetTerms $tags) }}
+    {{- with ($.GetTerms $tags) }}
+    <ul class="post-tags" aria-label="Tags">
+      {{- range . }}
       <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
       {{- end }}
     </ul>
-    {{- if (.Param "ShowPostNavLinks") }}
-    {{- partial "post_nav_links.html" . }}
     {{- end }}
     {{- if (and site.Params.ShowShareButtons (ne .Params.disableShare true)) }}
-    {{- partial "share_icons.html" . -}}
+    {{- partial "share_post.html" (dict "page" . "variant" "end" "label" "Found this useful? Share it with your team.") }}
     {{- end }}
   </footer>
+
+  {{- if ne .Params.hideDemoCta true }}
+  {{- partial "post_cta.html" . }}
+  {{- end }}
+
+  {{- partial "related_posts.html" . }}
+
+  {{- if (.Param "ShowPostNavLinks") }}
+  {{- partial "post_nav_links.html" . }}
+  {{- end }}
 
   {{- if (.Param "comments") }}
   {{- partial "comments.html" . }}
   {{- end }}
 </article>
+{{- partial "share_script.html" . }}
 
 {{- end }}{{/* end main */}}

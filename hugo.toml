@@ -35,11 +35,22 @@ copyright = "© 2026 RKR Networks. All rights reserved. Content may not be used 
   defaultTheme = "light"
   ShowReadingTime = true
   ShowShareButtons = true
+  ShowToc = true
+  TocOpen = false
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
   ShowRssButtonInSectionTermList = true
   mainSections = ["posts"]
+
+  [params.label]
+    text = "RKR Networks Blog"
+    icon = "/images/logo.png"
+    iconHeight = 30
+
+  [params.assets]
+    theme_color = "#F5F8FB"
+    msapplication_TileColor = "#08142E"
 
   [params.hero]
     kicker = "RKR Networks Blog"
