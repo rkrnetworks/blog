@@ -1,0 +1,68 @@
+baseURL = "https://blog.rkr-networks.com/"
+locale = "en-US"
+title = "RKR Networks Blog"
+theme = "PaperMod"
+enableRobotsTXT = true
+
+[pagination]
+  pagerSize = 10
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[sitemap]
+  changeFreq = "weekly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[services.rss]
+  limit = 20
+
+[caches.images]
+  dir = ":cacheDir/images"
+
+[params]
+  env = "production"          # PaperMod: emits Open Graph, Twitter card and schema.org meta
+  title = "RKR Networks Blog"
+  description = "News, ideas, and updates from RKR Networks, a company building network operations software."
+  keywords = ["RKR Networks", "network operations", "networking", "network automation"]
+  author = "RKR Networks"
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowRssButtonInSectionTermList = true
+  mainSections = ["posts"]
+
+  [params.homeInfoParams]
+    Title = "RKR Networks Blog"
+    Content = "News, ideas, and updates from [RKR Networks](https://www.rkr-networks.com), a company building network operations software. Questions? Email [sales@rkr-networks.com](mailto:sales@rkr-networks.com)."
+
+  [[params.socialIcons]]
+    name = "website"
+    url = "https://www.rkr-networks.com"
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:sales@rkr-networks.com"
+  [[params.socialIcons]]
+    name = "rss"
+    url = "index.xml"
+
+[[menu.main]]
+  name = "Posts"
+  url = "/posts/"
+  weight = 10
+[[menu.main]]
+  name = "Tags"
+  url = "/tags/"
+  weight = 20
+[[menu.main]]
+  name = "RKR Networks"
+  url = "https://www.rkr-networks.com"
+  weight = 30
+[[menu.main]]
+  name = "Contact"
+  url = "mailto:sales@rkr-networks.com"
+  weight = 40
