@@ -27,6 +27,7 @@ enableRobotsTXT = true
   env = "production"          # PaperMod: emits Open Graph, Twitter card and schema.org meta
   title = "RKR Networks Blog"
   description = "News, ideas and updates from RKR Networks. We build synthetic twins for all. By all, we mean switching, routing, wireless, firewalls and security, data centers, power and cooling, and compute. Campus to cloud, one synthetic twin."
+  searchDescription = "RKR Networks builds synthetic twins for all: switching, routing, wireless, security, data centers, power and compute. Campus to cloud."
   keywords = ["RKR Networks", "RKR SETU", "synthetic twin", "networking", "data center", "network security", "compute"]
   author = "RKR Networks"
   defaultTheme = "auto"
