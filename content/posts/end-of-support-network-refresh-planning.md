@@ -26,7 +26,7 @@ Most refresh guides already say the right thing: prioritise by risk and blast ra
 
 The demo below works through it on a synthetic twin of a made-up example building, from one CLI session. End-of-support dates follow each maker's published notices, and makers are not named.
 
-{{< youtube S7HkRH0vdlU >}}
+{{< youtube Zt8muqNFnZw >}}
 
 It starts with one command that lists every device generation in the building, with its end-of-sale and end-of-support dates. The Wi-Fi 4 APs lost support 4 years ago and Wi-Fi 5 Wave 1 3 years ago. One Wave 2 model ends this month and another in 12 months, while the newest access switches and Wi-Fi 6E APs are current. Old or new, every device is modelled and tested the same way, supported or not.
 
