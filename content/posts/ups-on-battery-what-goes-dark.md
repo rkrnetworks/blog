@@ -8,6 +8,7 @@ cover:
   image: "/covers/ups-on-battery-what-goes-dark.jpg"
   alt: "UPS on battery: how to know what goes dark before it does (cover image)"
   hiddenInSingle: false
+audio: ["/audio/ups-on-battery-what-goes-dark.mp3"]
 ---
 
 An alarm comes in: six comms closets say their UPS is on battery. Nothing is down yet. The question everyone asks next is simple, and in most buildings nobody can answer it quickly. When the batteries run out, what goes dark?

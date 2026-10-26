@@ -1,0 +1,11 @@
+{{- /* "Listen to this post" player. Front matter: audio: ["/audio/<slug>.mp3"]
+       Must be a list: PaperMod's opengraph.html ranges over .Params.audio to emit og:audio. */ -}}
+{{- with .Params.audio }}
+{{- $src := cond (reflect.IsSlice .) (index . 0) . }}
+<div class="post-listen listen-pill">
+  <span class="post-listen-label">Listen to this post</span>
+  <audio controls preload="none" src="{{ $src | relURL }}">
+    <a href="{{ $src | relURL }}">Download the audio (MP3)</a>
+  </audio>
+</div>
+{{- end }}

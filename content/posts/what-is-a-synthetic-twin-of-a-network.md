@@ -8,6 +8,7 @@ cover:
   image: "/covers/what-is-a-synthetic-twin-of-a-network.jpg"
   alt: "What is a synthetic twin of a network? (cover image)"
   hiddenInSingle: false
+audio: ["/audio/what-is-a-synthetic-twin-of-a-network.mp3"]
 ---
 
 Every network engineer has a version of the same question. If I change this, what breaks? If this box dies tonight, who calls? Usually the honest answer is "probably nothing, but we'll find out." This post explains what a synthetic twin is and what it looks like in practice.

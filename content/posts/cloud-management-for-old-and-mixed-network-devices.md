@@ -8,6 +8,7 @@ cover:
   image: "/covers/cloud-management-for-old-and-mixed-network-devices.jpg"
   alt: "Too old for the cloud? Old and mixed network devices still belong in one synthetic twin (cover image)"
   hiddenInSingle: false
+audio: ["/audio/cloud-management-for-old-and-mixed-network-devices.mp3"]
 ---
 
 Most cloud management only works with newer gear from one vendor. SETU works the other way around. If a device is too old for a vendor's cloud, we still bring it into SETU. Twenty years old? Still in SETU. Mixed brands, end-of-support, never cloud-ready? All of it goes into one synthetic twin, so your whole network shows up, not just the newest part of it.
