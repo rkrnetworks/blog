@@ -1,0 +1,29 @@
+{{- $p := .page }}
+{{- with $p }}
+{{- $hasCover := and .Params.cover.image (not (.Param "cover.hiddenInList")) }}
+<article class="post-entry post-card{{ if not $hasCover }} no-cover{{ end }}">
+  <div class="card-media">
+    {{- if $hasCover }}
+    {{- partial "cover.html" (dict "cxt" . "IsSingle" false "isHidden" false) }}
+    {{- else }}
+    <div class="card-placeholder" aria-hidden="true">
+      <span class="card-placeholder-label">{{ with .Params.tags }}{{ index . 0 }}{{ else }}RKR Networks{{ end }}</span>
+    </div>
+    {{- end }}
+  </div>
+  <div class="card-body">
+    {{- if not .Date.IsZero }}
+    <p class="card-meta">
+      <time datetime="{{ .Date | time.Format "2006-01-02" }}">{{ .Date | time.Format ":date_medium" }}</time>
+      {{- if .Param "ShowReadingTime" }}<span class="card-dot">/</span><span>{{ .ReadingTime }} min read</span>{{ end }}
+    </p>
+    {{- end }}
+    <h2 class="card-title">{{ .Title }}{{ if .Draft }} <span class="entry-hint">(draft)</span>{{ end }}</h2>
+    {{- if ne (.Param "hideSummary") true }}
+    <p class="card-desc">{{ with .Description }}{{ . | plainify }}{{ else }}{{ .Summary | plainify | htmlUnescape }}{{ end }}</p>
+    {{- end }}
+    <span class="card-more" aria-hidden="true">Read post →</span>
+  </div>
+  <a class="entry-link" aria-label="{{ .Title | plainify }}" href="{{ .Permalink }}"></a>
+</article>
+{{- end }}

@@ -1,0 +1,6 @@
+{{- if and (eq .Kind "page") (ne .Layout "archives") (ne .Layout "search") }}
+<div class="reading-progress" aria-hidden="true"><span class="reading-progress-bar"></span></div>
+<script>
+(function(){if(window.CSS&&CSS.supports&&CSS.supports("animation-timeline: scroll()"))return;var b=document.querySelector(".reading-progress-bar");if(!b)return;var t=false;function u(){var d=document.documentElement,h=d.scrollHeight-d.clientHeight;b.style.transform="scaleX("+(h>0?Math.min(1,d.scrollTop/h):0)+")";t=false}addEventListener("scroll",function(){if(!t){t=true;requestAnimationFrame(u)}},{passive:true});addEventListener("resize",u);u()})();
+</script>
+{{- end }}
