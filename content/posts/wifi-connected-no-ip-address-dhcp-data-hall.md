@@ -1,6 +1,6 @@
 ---
 title: "Wi-Fi connected, no IP address: tracing DHCP into the data hall"
-date: 2026-11-06
+date: 2026-10-26T07:00:00Z
 description: "Two new wireless clients can't get an address, while every port is up. A synthetic twin follows the request from the office into the data hall and finds one host sending the reply down the wrong cable."
 tags: ["DHCP", "Wi-Fi troubleshooting", "virtualisation", "data center", "root cause analysis", "synthetic twin", "RKR SETU"]
 slug: "wifi-connected-no-ip-address-dhcp-data-hall"

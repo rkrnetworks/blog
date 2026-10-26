@@ -1,6 +1,6 @@
 ---
 title: "UPS on battery: how to know what goes dark before it does"
-date: 2026-10-27
+date: 2026-10-26T06:10:00Z
 description: "Six closets report UPS on battery. Here's how to find the one root cause and predict which switches, APs and devices go dark before the batteries run out."
 tags: ["UPS", "power resilience", "root cause analysis", "alarm correlation", "single point of failure", "synthetic twin"]
 slug: "ups-on-battery-what-goes-dark"

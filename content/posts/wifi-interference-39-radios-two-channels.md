@@ -1,6 +1,6 @@
 ---
 title: "39 radios, 2 channels: when full Wi-Fi bars still mean bad calls"
-date: 2026-11-04
+date: 2026-10-26T06:50:00Z
 description: "Three tickets on three floors, all with full bars. In a synthetic twin, the cause turns out to be the channel plan, not coverage: 39 radios sharing two channels."
 tags: ["Wi-Fi troubleshooting", "channel planning", "interference", "SINR", "wireless design", "synthetic twin", "RKR SETU"]
 slug: "wifi-interference-39-radios-two-channels"

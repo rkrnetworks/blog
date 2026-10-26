@@ -1,6 +1,6 @@
 ---
 title: "Wi-Fi keeps dropping on one floor: tracing the ticket to one cable"
-date: 2026-10-28
+date: 2026-10-26T06:15:00Z
 description: "One AP goes silent and a floor's Wi-Fi keeps dropping. How teams usually chase it, and how a synthetic twin takes the ticket to one cable in a closet."
 tags: ["Wi-Fi troubleshooting", "access point", "PoE", "root cause analysis", "MTTR", "synthetic twin"]
 slug: "wifi-keeps-dropping-trace-ticket-to-one-cable"

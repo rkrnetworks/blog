@@ -1,6 +1,6 @@
 ---
 title: "End-of-support network equipment: plan the refresh by impact, not age"
-date: 2026-10-30
+date: 2026-10-26T06:25:00Z
 description: "Half your gear may be past its maker's support. Fail the oldest core on a synthetic twin to see what it carries, and rank the refresh by impact, not age."
 tags: ["end of life", "network refresh planning", "lifecycle management", "core switch", "single point of failure", "synthetic twin"]
 slug: "end-of-support-network-refresh-planning"

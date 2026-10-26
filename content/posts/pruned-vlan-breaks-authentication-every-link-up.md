@@ -1,6 +1,6 @@
 ---
 title: "Every link up, nobody can log in: how one pruned VLAN breaks authentication"
-date: 2026-11-02
+date: 2026-10-26T06:40:00Z
 description: "A trunk tidy-up applies cleanly. All 141 links stay up and all 13 WAN peers stay up, yet nobody can log in. Tracing one pruned VLAN in a synthetic twin."
 tags: ["VLAN", "change management", "authentication", "trunk", "root cause analysis", "synthetic twin", "RKR SETU"]
 slug: "pruned-vlan-breaks-authentication-every-link-up"

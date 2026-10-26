@@ -1,6 +1,6 @@
 ---
 title: "The control link drops, the robot keeps moving: AGV failure in a synthetic twin"
-date: 2026-11-15
+date: 2026-10-26T07:45:00Z
 description: "When the control uplink drops, a warehouse robot keeps driving its stored route. A synthetic twin follows both sides of the failure, the network and the physical world, from one warehouse to more than 11,000 retail sites."
 tags: ["robotics", "AGV", "warehouse", "WAN resilience", "physical AI", "synthetic twin", "RKR SETU"]
 slug: "agv-control-link-drops-robot-keeps-moving"

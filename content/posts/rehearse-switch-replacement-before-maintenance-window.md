@@ -1,6 +1,6 @@
 ---
 title: "Swapping a floor switch at 2 AM? Rehearse it before the maintenance window"
-date: 2026-10-29
+date: 2026-10-26T06:20:00Z
 description: "A switch replacement checklist covers the steps, not the impact. Rehearse the swap on a synthetic twin to see which hosts, APs and Wi-Fi users get hit."
 tags: ["change management", "maintenance window", "switch replacement", "blast radius", "Wi-Fi", "synthetic twin"]
 slug: "rehearse-switch-replacement-before-maintenance-window"

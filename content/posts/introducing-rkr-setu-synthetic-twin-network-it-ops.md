@@ -1,6 +1,6 @@
 ---
 title: "Introducing RKR SETU 1.0: one synthetic twin for network and IT operations"
-date: 2026-11-01
+date: 2026-10-26T06:35:00Z
 description: "One ticket or a thousand, each one starts somewhere in the network. A walk through RKR SETU 1.0 on a made-up site: the fault, the moments before it, what-if questions, Wi-Fi, security policy and the wider estate."
 tags: ["network operations", "IT operations", "root cause analysis", "blast radius", "change management", "synthetic twin", "RKR SETU"]
 slug: "introducing-rkr-setu-synthetic-twin-network-it-ops"

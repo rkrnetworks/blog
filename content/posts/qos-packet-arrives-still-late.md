@@ -1,6 +1,6 @@
 ---
 title: "A packet can arrive and still be late: testing QoS in a synthetic twin"
-date: 2026-11-08
+date: 2026-10-26T07:10:00Z
 description: "A call connects, the audio packets arrive, and they still miss their deadline. Following one packet hop by hop, then testing three QoS policies from exactly the same state in a synthetic twin."
 tags: ["QoS", "voice and video", "network performance", "change management", "queuing", "synthetic twin", "RKR SETU"]
 slug: "qos-packet-arrives-still-late"

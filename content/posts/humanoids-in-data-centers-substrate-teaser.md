@@ -1,6 +1,6 @@
 ---
 title: "Humanoids in data centers: is it possible?"
-date: 2026-11-11
+date: 2026-10-26T07:25:00Z
 description: "Can a humanoid rack, stack and cable a data center? A first look at The Substrate from RKR Networks: a humanoid racks eight switches, catches its own mistakes and closes a stacking ring in a synthetic twin."
 tags: ["humanoids", "physical AI", "data center robotics", "data center", "The Substrate", "synthetic twin", "RKR SETU"]
 slug: "humanoids-in-data-centers-substrate-teaser"

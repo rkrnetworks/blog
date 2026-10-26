@@ -1,6 +1,6 @@
 ---
 title: "Wi-Fi keeps dropping? Trace it to one switch, one floor down"
-date: 2026-11-13
+date: 2026-10-26T07:35:00Z
 description: "A ticket says the Wi-Fi keeps dropping. In a synthetic twin, the red trail leads from seven access points and twenty-one offline users to one switch on the floor below, and rewinding shows the fault before anyone felt it."
 tags: ["Wi-Fi troubleshooting", "access point", "access switch", "root cause analysis", "MTTR", "synthetic twin", "RKR SETU"]
 slug: "wifi-keeps-dropping-trace-to-one-switch"

@@ -1,6 +1,6 @@
 ---
 title: "Four Wi-Fi bars, seven megabits: why warehouse scanners keep dropping"
-date: 2026-11-10
+date: 2026-10-26T07:20:00Z
 description: "The coverage map says aisle 12 is covered, and it is. A synthetic twin walks the aisle with a handheld scanner and finds the weaker direction is the uplink, with 79 of 555 spots passing on signal but failing on usable link."
 tags: ["Wi-Fi troubleshooting", "warehouse Wi-Fi", "uplink", "channel planning", "wireless design", "synthetic twin", "RKR SETU"]
 slug: "warehouse-scanners-four-bars-seven-megabits"

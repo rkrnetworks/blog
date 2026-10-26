@@ -1,6 +1,6 @@
 ---
 title: "RKR SETU 1.0 is live in APAC and EMEA, and a look ahead at an outdoor access point install"
-date: 2026-11-03
+date: 2026-10-26T06:45:00Z
 description: "RKR SETU 1.0 is generally available in India, APAC and EMEA. The launch video looks ahead: a humanoid fitting an outdoor access point, step by step, with every check in a synthetic twin."
 tags: ["product launch", "APAC", "EMEA", "outdoor Wi-Fi", "humanoids", "synthetic twin", "RKR SETU"]
 slug: "rkr-setu-apac-emea-outdoor-access-point-install"

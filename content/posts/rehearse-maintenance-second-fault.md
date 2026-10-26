@@ -1,6 +1,6 @@
 ---
 title: "Busway maintenance tonight: rehearse it, and the second fault, before the window"
-date: 2026-10-31
+date: 2026-10-26T06:30:00Z
 description: "Planned maintenance uses up one side of your power redundancy. Rehearse it on a synthetic twin to see what one more tripped breaker would do to a 1,024-GPU training job."
 tags: ["maintenance window", "change management", "N-2", "power resilience", "data center", "synthetic twin"]
 slug: "rehearse-maintenance-second-fault"
