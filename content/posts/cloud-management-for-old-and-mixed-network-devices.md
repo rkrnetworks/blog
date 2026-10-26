@@ -4,6 +4,10 @@ date: 2026-10-26T05:00:00Z
 description: "Vendor cloud management focuses on newer, supported gear from one maker. SETU works the other way around: old, mixed and end-of-support devices go into one synthetic twin."
 tags: ["synthetic twin", "RKR SETU", "cloud management", "end of life network equipment", "multi-vendor network", "network refresh planning"]
 slug: "cloud-management-for-old-and-mixed-network-devices"
+cover:
+  image: "/covers/cloud-management-for-old-and-mixed-network-devices.jpg"
+  alt: "Too old for the cloud? Old and mixed network devices still belong in one synthetic twin (cover image)"
+  hiddenInSingle: false
 ---
 
 Most cloud management only works with newer gear from one vendor. SETU works the other way around. If a device is too old for a vendor's cloud, we still bring it into SETU. Twenty years old? Still in SETU. Mixed brands, end-of-support, never cloud-ready? All of it goes into one synthetic twin, so your whole network shows up, not just the newest part of it.

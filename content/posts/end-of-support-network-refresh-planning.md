@@ -4,6 +4,10 @@ date: 2026-10-30
 description: "Half your gear may be past its maker's support. Fail the oldest core on a synthetic twin to see what it carries, and rank the refresh by impact, not age."
 tags: ["end of life", "network refresh planning", "lifecycle management", "core switch", "single point of failure", "synthetic twin"]
 slug: "end-of-support-network-refresh-planning"
+cover:
+  image: "/covers/end-of-support-network-refresh-planning.jpg"
+  alt: "End-of-support network equipment: plan the refresh by impact, not age (cover image)"
+  hiddenInSingle: false
 ---
 
 Most networks are a mix. New Wi-Fi 6E access points sit next to Wi-Fi 4 units that have been on the ceiling for a decade. The access layer is current, and the core is a switch nobody wants to touch. Some of that gear stopped getting support from its maker years ago, and everyone knows it. The hard question isn't whether to refresh, but what to replace first with the budget you have.

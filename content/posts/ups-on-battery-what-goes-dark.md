@@ -4,6 +4,10 @@ date: 2026-10-27
 description: "Six closets report UPS on battery. Here's how to find the one root cause and predict which switches, APs and devices go dark before the batteries run out."
 tags: ["UPS", "power resilience", "root cause analysis", "alarm correlation", "single point of failure", "synthetic twin"]
 slug: "ups-on-battery-what-goes-dark"
+cover:
+  image: "/covers/ups-on-battery-what-goes-dark.jpg"
+  alt: "UPS on battery: how to know what goes dark before it does (cover image)"
+  hiddenInSingle: false
 ---
 
 An alarm comes in: six comms closets say their UPS is on battery. Nothing is down yet. The question everyone asks next is simple, and in most buildings nobody can answer it quickly. When the batteries run out, what goes dark?

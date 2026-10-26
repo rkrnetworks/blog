@@ -4,6 +4,10 @@ date: 2026-10-26
 description: "A synthetic twin is a model of your network you can question, break and rewind, so you can see what a change or failure does before production does."
 tags: ["synthetic twin", "change management", "blast radius", "network engineering", "single point of failure"]
 slug: "what-is-a-synthetic-twin-of-a-network"
+cover:
+  image: "/covers/what-is-a-synthetic-twin-of-a-network.jpg"
+  alt: "What is a synthetic twin of a network? (cover image)"
+  hiddenInSingle: false
 ---
 
 Every network engineer has a version of the same question. If I change this, what breaks? If this box dies tonight, who calls? Usually the honest answer is "probably nothing, but we'll find out." This post explains what a synthetic twin is and what it looks like in practice.
