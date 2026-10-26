@@ -9,6 +9,7 @@ cover:
   alt: "End-of-support network equipment: plan the refresh by impact, not age (cover image)"
   hiddenInSingle: false
 audio: ["/audio/end-of-support-network-refresh-planning.mp3"]
+audioDuration: "6:38"
 ---
 
 Most networks are a mix. New Wi-Fi 6E access points sit next to Wi-Fi 4 units that have been on the ceiling for a decade. The access layer is current, and the core is a switch nobody wants to touch. Some of that gear stopped getting support from its maker years ago, and everyone knows it. The hard question isn't whether to refresh, but what to replace first with the budget you have.

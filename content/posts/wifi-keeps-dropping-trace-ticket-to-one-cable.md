@@ -9,6 +9,7 @@ cover:
   alt: "Wi-Fi keeps dropping on one floor: tracing the ticket to one cable (cover image)"
   hiddenInSingle: false
 audio: ["/audio/wifi-keeps-dropping-trace-ticket-to-one-cable.mp3"]
+audioDuration: "6:21"
 ---
 
 It's 21:40 and a ticket comes in. Guests on floor 8 say the Wi-Fi keeps dropping. It's not a full outage, just people walking from one end of the floor to the other and losing their connection. Nobody has said which corner, and nobody has said which access point, because guests don't know what an access point is.

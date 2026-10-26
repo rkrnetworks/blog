@@ -9,6 +9,7 @@ cover:
   alt: "Swapping a floor switch at 2 AM? Rehearse it before the maintenance window (cover image)"
   hiddenInSingle: false
 audio: ["/audio/rehearse-switch-replacement-before-maintenance-window.mp3"]
+audioDuration: "6:07"
 ---
 
 Tonight at 02:00 the floor 7 switch gets replaced. It's a routine job. The new switch is staged, the config has been checked, and the change request is approved. Everyone involved would still like to know one thing before they start: who actually loses connectivity, and for how long?

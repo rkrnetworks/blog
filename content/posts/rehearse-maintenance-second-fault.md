@@ -5,6 +5,7 @@ description: "Planned maintenance uses up one side of your power redundancy. Reh
 tags: ["maintenance window", "change management", "N-2", "power resilience", "data center", "synthetic twin"]
 slug: "rehearse-maintenance-second-fault"
 audio: ["/audio/rehearse-maintenance-second-fault.mp3"]
+audioDuration: "7:25"
 cover:
   image: "/covers/rehearse-maintenance-second-fault.jpg"
   alt: "Busway maintenance tonight: rehearse it, and the second fault, before the window (cover image)"
