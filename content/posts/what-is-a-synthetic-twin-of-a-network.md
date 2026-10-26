@@ -4,8 +4,6 @@ date: 2026-10-26
 description: "A synthetic twin is a model of your network you can question, break and rewind, so you can see what a change or failure does before production does."
 tags: ["synthetic twin", "change management", "blast radius", "network engineering", "single point of failure"]
 slug: "what-is-a-synthetic-twin-of-a-network"
-# Video: setu_1_0_g (SETU 1.0 office floor CLI tour). Current YouTube ID 3PWsWo84VH4.
-# This video is due a voiceover re-upload; when it goes live, replace the ID in the youtube shortcode below.
 ---
 
 Every network engineer has a version of the same question. If I change this, what breaks? If this box dies tonight, who calls? Usually the honest answer is "probably nothing, but we'll find out." This post explains what a synthetic twin is and what it looks like in practice.
@@ -32,7 +30,6 @@ In practice, that means a team can ask where things are and how they connect, pr
 
 The video below is one unedited session on SETU's CLI, typed in a single take. The site is a made-up office floor with 3 switches, 16 access points and 56 cables.
 
-<!-- Video: setu_1_0_g. Update this ID when the voiceover version replaces it. -->
 {{< youtube 3PWsWo84VH4 >}}
 
 Here's what happens in under three minutes:

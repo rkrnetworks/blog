@@ -4,8 +4,6 @@ date: 2026-10-27
 description: "Six closets report UPS on battery. Here's how to find the one root cause and predict which switches, APs and devices go dark before the batteries run out."
 tags: ["UPS", "power resilience", "root cause analysis", "alarm correlation", "single point of failure", "synthetic twin"]
 slug: "ups-on-battery-what-goes-dark"
-# Video: setu_1_0_m (Six UPS alarms, one root cause). Current YouTube ID 5lP9lirH2Q0 (already the voiceover version).
-# If this video is ever re-uploaded, replace the ID in the youtube shortcode below.
 ---
 
 An alarm comes in: six comms closets say their UPS is on battery. Nothing is down yet. The question everyone asks next is simple, and in most buildings nobody can answer it quickly. When the batteries run out, what goes dark?
@@ -32,7 +30,6 @@ Second, what is the network impact if the batteries run out? Not "floor 9 might 
 
 The demo below works this exact scenario on a synthetic twin of a made-up example building, from one CLI session. The fault was introduced before the take, and the 15-minute battery runtime is part of the building's declared supply plan.
 
-<!-- Video: setu_1_0_m. Update this ID if the video is ever re-uploaded. -->
 {{< youtube 5lP9lirH2Q0 >}}
 
 It starts with the supply side of the building: utility, generator, two rising mains, and a UPS in each floor closet. The UPSs on six upper floors are on battery. Nothing is down yet, and the plan gives 15 minutes.

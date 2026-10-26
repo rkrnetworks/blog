@@ -4,8 +4,6 @@ date: 2026-10-30
 description: "Half your gear may be past its maker's support. Fail the oldest core on a synthetic twin to see what it carries, and rank the refresh by impact, not age."
 tags: ["end of life", "network refresh planning", "lifecycle management", "core switch", "single point of failure", "synthetic twin"]
 slug: "end-of-support-network-refresh-planning"
-# Video: setu_1_0_l (What if your 2011 core switch fails? Plan the refresh). Current YouTube ID S7HkRH0vdlU.
-# This video is due a voiceover re-upload (first in the queue); when it goes live, replace the ID in the youtube shortcode below.
 ---
 
 Most networks are a mix. New Wi-Fi 6E access points sit next to Wi-Fi 4 units that have been on the ceiling for a decade. The access layer is current, and the core is a switch nobody wants to touch. Some of that gear stopped getting support from its maker years ago, and everyone knows it. The hard question isn't whether to refresh, but what to replace first with the budget you have.
@@ -22,7 +20,6 @@ Most refresh guides already say the right thing: prioritise by risk and blast ra
 
 The demo below works through it on a synthetic twin of a made-up example building, from one CLI session. End-of-support dates follow each maker's published notices, and makers are not named.
 
-<!-- Video: setu_1_0_l. Update this ID when the voiceover version replaces it. -->
 {{< youtube S7HkRH0vdlU >}}
 
 It starts with one command that lists every device generation in the building, with its end-of-sale and end-of-support dates. The Wi-Fi 4 APs lost support 4 years ago and Wi-Fi 5 Wave 1 3 years ago. One Wave 2 model ends this month and another in 12 months, while the newest access switches and Wi-Fi 6E APs are current. Old or new, every device is modelled and tested the same way, supported or not.

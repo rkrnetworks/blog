@@ -4,8 +4,6 @@ date: 2026-10-28
 description: "One AP goes silent and a floor's Wi-Fi keeps dropping. How teams usually chase it, and how a synthetic twin takes the ticket to one cable in a closet."
 tags: ["Wi-Fi troubleshooting", "access point", "PoE", "root cause analysis", "MTTR", "synthetic twin"]
 slug: "wifi-keeps-dropping-trace-ticket-to-one-cable"
-# Video: setu_1_0_k (Wi-Fi ticket to the exact cable in 63 seconds). Current YouTube ID 4riaNkTYD-Y.
-# This video is due a voiceover re-upload; when it goes live, replace the ID in the youtube shortcode below.
 ---
 
 It's 21:40 and a ticket comes in. Guests on floor 8 say the Wi-Fi keeps dropping. It's not a full outage, just people walking from one end of the floor to the other and losing their connection. Nobody has said which corner, and nobody has said which access point, because guests don't know what an access point is.
@@ -26,7 +24,6 @@ None of this is hard. It's just slow, and it happens at 21:40 while guests are o
 
 The demo below works the same ticket on a synthetic twin of a made-up building, from one CLI session. The fault, a cut on Cable 137, was introduced before the take.
 
-<!-- Video: setu_1_0_k. Update this ID when the voiceover version replaces it. -->
 {{< youtube 4riaNkTYD-Y >}}
 
 It opens with floor 8. There are 7 access points on the floor and 6 of them are on air, with 18 client devices connected.

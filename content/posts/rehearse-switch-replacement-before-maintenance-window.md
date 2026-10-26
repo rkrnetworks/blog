@@ -4,8 +4,6 @@ date: 2026-10-29
 description: "A switch replacement checklist covers the steps, not the impact. Rehearse the swap on a synthetic twin to see which hosts, APs and Wi-Fi users get hit."
 tags: ["change management", "maintenance window", "switch replacement", "blast radius", "Wi-Fi", "synthetic twin"]
 slug: "rehearse-switch-replacement-before-maintenance-window"
-# Video: setu_1_0_j (Swap a floor switch at 2 AM without surprises). Current YouTube ID bl9P8cb5VHA.
-# This video is due a voiceover re-upload; when it goes live, replace the ID in the youtube shortcode below.
 ---
 
 Tonight at 02:00 the floor 7 switch gets replaced. It's a routine job. The new switch is staged, the config has been checked, and the change request is approved. Everyone involved would still like to know one thing before they start: who actually loses connectivity, and for how long?
@@ -22,7 +20,6 @@ That part is usually worked out from spreadsheets, diagrams and memory. Then the
 
 The demo below runs the same change on a synthetic twin of a made-up 12-floor building, from one CLI session. The building has 14 switches, 65 access points, 280 wireless clients and 272 wired hosts. The switch being replaced is R7-SW01, on floor 7, which has 7 access points and 18 Wi-Fi devices.
 
-<!-- Video: setu_1_0_j. Update this ID when the voiceover version replaces it. -->
 {{< youtube bl9P8cb5VHA >}}
 
 It starts with a preview, with nothing applied. SETU predicts that during the swap 48 ports go dark, 22 wired hosts lose their gateway, and 7 APs lose their uplink.
