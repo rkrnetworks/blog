@@ -1,3 +1,5 @@
+refLinksErrorLevel = "WARNING"
+refLinksNotFoundURL = "/posts/"
 baseURL = "https://blog.rkr-networks.com/"
 locale = "en-US"
 title = "RKR Networks Blog"
