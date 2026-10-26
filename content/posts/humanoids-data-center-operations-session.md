@@ -2,7 +2,7 @@
 title: "Can humanoids run a data center? A futuristic DC operations session"
 date: 2026-10-26T07:40:00Z
 description: "An eight-minute session in a synthetic twin: a humanoid racks and configures a new leaf, works through routing and overlay faults, finds a forgotten 2017 static route, and a team cleans up a dozen legacy problems."
-tags: ["humanoids", "data center", "DC operations", "routing", "legacy network", "synthetic twin", "RKR SETU"]
+tags: ["humanoids", "data center", "DC operations", "routing", "legacy network", "physical AI", "synthetic twin", "RKR SETU"]
 slug: "humanoids-data-center-operations-session"
 audio: ["/audio/humanoids-data-center-operations-session.mp3"]
 audioDuration: "4:14"

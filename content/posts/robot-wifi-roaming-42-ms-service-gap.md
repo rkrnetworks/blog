@@ -2,7 +2,7 @@
 title: "Robot Wi-Fi roaming: where does the 42 ms service gap come from?"
 date: 2026-10-26T07:30:00Z
 description: "A robot moves from one access point to another and the handover works. But what did it cost? A synthetic twin accounts for a 42.05 ms gap and shows which assumptions change it and which don't."
-tags: ["Wi-Fi roaming", "robotics", "AGV", "wireless design", "latency", "synthetic twin", "RKR SETU"]
+tags: ["Wi-Fi roaming", "robotics", "AGV", "wireless design", "latency", "physical AI", "synthetic twin", "RKR SETU"]
 slug: "robot-wifi-roaming-42-ms-service-gap"
 audio: ["/audio/robot-wifi-roaming-42-ms-service-gap.mp3"]
 audioDuration: "3:50"
