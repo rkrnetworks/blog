@@ -26,8 +26,8 @@ enableRobotsTXT = true
 [params]
   env = "production"          # PaperMod: emits Open Graph, Twitter card and schema.org meta
   title = "RKR Networks Blog"
-  description = "News, ideas, and updates from RKR Networks, a company building network operations software."
-  keywords = ["RKR Networks", "network operations", "networking", "network automation"]
+  description = "News, ideas and updates from RKR Networks. We build software for networking, security, data center and compute."
+  keywords = ["RKR Networks", "RKR SETU", "synthetic twin", "networking", "data center", "network security", "compute"]
   author = "RKR Networks"
   defaultTheme = "auto"
   ShowReadingTime = true
@@ -40,7 +40,7 @@ enableRobotsTXT = true
 
   [params.homeInfoParams]
     Title = "RKR Networks Blog"
-    Content = "News, ideas, and updates from [RKR Networks](https://www.rkr-networks.com), a company building network operations software. Questions? Email [sales@rkr-networks.com](mailto:sales@rkr-networks.com)."
+    Content = "News, ideas and updates from [RKR Networks](https://www.rkr-networks.com). We build software for networking, security, data center and compute. Questions? Email [sales@rkr-networks.com](mailto:sales@rkr-networks.com)."
 
   [[params.socialIcons]]
     name = "website"
