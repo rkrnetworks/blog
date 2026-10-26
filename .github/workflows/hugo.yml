@@ -12,6 +12,9 @@ on:
     branches:
       - main
   workflow_dispatch:
+  schedule:
+    # Daily rebuild so future-dated posts publish on their date
+    - cron: '0 6 * * *'
 permissions:
   contents: read
   pages: write
