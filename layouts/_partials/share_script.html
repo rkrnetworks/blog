@@ -6,8 +6,7 @@ document.querySelectorAll("[data-copy]").forEach(function(b){b.addEventListener(
 if(navigator.clipboard&&window.isSecureContext){navigator.clipboard.writeText(u).then(ok,function(){prompt("Copy this link:",u)})}else{prompt("Copy this link:",u)}})});
 if(navigator.share){document.querySelectorAll("[data-native]").forEach(function(b){b.hidden=false;b.addEventListener("click",function(){navigator.share({title:b.getAttribute("data-title"),url:b.getAttribute("data-url")}).catch(function(){})})})}
 var rail=document.querySelector("[data-share-rail]"),head=document.querySelector(".post-header"),end=document.querySelector(".post-footer");
-if(rail&&head&&end&&"IntersectionObserver" in window){var past=false,atEnd=false;function u(){rail.classList.toggle("is-on",past&&!atEnd)}
-new IntersectionObserver(function(e){past=!e[0].isIntersecting&&e[0].boundingClientRect.top<0;u()}).observe(head);
-new IntersectionObserver(function(e){atEnd=e[0].isIntersecting||e[0].boundingClientRect.top<0;u()}).observe(end)}
+if(rail&&head&&end){var q=false;function u(){q=false;var past=head.getBoundingClientRect().bottom<0,atEnd=end.getBoundingClientRect().top<innerHeight;rail.classList.toggle("is-on",past&&!atEnd)}
+function k(){if(!q){q=true;requestAnimationFrame(u)}}addEventListener("scroll",k,{passive:true});addEventListener("resize",k);u()}
 })();
 </script>
