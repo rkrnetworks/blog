@@ -1,5 +1,5 @@
 ---
-title: "One team, one page: a data center build-out in a synthetic twin"
+title: "Data center build-out planning: one plan for power, cooling, racks and network"
 date: 2026-10-26T07:05:00Z
 description: "What does it take to build a data center from scratch? Pedestals, raised floor, trays, racks, pipework, power and cooling, all in one synthetic twin, with more than 2,000 items and 10,000 parts."
 tags: ["data center", "data center build-out", "DC operations", "power and cooling", "bill of materials", "synthetic twin", "RKR SETU"]

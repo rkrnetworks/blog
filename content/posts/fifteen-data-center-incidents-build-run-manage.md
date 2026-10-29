@@ -1,5 +1,5 @@
 ---
-title: "Build it, run it, manage it: 15 data center incidents in one synthetic twin"
+title: "15 common data center incidents, rehearsed before they happen"
 date: 2026-10-26T07:15:00Z
 description: "A data hall built from nothing, switched on, and then things break: stale sensors, flapping ports, a fibre trunk cut, a leak under the floor and more. Fifteen incidents, each placed in one synthetic twin."
 tags: ["data center", "DC operations", "incident management", "power and cooling", "root cause analysis", "synthetic twin", "RKR SETU"]

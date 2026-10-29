@@ -1,5 +1,5 @@
 ---
-title: "One deny line, 289 flows blocked: rehearse the change before the window"
+title: "Firewall ACL change blocked traffic: test the rule before you push it"
 date: 2026-10-27T10:26:00Z
 description: "Two planned changes on an office campus: withdraw two routes and close the server farm. Rehearsed on a synthetic twin first, one deny line turned out to block 289 flows. Here is how it was found, fixed and checked."
 tags: ["change management", "maintenance window", "access control lists", "routing", "change advisory board", "synthetic twin"]

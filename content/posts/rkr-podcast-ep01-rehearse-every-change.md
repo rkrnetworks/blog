@@ -1,5 +1,5 @@
 ---
-title: "RKR Podcast, episode 1: rehearse every change before it goes live"
+title: "How to test a network change before the maintenance window (RKR Podcast ep 1)"
 date: 2026-10-29T10:00:00Z
 description: "A network lead sits in the customer's chair and questions an RKR technical marketing engineer about SETU 1.0. The idea running through the episode: rehearse every change on the synthetic twin before it goes live."
 tags: ["podcast", "change management", "maintenance window", "single point of failure", "synthetic twin"]

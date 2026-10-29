@@ -1,5 +1,5 @@
 ---
-title: "RKR Podcast, episode 4: it's up. Is it working?"
+title: "Device up, app down: checking that a change really worked (RKR Podcast ep 4)"
 date: 2026-10-29T10:15:00Z
 description: "Green dashboards and unhappy users. An RKR technical marketing engineer answers with recorded SETU 1.0 demos on Wi-Fi contention, uplink, QoS and roaming. The idea running through the episode: up isn't the same as working."
 tags: ["podcast", "Wi-Fi troubleshooting", "QoS", "Wi-Fi roaming", "network performance", "synthetic twin"]

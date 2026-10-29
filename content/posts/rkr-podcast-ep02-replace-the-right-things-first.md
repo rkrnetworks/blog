@@ -1,5 +1,5 @@
 ---
-title: "RKR Podcast, episode 2: prove I need to replace anything at all"
+title: "Network refresh: how to decide what to replace first (RKR Podcast ep 2)"
 date: 2026-10-29T10:05:00Z
 description: "A network lead argues the refresh budget with an RKR technical marketing engineer, using five SETU 1.0 demos from end of support to a failed rising main. The idea running through the episode: replace the right things first."
 tags: ["podcast", "end of support", "network refresh planning", "lifecycle management", "synthetic twin"]

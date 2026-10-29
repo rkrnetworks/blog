@@ -1,5 +1,5 @@
 ---
-title: "A tale of two proposals: presales with and without a synthetic twin"
+title: "Network design proposals: showing the customer the result before they buy"
 date: 2026-10-26T06:55:00Z
 description: "RKR SETU 1.0 is now available in North America. Two vendors answer the same customer questions, one with slides and one with evidence from a synthetic twin of the building."
 tags: ["presales", "network design", "RFP", "blast radius", "change management", "synthetic twin", "RKR SETU"]

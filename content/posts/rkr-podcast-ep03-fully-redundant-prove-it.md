@@ -1,5 +1,5 @@
 ---
-title: "RKR Podcast, episode 3: we're fully redundant. Prove it."
+title: "How to prove network redundancy before a failure does (RKR Podcast ep 3)"
 date: 2026-10-29T10:10:00Z
 description: "A network lead brings the line every team says in the first meeting: we're fully redundant. An RKR technical marketing engineer answers with recorded SETU 1.0 demos. The idea running through the episode: redundancy is a claim until you've tested it."
 tags: ["podcast", "redundancy", "single point of failure", "N-2", "maintenance window", "synthetic twin"]
