@@ -1,7 +1,7 @@
 ---
 title: "Video calls drop in one meeting room: find the cause, fix it, prove it"
-date: 2026-10-29T12:00:00Z
-draft: true
+date: 2026-10-29T14:28:44Z
+draft: false
 description: "Every AP is up, but video calls keep dropping in one meeting room. A synthetic twin finds the gap, previews the fix, then fails the closet switch to prove it."
 seoTitle: "Video calls drop in one meeting room: find, fix, prove"
 tags: ["Wi-Fi troubleshooting", "wireless design", "voice over Wi-Fi", "Wi-Fi", "roaming", "coverage planning", "DFS", "change management", "root cause analysis", "synthetic twin", "RKR SETU"]
@@ -15,7 +15,7 @@ cover:
   image: "/covers/video-calls-drop-meeting-room-find-fix-prove.jpg"
   alt: "Video calls drop in one meeting room: find the cause, fix it, prove it (cover image)"
   hiddenInSingle: false
-# Video: Wi-Fi long-form, cut 3 (11:48). YouTube ID VIDEO_ID.
+# Video: Wi-Fi long-form, cut 3 (11:48). YouTube ID 0Ex_imr6qKY.
 ---
 
 It's 11:00 on a Tuesday. The ticket says video calls keep dropping in the floor-9 meeting room. You check the wireless side and everything looks healthy: all 219 access points joined, every client counted. On paper, nothing is wrong.
@@ -24,9 +24,9 @@ Most Wi-Fi teams know this ticket. It's never a full outage. It's one room, at c
 
 Our new film follows this ticket from start to finish in RKR SETU 1.0, inside a synthetic twin of a made-up two-tower office at peak: 3,555 people and 8,891 devices. The office is invented, and every figure in the film was computed in the synthetic twin in this take. Nothing here is measured from a live site.
 
-{{< youtube VIDEO_ID >}}
+{{< youtube 0Ex_imr6qKY >}}
 
-Watch it on YouTube: https://youtu.be/VIDEO_ID
+Watch it on YouTube: https://youtu.be/0Ex_imr6qKY
 
 ## Design first, then validate against voice
 
