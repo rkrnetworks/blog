@@ -1,5 +1,5 @@
 ---
-title: "One phase at 90 percent: how PDU phase imbalance trips a rack breaker"
+title: "How PDU phase imbalance trips a rack breaker on failover"
 date: 2026-10-29T10:00:00+05:30
 description: "A three-phase rack PDU can look half empty and still trip a breaker if one phase carries most of the load. A synthetic twin of a made-up data hall shows where the imbalance comes from and which server move fixes it."
 tags: ["PDU", "power distribution", "three-phase power", "data center", "power resilience", "synthetic twin", "RKR SETU"]
@@ -8,7 +8,7 @@ audio: ["/audio/pdu-phase-imbalance-trips-rack-breaker.mp3"]
 audioDuration: "4:12"
 cover:
   image: "/covers/pdu-phase-imbalance-trips-rack-breaker.jpg"
-  alt: "One phase at 90 percent: how PDU phase imbalance trips a rack breaker (cover image)"
+  alt: "How PDU phase imbalance trips a rack breaker on failover"
   hiddenInSingle: false
 seoTitle: "PDU phase imbalance: why one phase trips the rack breaker on failover"
 seoDescription: "A three-phase rack PDU looks half empty and still trips a breaker when one phase carries most of the load. Find the imbalance and the server move that fixes it."
