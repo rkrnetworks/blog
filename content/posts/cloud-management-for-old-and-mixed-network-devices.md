@@ -10,7 +10,7 @@ cover:
   hiddenInSingle: false
 audio: ["/audio/cloud-management-for-old-and-mixed-network-devices.mp3"]
 audioDuration: "5:01"
-seoTitle: "Old and mixed network devices in one synthetic twin"
+seoTitle: "Planning changes across old and mixed-vendor network devices in one view"
 seoDescription: "Vendor cloud management favours new, supported gear from one maker. Old, mixed and end-of-support devices still belong in one synthetic twin of the network."
 categories: ["RKR SETU"]
 ---

@@ -11,7 +11,7 @@ cover:
   alt: "RKR Podcast, episode 1: rehearse every change before it goes live (cover image)"
   hiddenInSingle: false
 # Podcast: RKR Networks Podcast, Episode 1. YouTube ID sVrDs5Qo_-E.
-seoTitle: "How to rehearse every network change | RKR Podcast 1"
+seoTitle: "How to test a network change before the maintenance window (RKR Podcast ep 1)"
 seoDescription: "Every change is a guess until it is tested. A network lead questions an RKR engineer about SETU 1.0 and rehearsing each change on a synthetic twin first."
 categories: ["Podcast", "Change rehearsal"]
 ---

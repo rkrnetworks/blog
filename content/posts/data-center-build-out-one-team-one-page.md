@@ -10,7 +10,7 @@ cover:
   image: "/covers/data-center-build-out-one-team-one-page.jpg"
   alt: "One team, one page: a data center build-out in a synthetic twin (cover image)"
   hiddenInSingle: false
-seoTitle: "Data center build-out: racks, power and cooling on one page"
+seoTitle: "Data center build-out planning: one plan for power, cooling, racks and network"
 seoDescription: "Building a data center means floor, trays, racks, pipework, power and cooling planned by many teams. Put more than 2,000 items on one page in a synthetic twin."
 categories: ["Data center"]
 ---

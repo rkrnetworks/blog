@@ -10,7 +10,7 @@ cover:
   image: "/covers/humanoids-in-data-centers-substrate-teaser.jpg"
   alt: "Humanoids in data centers: is it possible? (cover image)"
   hiddenInSingle: false
-seoTitle: "Humanoid robots in data centers: is it possible?"
+seoTitle: "Can humanoid robots work in a data center?"
 seoDescription: "Can a humanoid rack, stack and cable a data center? A humanoid racks eight switches, catches its own mistakes and closes a stacking ring in a synthetic twin."
 categories: ["Data center"]
 ---

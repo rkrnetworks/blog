@@ -10,7 +10,7 @@ cover:
   image: "/covers/presales-with-and-without-a-synthetic-twin.jpg"
   alt: "A tale of two proposals: presales with and without a synthetic twin (cover image)"
   hiddenInSingle: false
-seoTitle: "Network presales proposals: with and without a synthetic twin"
+seoTitle: "Network design proposals: showing the customer the result before they buy"
 seoDescription: "Two vendors answer the same customer questions: one with slides, one with evidence from a synthetic twin of the building. See which proposal holds up better."
 categories: ["RKR SETU"]
 ---

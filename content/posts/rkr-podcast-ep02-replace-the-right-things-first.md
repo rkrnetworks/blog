@@ -11,7 +11,7 @@ cover:
   alt: "RKR Podcast, episode 2: prove I need to replace anything at all (cover image)"
   hiddenInSingle: false
 # Podcast: RKR Networks Podcast, Episode 2. YouTube ID jK4L3rbMLmc.
-seoTitle: "Network refresh: prove what to replace first | RKR Podcast 2"
+seoTitle: "Network refresh: how to decide what to replace first (RKR Podcast ep 2)"
 seoDescription: "Refresh budgets go to the oldest gear, not the riskiest. A network lead and an RKR engineer work through five SETU 1.0 demos to replace the right things first."
 categories: ["Podcast"]
 ---

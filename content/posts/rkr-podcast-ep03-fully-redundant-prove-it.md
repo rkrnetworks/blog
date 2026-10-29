@@ -11,7 +11,7 @@ cover:
   alt: "RKR Podcast, episode 3: we're fully redundant. Prove it. (cover image)"
   hiddenInSingle: false
 # Podcast: RKR Networks Podcast, Episode 3. YouTube ID Y-bFm8qzwgw. Routing note matches the pinned YouTube comment (/workspace/youtube/ep03/note.txt).
-seoTitle: "Fully redundant? How to prove it | RKR Podcast 3"
+seoTitle: "How to prove network redundancy before a failure does (RKR Podcast ep 3)"
 seoDescription: "Every team says it is fully redundant in the first meeting. An RKR engineer answers with recorded SETU 1.0 demos: redundancy is a claim until it is tested."
 categories: ["Podcast", "Outages and failover"]
 ---

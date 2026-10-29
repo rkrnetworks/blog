@@ -10,7 +10,7 @@ cover:
   image: "/covers/fifteen-data-center-incidents-build-run-manage.jpg"
   alt: "Build it, run it, manage it: 15 data center incidents in one synthetic twin (cover image)"
   hiddenInSingle: false
-seoTitle: "15 data center incidents, from fibre cuts to leaks"
+seoTitle: "15 common data center incidents, rehearsed before they happen"
 seoDescription: "Stale sensors, flapping ports, a cut fibre trunk, a leak under the floor: 15 data center incidents, each placed in one synthetic twin of a hall built from zero."
 categories: ["Data center", "Outages and failover"]
 ---

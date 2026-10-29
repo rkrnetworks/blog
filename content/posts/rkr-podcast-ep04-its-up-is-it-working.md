@@ -11,7 +11,7 @@ cover:
   alt: "RKR Podcast, episode 4: it's up. Is it working? (cover image)"
   hiddenInSingle: false
 # Podcast: RKR Networks Podcast, Episode 4. YouTube ID NLsGNrAwiMk.
-seoTitle: "Network up, users unhappy: is it working? | RKR Podcast 4"
+seoTitle: "Device up, app down: checking that a change really worked (RKR Podcast ep 4)"
 seoDescription: "Green dashboards, unhappy users. An RKR engineer answers with SETU 1.0 demos on Wi-Fi contention, uplink, QoS and roaming: up is not the same as working."
 categories: ["Podcast", "Wi-Fi"]
 ---

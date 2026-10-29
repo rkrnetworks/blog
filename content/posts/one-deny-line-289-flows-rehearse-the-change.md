@@ -11,7 +11,7 @@ cover:
   alt: "One deny line, 289 flows blocked: rehearse the change before the window (cover image)"
   hiddenInSingle: false
 # Video: setu_1_0_o (One deny line, 289 flows blocked). YouTube ID ezmcUdKr4bo.
-seoTitle: "One firewall deny line blocked 289 flows: rehearse ACL changes"
+seoTitle: "Firewall ACL change blocked traffic: test the rule before you push it"
 seoDescription: "A route withdrawal and an ACL change both looked small, until one deny line blocked 289 flows. Rehearse the change on a synthetic twin before the window."
 categories: ["Change rehearsal"]
 ---
