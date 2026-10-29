@@ -58,6 +58,7 @@ enableGitInfo = true
   defaultTheme = "light"
   ShowReadingTime = true
   ShowShareButtons = true
+  ShareButtons = ["x", "linkedin", "whatsapp", "telegram"]
   ShowToc = true
   TocOpen = false
   ShowPostNavLinks = true
