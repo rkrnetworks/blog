@@ -10,6 +10,9 @@ cover:
   image: "/covers/wifi-interference-39-radios-two-channels.jpg"
   alt: "39 radios, 2 channels: when full Wi-Fi bars still mean bad calls (cover image)"
   hiddenInSingle: false
+seoTitle: "Full Wi-Fi bars, bad calls: 39 radios on two channels"
+seoDescription: "Three tickets on three floors, all with full bars and bad calls. In a synthetic twin the cause is the channel plan, not coverage: 39 radios on two channels."
+categories: ["Wi-Fi"]
 ---
 
 A ticket comes in: video calls keep stalling in my room, and the Wi-Fi shows full bars. A second one follows from one floor up, at the same end of the hall: scans keep timing out. Then a third, from the ground floor: screen share keeps stuttering.
@@ -59,5 +62,7 @@ Changing the plan, and then rechecking the whole building, is what turned three 
 - Line tickets up by location. Problems stacked floor over floor often share a cause.
 - Test a fix against the whole building, not just the spot in the ticket, and check for regressions.
 - Sometimes the fix is the plan, not the hardware. Same radios, same power, more channels.
+
+Related reading: [four bars and seven megabits]({{< ref "warehouse-scanners-four-bars-seven-megabits.md" >}}) and [moving to 6 GHz]({{< ref "six-ghz-rollout-new-coverage-holes.md" >}}). More in the [Wi-Fi troubleshooting guide](/wifi/).
 
 Demos are in person. Book a demo with our team: sales@rkr-networks.com

@@ -1,0 +1,94 @@
+{{- /* Structured data (JSON-LD). Overrides PaperMod's. Built from dicts and jsonify so the output is always valid JSON.
+       Home: Organization + WebSite. Posts: BlogPosting (+ VideoObject per YouTube embed) + BreadcrumbList.
+       Hubs, glossary, lists: CollectionPage/WebPage + BreadcrumbList. No articleBody: the full text is not repeated in metadata. */ -}}
+{{- $org := site.Params.organization }}
+{{- $orgNode := dict "@type" "Organization" "@id" (printf "%s#organization" site.Home.Permalink) "name" $org.name "legalName" $org.legalName "url" $org.url "logo" (dict "@type" "ImageObject" "url" ($org.logo | absURL) "width" 400 "height" 400) "email" $org.email "sameAs" $org.sameAs }}
+{{- $img := partial "social_image.html" . }}
+{{- $imgNode := dict "@type" "ImageObject" "url" $img.url }}
+{{- with $img.width }}{{ $imgNode = merge $imgNode (dict "width" . "height" $img.height) }}{{ end }}
+{{- $desc := partial "seo_description.html" . }}
+{{- $graph := slice }}
+
+{{- if .IsHome }}
+{{- $graph = $graph | append $orgNode }}
+{{- $graph = $graph | append (dict "@type" "WebSite" "@id" (printf "%s#website" site.Home.Permalink) "url" site.Home.Permalink "name" site.Title "description" $desc "inLanguage" site.Language.Locale "publisher" (dict "@id" (printf "%s#organization" site.Home.Permalink)) "copyrightHolder" (dict "@id" (printf "%s#organization" site.Home.Permalink))) }}
+{{- else if ne .Kind "404" }}
+
+{{- /* Breadcrumbs: Home > (Posts) > page */}}
+{{- $crumbs := slice (dict "@type" "ListItem" "position" 1 "name" "Home" "item" site.Home.Permalink) }}
+{{- $pos := 1 }}
+{{- range after 1 .Ancestors.Reverse }}
+{{- $pos = add $pos 1 }}
+{{- $crumbs = $crumbs | append (dict "@type" "ListItem" "position" $pos "name" (.Title | plainify) "item" .Permalink) }}
+{{- end }}
+{{- $crumbs = $crumbs | append (dict "@type" "ListItem" "position" (add $pos 1) "name" (.Title | plainify) "item" .Permalink) }}
+{{- $graph = $graph | append (dict "@type" "BreadcrumbList" "itemListElement" $crumbs) }}
+
+{{- if and .IsPage (eq .Section "posts") }}
+{{- $kw := slice }}{{ range .Params.tags }}{{ $kw = $kw | append . }}{{ end }}
+{{- $post := dict
+    "@type" "BlogPosting"
+    "@id" (printf "%s#article" .Permalink)
+    "headline" (.Title | plainify | truncate 110 "")
+    "name" (.Title | plainify)
+    "description" $desc
+    "url" .Permalink
+    "mainEntityOfPage" (dict "@type" "WebPage" "@id" .Permalink)
+    "image" $imgNode
+    "datePublished" (.PublishDate.Format "2006-01-02T15:04:05Z07:00")
+    "dateModified" (.Lastmod.Format "2006-01-02T15:04:05Z07:00")
+    "author" (dict "@type" "Organization" "name" "RKR Networks" "url" $org.url)
+    "publisher" (dict "@id" (printf "%s#organization" site.Home.Permalink))
+    "copyrightHolder" (dict "@id" (printf "%s#organization" site.Home.Permalink))
+    "copyrightYear" (.PublishDate.Format "2006" | int)
+    "inLanguage" site.Language.Locale
+    "keywords" (delimit $kw ", ")
+    "wordCount" .WordCount
+}}
+{{- with .Params.categories }}{{ $post = merge $post (dict "articleSection" (index . 0)) }}{{ end }}
+{{- with .Params.audio }}{{ $post = merge $post (dict "audio" (dict "@type" "AudioObject" "contentUrl" (index . 0 | absURL) "encodingFormat" "audio/mpeg" "name" (printf "Listen: %s" ($.Title | plainify)))) }}{{ end }}
+{{- $graph = $graph | append $orgNode | append $post }}
+
+{{- /* One VideoObject per YouTube embed in the post */}}
+{{- $ids := slice }}
+{{- range findRESubmatch `\{\{<\s*youtube\s+(?:id=")?([A-Za-z0-9_-]{11})` .RawContent }}{{ $ids = $ids | append (index . 1) }}{{ end }}
+{{- range $i, $id := uniq $ids }}
+{{- $v := dict
+    "@type" "VideoObject"
+    "name" ($.Title | plainify)
+    "description" $desc
+    "thumbnailUrl" (slice (printf "https://i.ytimg.com/vi/%s/hqdefault.jpg" $id) (printf "https://i.ytimg.com/vi/%s/maxresdefault.jpg" $id))
+    "uploadDate" ($.PublishDate.Format "2006-01-02T15:04:05Z07:00")
+    "embedUrl" (printf "https://www.youtube.com/embed/%s" $id)
+    "contentUrl" (printf "https://www.youtube.com/watch?v=%s" $id)
+    "publisher" (dict "@id" (printf "%s#organization" site.Home.Permalink))
+    "isPartOf" (dict "@id" (printf "%s#article" $.Permalink))
+}}
+{{- with $.Params.videoDuration }}{{ $v = merge $v (dict "duration" .) }}{{ end }}
+{{- $graph = $graph | append $v }}
+{{- end }}
+
+{{- else }}
+{{- $type := cond (or (not .IsPage) (eq .Params.layout "hub")) "CollectionPage" "WebPage" }}
+{{- $node := dict "@type" $type "@id" .Permalink "url" .Permalink "name" (.Params.seoTitle | default .Title | plainify) "description" $desc "inLanguage" site.Language.Locale "isPartOf" (dict "@type" "WebSite" "@id" (printf "%s#website" site.Home.Permalink) "url" site.Home.Permalink "name" site.Title) "publisher" $orgNode "image" $imgNode }}
+{{- if eq .Params.layout "hub" }}
+{{- $items := slice }}
+{{- range $i, $p := where (where site.RegularPages "Section" "posts") "Params.categories" "intersect" (slice .Params.hubCategory) }}
+{{- $items = $items | append (dict "@type" "ListItem" "position" (add $i 1) "url" $p.Permalink "name" ($p.Title | plainify)) }}
+{{- end }}
+{{- $node = merge $node (dict "mainEntity" (dict "@type" "ItemList" "numberOfItems" (len $items) "itemListElement" $items)) }}
+{{- end }}
+{{- $graph = $graph | append $node }}
+{{- with .Params.glossaryData }}
+{{- $terms := slice }}
+{{- range (index hugo.Data .) }}
+{{- $terms = $terms | append (dict "@type" "DefinedTerm" "name" .term "description" (.def | plainify) "url" (printf "%s#%s" $.Permalink (.term | anchorize)) "inDefinedTermSet" (printf "%s#termset" $.Permalink)) }}
+{{- end }}
+{{- $graph = $graph | append (dict "@type" "DefinedTermSet" "@id" (printf "%s#termset" $.Permalink) "name" ($.Title | plainify) "url" $.Permalink "hasDefinedTerm" $terms) }}
+{{- end }}
+{{- end }}
+{{- end }}
+
+{{- with $graph }}
+<script type="application/ld+json">{{ dict "@context" "https://schema.org" "@graph" . | jsonify | safeJS }}</script>
+{{- end }}

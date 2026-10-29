@@ -2,7 +2,7 @@
 title: "RKR Podcast, episode 2: prove I need to replace anything at all"
 date: 2026-10-29T10:05:00Z
 description: "A network lead argues the refresh budget with an RKR technical marketing engineer, using five SETU 1.0 demos from end of support to a failed rising main. The idea running through the episode: replace the right things first."
-tags: ["podcast", "end of support", "network refresh", "lifecycle", "synthetic twin"]
+tags: ["podcast", "end of support", "network refresh planning", "lifecycle management", "synthetic twin"]
 slug: "rkr-podcast-ep02-replace-the-right-things-first"
 audio: ["/audio/rkr-podcast-ep02-replace-the-right-things-first.mp3"]
 audioDuration: "4:35"
@@ -11,6 +11,9 @@ cover:
   alt: "RKR Podcast, episode 2: prove I need to replace anything at all (cover image)"
   hiddenInSingle: false
 # Podcast: RKR Networks Podcast, Episode 2. YouTube ID jK4L3rbMLmc.
+seoTitle: "Network refresh: prove what to replace first | RKR Podcast 2"
+seoDescription: "Refresh budgets go to the oldest gear, not the riskiest. A network lead and an RKR engineer work through five SETU 1.0 demos to replace the right things first."
+categories: ["Podcast"]
 ---
 
 Half the switches are past end of support, and they still work. The refresh budget is on the table. The question in the room is blunt: prove I need to replace anything at all.
@@ -74,5 +77,7 @@ For the swap you really need, the rehearsal finds the 2 Wi-Fi devices that would
 For the written version, read [end-of-support network refresh planning]({{< ref "end-of-support-network-refresh-planning.md" >}}) and [what goes dark when the UPS is on battery]({{< ref "ups-on-battery-what-goes-dark.md" >}}).
 
 Rehearse every change on the synthetic twin before it goes live.
+
+Related reading: [old and mixed devices in one twin]({{< ref "cloud-management-for-old-and-mixed-network-devices.md" >}}). More in the [RKR Podcast page](/podcast/).
 
 Demos are in person. Book a demo with our team: sales@rkr-networks.com

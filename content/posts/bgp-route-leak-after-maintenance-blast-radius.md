@@ -10,6 +10,9 @@ cover:
   image: "/covers/bgp-route-leak-after-maintenance-blast-radius.jpg"
   alt: "BGP route leak after a maintenance change: finding the blast radius (cover image)"
   hiddenInSingle: false
+seoTitle: "BGP route leak after a maintenance change: the blast radius"
+seoDescription: "An edge router change starts announcing routes it should not. See who is affected, how far the BGP leak travels and what a safer change looks like, in a twin."
+categories: ["Change rehearsal", "Outages and failover"]
 ---
 
 The change ticket said "replace route-map on edge router, no expected impact." Twenty minutes after the window closed, the second internet provider started carrying traffic for prefixes it had never seen before, and a partner's VPN began taking a strange path through the branch network.
@@ -50,5 +53,7 @@ It also gives the change board something concrete. Instead of "low risk," the ti
 - Rehearse the rollback, not just the change.
 
 Route leaks are rarely dramatic in the moment. They are just expensive to clean up afterward, and almost always visible in advance if you can see the whole network at once.
+
+Related reading: [rehearsing a route withdrawal before the window]({{< ref "one-deny-line-289-flows-rehearse-the-change.md" >}}), [a VRF route leak from guest Wi-Fi]({{< ref "guest-wifi-reaches-corporate-vrf-leak.md" >}}) and [OSPF stuck in EXSTART]({{< ref "ospf-stuck-exstart-mtu-mismatch.md" >}}). More in the [change rehearsal guide](/change-rehearsal/).
 
 Demos are in person. Book a demo with our team: sales@rkr-networks.com

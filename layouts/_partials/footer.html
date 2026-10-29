@@ -29,8 +29,15 @@
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><ellipse cx="12" cy="14.5" rx="8" ry="5.5"/><circle cx="19" cy="9.5" r="1.6"/><circle cx="5" cy="9.5" r="1.6"/><path d="M12 9l1.2-5 4.3 1"/><circle cx="18.5" cy="5" r="1.3"/><circle cx="9" cy="13.5" r=".6" fill="currentColor"/><circle cx="15" cy="13.5" r=".6" fill="currentColor"/><path d="M9.3 16.6c1.6 1 3.8 1 5.4 0"/></svg>
       </a></li>
     </ul>
+    <nav class="rkr-footer-topics" aria-label="Topics">
+      {{- range site.Params.hubs }}
+      <a href="{{ .url | relLangURL }}">{{ .name }}</a>
+      {{- end }}
+      <a href="{{ "glossary/" | relLangURL }}">Glossary</a>
+      <a href="{{ "tags/" | relLangURL }}">All tags</a>
+    </nav>
     <div class="rkr-footer-base">
-      <span>{{ site.Copyright | markdownify }}</span>
+      <span>{{ site.Copyright }} <a href="{{ "terms/" | relLangURL }}">Content use terms</a></span>
       <span>Built with <a href="https://gohugo.io/" rel="noopener">Hugo</a> and <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener">PaperMod</a></span>
     </div>
   </div>

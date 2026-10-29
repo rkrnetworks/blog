@@ -10,6 +10,9 @@ cover:
   image: "/covers/presales-with-and-without-a-synthetic-twin.jpg"
   alt: "A tale of two proposals: presales with and without a synthetic twin (cover image)"
   hiddenInSingle: false
+seoTitle: "Network presales proposals: with and without a synthetic twin"
+seoDescription: "Two vendors answer the same customer questions: one with slides, one with evidence from a synthetic twin of the building. See which proposal holds up better."
+categories: ["RKR SETU"]
 ---
 
 RKR SETU 1.0 is now available in North America, alongside India, APAC and EMEA. To mark it, we made a short video about a part of the job that rarely gets attention: presales. Two vendors, one customer, and the same request.
@@ -61,5 +64,7 @@ Answering with evidence early changes the conversation. The customer sees their 
 - Put both designs, current and proposed, through the same checks.
 
 If you haven't seen the product tour yet, start with [introducing RKR SETU 1.0]({{< ref "introducing-rkr-setu-synthetic-twin-network-it-ops.md" >}}).
+
+Related reading: [what a synthetic twin of a network is]({{< ref "what-is-a-synthetic-twin-of-a-network.md" >}}) and [RKR SETU 1.0 in APAC and EMEA]({{< ref "rkr-setu-apac-emea-outdoor-access-point-install.md" >}}). More in the [RKR SETU overview](/setu/).
 
 Demos are in person. Book a demo with our team: sales@rkr-networks.com

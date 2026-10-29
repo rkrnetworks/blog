@@ -10,6 +10,9 @@ cover:
   image: "/covers/rkr-setu-apac-emea-outdoor-access-point-install.jpg"
   alt: "RKR SETU 1.0 is live in APAC and EMEA, and a look ahead at an outdoor access point install (cover image)"
   hiddenInSingle: false
+seoTitle: "RKR SETU 1.0 in APAC and EMEA: an outdoor access point install"
+seoDescription: "RKR SETU 1.0 is generally available in India, APAC and EMEA. The launch video shows a humanoid fitting an outdoor access point, every check in a synthetic twin."
+categories: ["RKR SETU", "Wi-Fi"]
 ---
 
 RKR SETU 1.0 is generally available in India, APAC and EMEA. We announced it with a short video, and rather than fill it with slides, we used it to look a little further ahead: a humanoid fitting an outdoor access point, six metres up the north wall of a building.
@@ -59,5 +62,7 @@ The same applies to people doing the work. A clear step list, a check after each
 - Keep the record. What passed, and when, is the starting point for any later fault.
 
 For the bigger picture, start with [what a synthetic twin of a network is]({{< ref "what-is-a-synthetic-twin-of-a-network.md" >}}).
+
+Related reading: [humanoids in data centers]({{< ref "humanoids-in-data-centers-substrate-teaser.md" >}}) and [what RKR SETU 1.0 does]({{< ref "introducing-rkr-setu-synthetic-twin-network-it-ops.md" >}}). More in the [RKR SETU overview](/setu/).
 
 Demos are in person. Book a demo with our team: sales@rkr-networks.com

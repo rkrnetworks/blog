@@ -10,6 +10,8 @@ cover:
   hiddenInSingle: false
 audio: ["/audio/rehearse-switch-replacement-before-maintenance-window.mp3"]
 audioDuration: "6:07"
+seoTitle: "Replacing a switch at 2 AM? Rehearse the window first"
+categories: ["Change rehearsal", "Wi-Fi"]
 ---
 
 Tonight at 02:00 the floor 7 switch gets replaced. It's a routine job. The new switch is staged, the config has been checked, and the change request is approved. Everyone involved would still like to know one thing before they start: who actually loses connectivity, and for how long?
@@ -62,5 +64,7 @@ Outages and risky changes don't keep business hours, and neither does anyone pro
 - Check whether the same failure pattern has happened before. History is a cheap way to calibrate how cautious to be.
 
 For a wider tour of what a twin can do on a smaller site, including two switches failing at once, see [what a synthetic twin of a network is]({{< ref "what-is-a-synthetic-twin-of-a-network.md" >}}). If the switch you're replacing is old and out of support, the next post covers [planning an end-of-support refresh by impact]({{< ref "end-of-support-network-refresh-planning.md" >}}).
+
+Related reading: [a new switch that became spanning tree root]({{< ref "new-switch-becomes-spanning-tree-root.md" >}}) and [Wi-Fi drops traced to one switch]({{< ref "wifi-keeps-dropping-trace-to-one-switch.md" >}}). More in the [change rehearsal guide](/change-rehearsal/).
 
 Demos are in person. Book a demo with our team: sales@rkr-networks.com

@@ -10,6 +10,9 @@ cover:
   image: "/covers/agvs-queue-at-one-intersection.jpg"
   alt: "AGVs queue at the same intersection: is it the traffic plan or the network? (cover image)"
   hiddenInSingle: false
+seoTitle: "AGVs queue at one intersection: traffic plan or network?"
+seoDescription: "AGVs keep bunching up at one warehouse intersection and each team blames the other. A synthetic twin separates the traffic plan from the network cause."
+categories: ["Wi-Fi"]
 ---
 
 Every afternoon, the same intersection near the outbound docks fills with AGVs. They arrive, wait, inch forward and wait again. Throughput drops and the shift lead calls it the traffic jam. The question nobody can settle is whether the AGVs are waiting for each other or waiting for the network.
@@ -46,5 +49,7 @@ So the answer is both, and the twin shows how much each contributes. Moving the 
 - After any change, measure queue times at the same hour, not across the day.
 
 Robots that wait are telling you something. The hard part is working out whether they are waiting for each other or for the network.
+
+Related reading: [a dead zone near the charging docks]({{< ref "amr-fleet-stalls-near-charging-dock.md" >}}), [robot Wi-Fi roaming gaps]({{< ref "robot-wifi-roaming-42-ms-service-gap.md" >}}) and [what an AGV does when its control link drops]({{< ref "agv-control-link-drops-robot-keeps-moving.md" >}}). More in the [Wi-Fi troubleshooting guide](/wifi/).
 
 Demos are in person. Book a demo with our team: sales@rkr-networks.com

@@ -1,0 +1,20 @@
+{{- /* <title>: seoTitle (front matter) or Title. The site name is appended only when it still fits in ~60 characters. Context: a page. */ -}}
+{{- $t := "" }}
+{{- if .IsHome }}
+{{- $t = printf "%s: synthetic twins for network and IT operations" site.Title }}
+{{- else if eq .Kind "404" }}
+{{- $t = printf "Page not found | %s" site.Title }}
+{{- else }}
+{{- $base := .Params.seoTitle | default .Title | plainify }}
+{{- if eq .Kind "term" }}{{ $base = printf "%s: posts and guides" .Title }}{{ end }}
+{{- if le (len $base) 44 }}
+{{- $t = printf "%s | RKR Networks Blog" $base }}
+{{- else if le (len $base) 52 }}
+{{- $t = printf "%s | RKR Networks" $base }}
+{{- else }}
+{{- $t = $base }}
+{{- end }}
+{{- end }}
+{{- $pn := partial "page_number.html" . }}
+{{- if gt $pn 1 }}{{ $t = printf "%s (page %d)" $t $pn }}{{ end }}
+<title>{{ $t }}</title>

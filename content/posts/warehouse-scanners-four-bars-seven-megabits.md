@@ -10,6 +10,9 @@ cover:
   image: "/covers/warehouse-scanners-four-bars-seven-megabits.jpg"
   alt: "Four Wi-Fi bars, seven megabits: why warehouse scanners keep dropping (cover image)"
   hiddenInSingle: false
+seoTitle: "Warehouse scanners keep dropping with four Wi-Fi bars: why"
+seoDescription: "The coverage map says aisle 12 is covered, and it is, yet scanners keep dropping. A synthetic twin walks the aisle and finds the weaker direction is the uplink."
+categories: ["Wi-Fi"]
 ---
 
 A ticket comes in: scanners keep dropping in aisle 12. The coverage map says that aisle is covered. And it is. The scanner shows four bars. So why does it keep dropping?
@@ -59,5 +62,7 @@ For another case where full bars hid the real cause, see [39 radios, 2 channels]
 - Count how many radios share each channel, and check whether all available channels are in use.
 - Look for spots that pass on signal and fail on usable link. Those are where the tickets come from.
 - Be honest about partial fixes. Knowing what didn't move tells you where to look next.
+
+Related reading: [a warehouse Wi-Fi dead zone]({{< ref "amr-fleet-stalls-near-charging-dock.md" >}}). More in the [Wi-Fi troubleshooting guide](/wifi/).
 
 Demos are in person. Book a demo with our team: sales@rkr-networks.com

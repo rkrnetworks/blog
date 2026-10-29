@@ -10,6 +10,9 @@ cover:
   image: "/covers/wifi-keeps-dropping-trace-to-one-switch.jpg"
   alt: "Wi-Fi keeps dropping? Trace it to one switch, one floor down (cover image)"
   hiddenInSingle: false
+seoTitle: "Wi-Fi keeps dropping? Trace it to one switch, one floor down"
+seoDescription: "Wi-Fi keeps dropping and 21 users are offline. A synthetic twin follows seven access points to one switch on the floor below, then rewinds to the fault."
+categories: ["Wi-Fi", "Outages and failover"]
 ---
 
 "The Wi-Fi keeps dropping." It's probably the most common ticket in any building, and one of the least specific. Seven access points, twenty-one people offline, and the cause is one switch, one floor down. None of that is in the ticket.
@@ -55,5 +58,7 @@ We wrote about a similar ticket that ended at one cable in [tracing the ticket t
 - Count the impact in people, not only devices. Twenty-one people offline is a clearer message than seven access points down.
 - Look at the state just before the fault to confirm the cause.
 - Verify recovery after the fix, rather than waiting for the next ticket.
+
+Related reading: [rehearsing a switch replacement]({{< ref "rehearse-switch-replacement-before-maintenance-window.md" >}}). More in the [Wi-Fi troubleshooting guide](/wifi/).
 
 Demos are in person. Book a demo with our team: sales@rkr-networks.com

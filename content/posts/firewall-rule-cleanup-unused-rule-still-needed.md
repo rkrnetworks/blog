@@ -10,6 +10,9 @@ cover:
   image: "/covers/firewall-rule-cleanup-unused-rule-still-needed.jpg"
   alt: "Firewall rule cleanup: which unused rule is still holding something up (cover image)"
   hiddenInSingle: false
+seoTitle: "Firewall rule cleanup: is that unused rule still needed?"
+seoDescription: "Hit counts say a firewall rule has not matched in a year. Delete it and something breaks next quarter. Tell dead rules from rare-event ones in a synthetic twin."
+categories: ["Change rehearsal"]
 ---
 
 Every firewall that has been in service for a few years carries rules nobody can explain. A cleanup project starts with good intentions and a report of rules with zero hits. The obvious plan is to remove them.
@@ -48,5 +51,7 @@ The result is a cleanup list split in two: rules that are safe to remove, and ru
 - When a rule turns out to protect a failure path, write that reason in the rule's comment so the next cleanup does not ask again.
 
 A clean firewall policy is worth the effort. The goal is to make it smaller without quietly removing the parts that only matter on a bad day.
+
+Related reading: [rehearsing an ACL change against every flow]({{< ref "one-deny-line-289-flows-rehearse-the-change.md" >}}) and [a certificate rotation that broke TLS inspection]({{< ref "certificate-rotation-breaks-tls-inspection.md" >}}). More in the [change rehearsal guide](/change-rehearsal/).
 
 Demos are in person. Book a demo with our team: sales@rkr-networks.com

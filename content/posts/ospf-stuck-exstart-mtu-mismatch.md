@@ -10,6 +10,9 @@ cover:
   image: "/covers/ospf-stuck-exstart-mtu-mismatch.jpg"
   alt: "OSPF stuck in EXSTART: the MTU mismatch nobody checks first (cover image)"
   hiddenInSingle: false
+seoTitle: "OSPF stuck in EXSTART: the MTU mismatch to check first"
+seoDescription: "Two routers see each other but the OSPF adjacency sits in EXSTART. It is usually an MTU mismatch. Find where, and what depends on that link, in a twin."
+categories: ["Outages and failover"]
 ---
 
 If you have worked with OSPF for long enough, you have seen this. Two routers on a new link, the neighbor shows up, and the state goes from INIT to 2-WAY to EXSTART and stops there. Hello packets are fine. Timers match. Areas match. The adjacency just never finishes.
@@ -49,5 +52,7 @@ Fixing the MTU in the twin brings the adjacency up and shifts traffic as planned
 - Confirm what the network would do if the older path failed, since that is often the reason the new link exists.
 
 EXSTART is one of those states that tells you exactly where to look, once you know what it means. The harder part is knowing what the network was quietly relying on while the link sat there doing nothing.
+
+Related reading: [a BGP route leak after maintenance]({{< ref "bgp-route-leak-after-maintenance-blast-radius.md" >}}) and [routing and overlay faults in a data center session]({{< ref "humanoids-data-center-operations-session.md" >}}). More in the [outages and failover guide](/outages-and-failover/).
 
 Demos are in person. Book a demo with our team: sales@rkr-networks.com

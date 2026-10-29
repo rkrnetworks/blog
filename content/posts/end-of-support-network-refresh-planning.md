@@ -10,6 +10,8 @@ cover:
   hiddenInSingle: false
 audio: ["/audio/end-of-support-network-refresh-planning.mp3"]
 audioDuration: "6:38"
+seoTitle: "End-of-support network gear: plan the refresh by impact"
+categories: ["Outages and failover"]
 ---
 
 Most networks are a mix. New Wi-Fi 6E access points sit next to Wi-Fi 4 units that have been on the ceiling for a decade. The access layer is current, and the core is a switch nobody wants to touch. Some of that gear stopped getting support from its maker years ago, and everyone knows it. The hard question isn't whether to refresh, but what to replace first with the budget you have.
@@ -62,5 +64,7 @@ SETU works across mixed gear and different command styles, alongside the Cisco, 
 - Bring a short report to the budget meeting, with a replace-first line and the reason in plain words.
 
 To see how the same "what if it fails" approach works for a planned change, read [rehearsing a 2 AM switch swap]({{< ref "rehearse-switch-replacement-before-maintenance-window.md" >}}). For the basics, start with [what a synthetic twin of a network is]({{< ref "what-is-a-synthetic-twin-of-a-network.md" >}}).
+
+Related reading: [proving what to replace first]({{< ref "rkr-podcast-ep02-replace-the-right-things-first.md" >}}) and [predicting what goes dark]({{< ref "ups-on-battery-what-goes-dark.md" >}}). More in the [outages and failover guide](/outages-and-failover/).
 
 Demos are in person. Book a demo with our team: sales@rkr-networks.com

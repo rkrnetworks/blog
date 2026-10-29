@@ -10,6 +10,9 @@ cover:
   image: "/covers/wifi-connected-no-ip-address-dhcp-data-hall.jpg"
   alt: "Wi-Fi connected, no IP address: tracing DHCP into the data hall (cover image)"
   hiddenInSingle: false
+seoTitle: "Wi-Fi connected, no IP address: tracing DHCP to the data hall"
+seoDescription: "Two wireless clients connect but get no IP address while every port is up. Follow the DHCP request into the data hall and find the reply on the wrong cable."
+categories: ["Wi-Fi", "Data center"]
 ---
 
 A wireless client joins the network and gets no IP address. Then another. Two new clients can't work, while two others on the same floor are fine. Three sites, 113 access points, and every port is up.
@@ -57,5 +60,7 @@ That's the reason we keep campus and data center in one synthetic twin, rather t
 - Check that hosts in the same cluster map their uplinks to the same physical cables, not only the same names.
 - After a live migration, test a fresh lease, not only an existing session.
 - Use a control change to rule things out, so the fix you make is the one that matters.
+
+Related reading: [logins failing with every link up]({{< ref "pruned-vlan-breaks-authentication-every-link-up.md" >}}). More in the [Wi-Fi troubleshooting guide](/wifi/).
 
 Demos are in person. Book a demo with our team: sales@rkr-networks.com

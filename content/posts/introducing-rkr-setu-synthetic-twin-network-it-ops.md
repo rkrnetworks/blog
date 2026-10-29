@@ -10,6 +10,9 @@ cover:
   image: "/covers/introducing-rkr-setu-synthetic-twin-network-it-ops.jpg"
   alt: "Introducing RKR SETU 1.0: one synthetic twin for network and IT operations (cover image)"
   hiddenInSingle: false
+seoTitle: "What RKR SETU 1.0 does: a synthetic twin for network and IT"
+seoDescription: "Every ticket starts somewhere in the network. Walk through RKR SETU 1.0 on a made-up site: the fault, the moments before it, what-if questions and Wi-Fi."
+categories: ["RKR SETU"]
 ---
 
 Whether it's one ticket or a thousand, each one starts somewhere in the network. A floor loses its connection, a call breaks up, a change goes in and something quietly stops working. The people who pick up those tickets, in TAC, the NOC, the SOC, at a managed service provider or in professional services, all end up asking the same few questions. What broke, who is affected, what happened just before, and what happens if we change something?
@@ -56,5 +59,7 @@ That also means the network you actually have, not only the newest part of it. O
 If you're new to the idea, start with [what a synthetic twin of a network is]({{< ref "what-is-a-synthetic-twin-of-a-network.md" >}}).
 
 We build synthetic twins for all.
+
+Related reading: [presales with and without a synthetic twin]({{< ref "presales-with-and-without-a-synthetic-twin.md" >}}) and [tracing a Wi-Fi ticket to one switch]({{< ref "wifi-keeps-dropping-trace-to-one-switch.md" >}}). More in the [RKR SETU overview](/setu/).
 
 Demos are in person. Book a demo with our team: sales@rkr-networks.com

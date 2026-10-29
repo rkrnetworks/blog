@@ -2,7 +2,7 @@
 title: "RKR Podcast, episode 1: rehearse every change before it goes live"
 date: 2026-10-29T10:00:00Z
 description: "A network lead sits in the customer's chair and questions an RKR technical marketing engineer about SETU 1.0. The idea running through the episode: rehearse every change on the synthetic twin before it goes live."
-tags: ["podcast", "change management", "maintenance window", "single points of failure", "synthetic twin"]
+tags: ["podcast", "change management", "maintenance window", "single point of failure", "synthetic twin"]
 slug: "rkr-podcast-ep01-rehearse-every-change"
 audio: ["/audio/rkr-podcast-ep01-rehearse-every-change.mp3"]
 audioDuration: "4:28"
@@ -11,6 +11,9 @@ cover:
   alt: "RKR Podcast, episode 1: rehearse every change before it goes live (cover image)"
   hiddenInSingle: false
 # Podcast: RKR Networks Podcast, Episode 1. YouTube ID sVrDs5Qo_-E.
+seoTitle: "How to rehearse every network change | RKR Podcast 1"
+seoDescription: "Every change is a guess until it is tested. A network lead questions an RKR engineer about SETU 1.0 and rehearsing each change on a synthetic twin first."
+categories: ["Podcast", "Change rehearsal"]
 ---
 
 Tonight at 2 AM a switch gets replaced. The checklist is good. It says how to do the swap carefully. It says much less about what the swap will do.
@@ -78,5 +81,7 @@ Failing it, checking it and undoing it took 31 seconds in that demo. No producti
 For the written version of the switch swap, read how we [rehearse a switch replacement before the maintenance window]({{< ref "rehearse-switch-replacement-before-maintenance-window.md" >}}). For the bigger picture, start with [what a synthetic twin of a network is]({{< ref "what-is-a-synthetic-twin-of-a-network.md" >}}).
 
 Rehearse every change on the synthetic twin before it goes live.
+
+Related reading: [one deny line that blocked 289 flows]({{< ref "one-deny-line-289-flows-rehearse-the-change.md" >}}). More in the [RKR Podcast page](/podcast/).
 
 Demos are in person. Book a demo with our team: sales@rkr-networks.com

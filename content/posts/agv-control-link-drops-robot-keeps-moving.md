@@ -10,6 +10,9 @@ cover:
   image: "/covers/agv-control-link-drops-robot-keeps-moving.jpg"
   alt: "The control link drops, the robot keeps moving: AGV failure in a synthetic twin (cover image)"
   hiddenInSingle: false
+seoTitle: "AGV control link drops but the robot keeps moving: why"
+seoDescription: "Warehouse robot loses its control uplink and keeps driving its stored route. Follow the network and the physical side of the failure in a synthetic twin."
+categories: ["Outages and failover"]
 ---
 
 The control link drops. The robot keeps moving.
@@ -57,5 +60,7 @@ For a closer look at what happens to a robot during a roam, see [where the 42 ms
 - Treat stale controller data as expected during an outage, and plan how it catches up when the link returns.
 - Check shared WAN paths for the number of sites they can isolate at once.
 - Test failures on both sides, network and physical, before the robots arrive.
+
+Related reading: [AGVs that queue at one intersection]({{< ref "agvs-queue-at-one-intersection.md" >}}) and [robots stalling near the charging dock]({{< ref "amr-fleet-stalls-near-charging-dock.md" >}}). More in the [outages and failover guide](/outages-and-failover/).
 
 Demos are in person. Book a demo with our team: sales@rkr-networks.com

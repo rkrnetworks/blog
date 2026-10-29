@@ -10,6 +10,9 @@ cover:
   image: "/covers/humanoids-in-data-centers-substrate-teaser.jpg"
   alt: "Humanoids in data centers: is it possible? (cover image)"
   hiddenInSingle: false
+seoTitle: "Humanoid robots in data centers: is it possible?"
+seoDescription: "Can a humanoid rack, stack and cable a data center? A humanoid racks eight switches, catches its own mistakes and closes a stacking ring in a synthetic twin."
+categories: ["Data center"]
 ---
 
 Can a humanoid robot cable, rack and troubleshoot a data center? We think the honest answer is: eventually, yes.
@@ -56,5 +59,7 @@ We're careful not to overstate where this is. It's a first look, not a finished 
 - Keep a model of the rack's intended state. It's what turns a step list into a check list.
 
 Can a humanoid work a data center? Eventually, yes.
+
+Related reading: [the full humanoid operations session]({{< ref "humanoids-data-center-operations-session.md" >}}) and [where humanoid robots fit in the hall]({{< ref "humanoid-robots-aisle-width-cable-trays.md" >}}). More in the [data center guide](/data-center/).
 
 Demos are in person. Book a demo with our team: sales@rkr-networks.com

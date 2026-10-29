@@ -10,6 +10,8 @@ cover:
   image: "/covers/pruned-vlan-breaks-authentication-every-link-up.jpg"
   alt: "Every link up, nobody can log in: how one pruned VLAN breaks authentication (cover image)"
   hiddenInSingle: false
+seoTitle: "All links up but nobody can log in: one pruned VLAN"
+categories: ["Change rehearsal"]
 ---
 
 A change request comes in: tidy up a trunk. It's the kind of change nobody worries about. A few VLANs on the allowed list look unused, so they come off. The change applies cleanly, with no error and no warning. Then the calls start. Nobody can log in.
@@ -57,5 +59,7 @@ The same habit shows up in our post on [rehearsing a switch replacement before t
 - Check both ends of a trunk. An asymmetric allowed list is easy to create and hard to spot.
 - Verify services after a change, not only links. Authentication, DHCP and name resolution are good first checks.
 - Keep the fix as small as the fault. Here it was one VLAN on one trunk.
+
+Related reading: [a new switch becoming spanning tree root]({{< ref "new-switch-becomes-spanning-tree-root.md" >}}) and [Wi-Fi connected with no IP address]({{< ref "wifi-connected-no-ip-address-dhcp-data-hall.md" >}}). More in the [change rehearsal guide](/change-rehearsal/).
 
 Demos are in person. Book a demo with our team: sales@rkr-networks.com

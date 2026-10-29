@@ -1,0 +1,156 @@
+- term: "802.11k"
+  def: "A Wi-Fi standard amendment that lets an access point give a client a list of nearby access points, so the client can roam without scanning every channel."
+  see: [{text: "Sticky Wi-Fi clients", url: "/posts/sticky-wifi-clients-wont-roam/"}]
+- term: "802.11r"
+  aka: "Fast BSS Transition, FT"
+  def: "A Wi-Fi standard amendment that speeds up roaming by setting up the security keys for the next access point before the client moves, cutting the gap during a handover."
+  see: [{text: "Robot Wi-Fi roaming gap", url: "/posts/robot-wifi-roaming-42-ms-service-gap/"}]
+- term: "802.11v"
+  def: "A Wi-Fi standard amendment that lets the network suggest a better access point to a client (BSS transition management). The client still makes the final decision."
+- term: "Access control list"
+  aka: "ACL"
+  def: "An ordered list of permit and deny rules applied to traffic on a router, switch or firewall. Rules are read top to bottom, so the position of a line matters as much as its content."
+  see: [{text: "One deny line, 289 flows", url: "/posts/one-deny-line-289-flows-rehearse-the-change/"}]
+- term: "Airtime"
+  def: "The share of time a radio channel is busy. Wi-Fi radios on the same channel take turns, so many radios on one channel means each waits longer, even with a strong signal."
+- term: "Automatic transfer switch"
+  aka: "ATS"
+  def: "A switch that moves an electrical load from utility power to a generator, and back, when the utility fails or returns. Loads without a UPS lose power during the transfer gap."
+  see: [{text: "Generator transfer test", url: "/posts/generator-transfer-test-what-reboots/"}]
+- term: "BGP"
+  aka: "Border Gateway Protocol"
+  def: "The routing protocol networks use to exchange routes with each other, including across the internet. Policy decides which routes are announced and accepted."
+  see: [{text: "BGP route leak after maintenance", url: "/posts/bgp-route-leak-after-maintenance-blast-radius/"}]
+- term: "Blast radius"
+  def: "Everything affected when a component fails or a change goes in: the hosts, access points, users, applications and sites that lose service or performance."
+  see: [{text: "What is a synthetic twin?", url: "/posts/what-is-a-synthetic-twin-of-a-network/"}]
+- term: "Busway"
+  def: "A prefabricated power distribution system of enclosed conductors, often run overhead in a data hall, with tap-off boxes feeding racks."
+  see: [{text: "Busway maintenance and the second fault", url: "/posts/rehearse-maintenance-second-fault/"}]
+- term: "CAC"
+  aka: "Channel Availability Check"
+  def: "The listening period, usually 60 seconds, that an access point must spend on a DFS channel to check for radar before it can transmit there."
+- term: "Change advisory board"
+  aka: "CAB"
+  def: "The group that reviews and approves changes before they go into production. A one-page impact report makes its decisions faster and better informed."
+- term: "Channel plan"
+  def: "The assignment of Wi-Fi channels and widths to access points so that neighbours interfere with each other as little as possible."
+  see: [{text: "39 radios, 2 channels", url: "/posts/wifi-interference-39-radios-two-channels/"}]
+- term: "Co-channel interference"
+  def: "Contention between radios on the same channel that can hear each other. They must share airtime, which lowers throughput and raises latency for everyone on that channel."
+- term: "Containment"
+  aka: "hot aisle or cold aisle containment"
+  def: "Physical barriers such as doors, roofs and panels that keep hot exhaust air and cold supply air apart in a data hall. Gaps let air mix and racks run hot."
+  see: [{text: "Hot aisle containment gap", url: "/posts/hot-aisle-containment-gap-three-hot-racks/"}]
+- term: "CRAC"
+  aka: "Computer Room Air Conditioner, also CRAH"
+  def: "A cooling unit for a data hall. A CRAC has its own compressor; a CRAH (air handler) uses chilled water. Both are counted when a room is rated N+1."
+  see: [{text: "One CRAC unit fails", url: "/posts/crac-unit-fails-is-the-room-really-n-plus-one/"}]
+- term: "DFS"
+  aka: "Dynamic Frequency Selection"
+  def: "Rules for 5 GHz Wi-Fi channels shared with radar. An access point must check for radar before using them and leave the channel if radar is detected."
+- term: "DHCP"
+  aka: "Dynamic Host Configuration Protocol"
+  def: "The protocol that gives a device its IP address, gateway and DNS servers when it joins a network. If the reply never arrives, the device is connected but cannot talk."
+  see: [{text: "Wi-Fi connected, no IP address", url: "/posts/wifi-connected-no-ip-address-dhcp-data-hall/"}]
+- term: "DNS resolver"
+  def: "The server that turns names into IP addresses for clients. If a site depends on one resolver, it can be a single point of failure behind otherwise redundant links."
+  see: [{text: "Branch DNS resolver", url: "/posts/branch-dns-resolver-single-point-of-failure/"}]
+- term: "EIRP"
+  aka: "Effective Isotropic Radiated Power"
+  def: "The total radio power an access point effectively sends in its strongest direction: transmit power plus antenna gain, minus cable loss. Regulators cap it per band and region."
+- term: "End of support"
+  aka: "end of life, EoS, EoL"
+  def: "The date after which a vendor stops providing software fixes, security patches or hardware support for a product."
+  see: [{text: "Plan the refresh by impact", url: "/posts/end-of-support-network-refresh-planning/"}]
+- term: "EXSTART"
+  def: "An OSPF neighbour state where two routers agree who leads the database exchange. An adjacency stuck here usually points to an MTU mismatch."
+  see: [{text: "OSPF stuck in EXSTART", url: "/posts/ospf-stuck-exstart-mtu-mismatch/"}]
+- term: "IDF"
+  aka: "Intermediate Distribution Frame"
+  def: "A wiring closet on a floor or in a building wing that holds access switches and patch panels, connected back to the main distribution frame (MDF)."
+- term: "LACP"
+  aka: "Link Aggregation Control Protocol"
+  def: "A protocol that bundles several physical links into one logical link. Traffic is spread across members by a hash, so one flow always uses one member."
+  see: [{text: "One LACP member down", url: "/posts/lacp-member-down-uneven-hashing/"}]
+- term: "Leaf-spine"
+  def: "A data center network design where every leaf (rack) switch connects to every spine switch, giving equal paths between any two racks."
+- term: "Maintenance window"
+  def: "An agreed time for planned changes or maintenance, usually when the fewest users are affected."
+  see: [{text: "Rehearse a switch replacement", url: "/posts/rehearse-switch-replacement-before-maintenance-window/"}]
+- term: "MTTR"
+  aka: "Mean Time To Repair"
+  def: "The average time from a failure to full service restored. Finding the cause faster is usually the biggest lever."
+  see: [{text: "Wi-Fi ticket traced to one cable", url: "/posts/wifi-keeps-dropping-trace-ticket-to-one-cable/"}]
+- term: "MTU"
+  aka: "Maximum Transmission Unit"
+  def: "The largest packet a link will carry without fragmenting it. Mismatched MTUs on two ends of a link can stop routing adjacencies and break some applications."
+- term: "N+1"
+  def: "A redundancy level with one more unit than the load needs, such as five cooling units where four are required. One unit can fail or be in maintenance without loss."
+  see: [{text: "Is the room really N+1?", url: "/posts/crac-unit-fails-is-the-room-really-n-plus-one/"}]
+- term: "N-2"
+  def: "Testing whether a system survives two failures at once, for example a planned maintenance plus an unplanned fault."
+  see: [{text: "Rehearse the second fault", url: "/posts/rehearse-maintenance-second-fault/"}]
+- term: "OSPF"
+  aka: "Open Shortest Path First"
+  def: "A link-state routing protocol used inside an organisation's network. Routers form adjacencies, share link information and compute shortest paths."
+- term: "PDU"
+  aka: "Power Distribution Unit"
+  def: "The power strip in a rack that feeds servers and switches. Three-phase PDUs must keep load balanced across phases, or one phase's breaker trips first."
+  see: [{text: "PDU phase imbalance", url: "/posts/pdu-phase-imbalance-trips-rack-breaker/"}]
+- term: "PoE"
+  aka: "Power over Ethernet"
+  def: "Power delivered to a device, such as an access point, phone or camera, over the same Ethernet cable as its data. If the switch or cable fails, the device loses both."
+- term: "QoS"
+  aka: "Quality of Service"
+  def: "Policies that mark, queue and prioritise traffic so time-sensitive packets such as voice are delivered on time when links are busy."
+  see: [{text: "A packet can arrive and still be late", url: "/posts/qos-packet-arrives-still-late/"}]
+- term: "Roaming"
+  def: "A Wi-Fi client moving its connection from one access point to another. The client decides when to roam; the network can only help it decide."
+  see: [{text: "Sticky Wi-Fi clients", url: "/posts/sticky-wifi-clients-wont-roam/"}]
+- term: "Route leak"
+  def: "Routes announced beyond where they were meant to go, often after a policy change. Traffic can then take unexpected or broken paths."
+- term: "RSSI"
+  aka: "Received Signal Strength Indicator"
+  def: "A measure of how strong a received Wi-Fi signal is. It is what the bars show, and on its own it says nothing about interference or airtime."
+- term: "Single point of failure"
+  aka: "SPOF"
+  def: "Any component whose failure stops a service on its own because nothing else can take over: a device, link, server, power circuit or person."
+  see: [{text: "Outages and failover guide", url: "/outages-and-failover/"}]
+- term: "SINR"
+  aka: "Signal to Interference plus Noise Ratio"
+  def: "How much stronger the wanted signal is than everything else on the channel. It decides the data rate a Wi-Fi link can sustain better than signal strength alone."
+  see: [{text: "Full bars, bad calls", url: "/posts/wifi-interference-39-radios-two-channels/"}]
+- term: "Spanning tree root"
+  def: "The switch that the Spanning Tree Protocol picks as the centre of a layer 2 network. All paths are built towards it, so the wrong root sends traffic the long way."
+  see: [{text: "New switch became root", url: "/posts/new-switch-becomes-spanning-tree-root/"}]
+- term: "Sticky client"
+  def: "A Wi-Fi client that stays connected to a distant, weak access point even when a much better one is nearby."
+  see: [{text: "Why laptops won't roam", url: "/posts/sticky-wifi-clients-wont-roam/"}]
+- term: "Synthetic twin"
+  def: "A working model of a network and the building it lives in, built from declared design data, that you can question, change, fail and rewind before touching production."
+  see: [{text: "What is a synthetic twin?", url: "/posts/what-is-a-synthetic-twin-of-a-network/"}, {text: "RKR SETU", url: "/setu/"}]
+- term: "TLS inspection"
+  def: "A firewall decrypting, checking and re-encrypting encrypted traffic using its own certificate. Clients and applications must trust that certificate."
+  see: [{text: "Certificate rotation broke one app", url: "/posts/certificate-rotation-breaks-tls-inspection/"}]
+- term: "Top-of-rack switch"
+  aka: "ToR"
+  def: "The switch at the top of a rack that connects its servers to the rest of the data center network."
+  see: [{text: "One ToR fails in a GPU cluster", url: "/posts/gpu-cluster-one-tor-switch-fails/"}]
+- term: "Trunk"
+  def: "A switch link that carries several VLANs at once. Removing a VLAN from a trunk (pruning) cuts that VLAN off beyond the link while the link itself stays up."
+  see: [{text: "One pruned VLAN", url: "/posts/pruned-vlan-breaks-authentication-every-link-up/"}]
+- term: "UPS"
+  aka: "Uninterruptible Power Supply"
+  def: "Battery-backed power that keeps equipment running through a utility outage or a generator transfer, for as long as the batteries last."
+  see: [{text: "UPS on battery", url: "/posts/ups-on-battery-what-goes-dark/"}]
+- term: "VLAN"
+  aka: "Virtual LAN"
+  def: "A logical layer 2 network on shared switches. Users, phones, cameras and guests are often kept on separate VLANs."
+- term: "VRF"
+  aka: "Virtual Routing and Forwarding"
+  def: "Separate routing tables on the same router, used to keep networks such as guest and corporate apart. A leak between VRFs joins them."
+  see: [{text: "Guest Wi-Fi VRF leak", url: "/posts/guest-wifi-reaches-corporate-vrf-leak/"}]
+- term: "Wi-Fi 6E"
+  def: "Wi-Fi 6 extended into the 6 GHz band, which offers clean spectrum and wide channels but shorter range and higher loss through walls."
+  see: [{text: "Moving to 6 GHz", url: "/posts/six-ghz-rollout-new-coverage-holes/"}]

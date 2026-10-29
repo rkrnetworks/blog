@@ -10,6 +10,8 @@ cover:
   hiddenInSingle: false
 audio: ["/audio/ups-on-battery-what-goes-dark.mp3"]
 audioDuration: "6:59"
+seoTitle: "UPS on battery: know what goes dark before it does"
+categories: ["Outages and failover"]
 ---
 
 An alarm comes in: six comms closets say their UPS is on battery. Nothing is down yet. The question everyone asks next is simple, and in most buildings nobody can answer it quickly. When the batteries run out, what goes dark?
@@ -73,5 +75,7 @@ Outages don't wait, and neither do attackers. Both tend to find the single point
 - After every power event, write down the single points of failure it exposed, and track them like any other fix.
 
 If you're curious how the same idea handles a quieter problem, the next post follows [a Wi-Fi ticket down to one cable]({{< ref "wifi-keeps-dropping-trace-ticket-to-one-cable.md" >}}). For the bigger picture, start with [what a synthetic twin of a network is]({{< ref "what-is-a-synthetic-twin-of-a-network.md" >}}).
+
+Related reading: [a generator transfer test]({{< ref "generator-transfer-test-what-reboots.md" >}}) and [a hidden single point of failure]({{< ref "branch-dns-resolver-single-point-of-failure.md" >}}). More in the [outages and failover guide](/outages-and-failover/).
 
 Demos are in person. Book a demo with our team: sales@rkr-networks.com

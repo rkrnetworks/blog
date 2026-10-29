@@ -10,6 +10,9 @@ cover:
   image: "/covers/lacp-member-down-uneven-hashing.jpg"
   alt: "One LACP member down: why the uplink looks fine but one app is slow (cover image)"
   hiddenInSingle: false
+seoTitle: "One LACP member down: why one app is slow on a healthy uplink"
+seoDescription: "A four-link LACP bundle loses one member and stays up, yet one application crawls. See how hashing puts its flows on an overloaded link, in a synthetic twin."
+categories: ["Outages and failover"]
 ---
 
 Here is the support ticket in one line: "The reporting app is slow, everything else is fine." The uplink between the access switches and the core is a bundle of four links. One of them went down two days ago, the bundle stayed up on three, and the alarm was closed as non-urgent because capacity was still well above normal load.
@@ -50,5 +53,7 @@ The more useful finding is that a member failure in this bundle is not as harmle
 - After a member is restored, confirm traffic actually rebalanced.
 
 Link aggregation is reliable and simple, which is exactly why its uneven corners are easy to forget. When one application suffers alone, look at the member links before looking at the application.
+
+Related reading: [a dual-homed server on the wrong path]({{< ref "dual-homed-server-wrong-path-after-reboot.md" >}}), [packets that arrive but still miss the deadline]({{< ref "qos-packet-arrives-still-late.md" >}}) and [up versus working]({{< ref "rkr-podcast-ep04-its-up-is-it-working.md" >}}). More in the [outages and failover guide](/outages-and-failover/).
 
 Demos are in person. Book a demo with our team: sales@rkr-networks.com

@@ -15,7 +15,7 @@
 {{- with $id }}
 <div class="yt" data-yt="{{ . }}" data-start="{{ $start }}" data-title="{{ $title }}">
   <a class="yt-poster" href="https://www.youtube.com/watch?v={{ . }}{{ with $start }}&amp;t={{ . }}s{{ end }}" rel="noopener" aria-label="Play video: {{ $title }}">
-    <img src="https://i.ytimg.com/vi/{{ . }}/hqdefault.jpg" alt="" width="480" height="360" loading="lazy" decoding="async">
+    <img src="https://i.ytimg.com/vi/{{ . }}/hqdefault.jpg" alt="Video: {{ cond (ne $title "YouTube video") $title ($.Page.Title | plainify) }}" width="480" height="360" loading="lazy" decoding="async">
     <span class="yt-play" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M7 4.5v15l13-7.5z"/></svg></span>
     {{- if ne $title "YouTube video" }}<span class="yt-title">{{ $title }}</span>{{ end }}
   </a>

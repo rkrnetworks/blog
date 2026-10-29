@@ -52,6 +52,7 @@
   {{- partial "extend_post_content.html" . }}
 
   <footer class="post-footer">
+    {{- partial "filed_under.html" . }}
     {{- $tags := .Language.Params.Taxonomies.tag | default "tags" }}
     {{- with ($.GetTerms $tags) }}
     <ul class="post-tags" aria-label="Tags">

@@ -10,6 +10,9 @@ cover:
   image: "/covers/fifteen-data-center-incidents-build-run-manage.jpg"
   alt: "Build it, run it, manage it: 15 data center incidents in one synthetic twin (cover image)"
   hiddenInSingle: false
+seoTitle: "15 data center incidents, from fibre cuts to leaks"
+seoDescription: "Stale sensors, flapping ports, a cut fibre trunk, a leak under the floor: 15 data center incidents, each placed in one synthetic twin of a hall built from zero."
+categories: ["Data center", "Outages and failover"]
 ---
 
 Last time we built it. This time we switch it on, and things break the way they do on any live floor.
@@ -54,5 +57,7 @@ If you saw the build-out in [one team, one page]({{< ref "data-center-build-out-
 - Place every fault in the same model as the racks, power and cooling, so its reach is clear from the start.
 - Treat stale data as an incident. A sensor that stops reporting hides the next problem.
 - Keep the model you built with. The plan for the hall is the best starting point for running it.
+
+Related reading: [what one failed cooling unit does]({{< ref "crac-unit-fails-is-the-room-really-n-plus-one.md" >}}) and [a generator transfer test]({{< ref "generator-transfer-test-what-reboots.md" >}}). More in the [data center guide](/data-center/).
 
 Demos are in person. Book a demo with our team: sales@rkr-networks.com

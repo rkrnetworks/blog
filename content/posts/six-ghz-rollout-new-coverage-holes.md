@@ -10,6 +10,9 @@ cover:
   image: "/covers/six-ghz-rollout-new-coverage-holes.jpg"
   alt: "Moving to 6 GHz: where the new coverage holes show up (cover image)"
   hiddenInSingle: false
+seoTitle: "Moving to 6 GHz Wi-Fi: where the new coverage holes appear"
+seoDescription: "6 GHz brings clean spectrum and wider channels, plus shorter range and different wall loss. See where coverage thins in a synthetic twin before moving any AP."
+categories: ["Wi-Fi"]
 ---
 
 The plan sounds simple: replace the old access points one for one with new ones that support 6 GHz, mount them in the same places, and give modern devices a fast, uncrowded band. Mounting brackets match, cabling is already there, and the change can happen floor by floor.
@@ -46,5 +49,7 @@ The twin then makes it easy to test small changes. Moving two access points a fe
 - Expect a small number of moves or additions, and plan for them up front.
 
 The new band is worth having. It just needs to be planned as a new band, not as a firmware option on the old layout.
+
+Related reading: [39 radios on two channels]({{< ref "wifi-interference-39-radios-two-channels.md" >}}), [sticky Wi-Fi clients]({{< ref "sticky-wifi-clients-wont-roam.md" >}}) and [a Wi-Fi dead zone near the docks]({{< ref "amr-fleet-stalls-near-charging-dock.md" >}}). More in the [Wi-Fi troubleshooting guide](/wifi/).
 
 Demos are in person. Book a demo with our team: sales@rkr-networks.com

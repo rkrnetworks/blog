@@ -2,7 +2,7 @@
 title: "Too old for the cloud? Old and mixed network devices still belong in one synthetic twin"
 date: 2026-10-26T05:00:00Z
 description: "Vendor cloud management focuses on newer, supported gear from one maker. SETU works the other way around: old, mixed and end-of-support devices go into one synthetic twin."
-tags: ["synthetic twin", "RKR SETU", "cloud management", "end of life network equipment", "multi-vendor network", "network refresh planning"]
+tags: ["synthetic twin", "RKR SETU", "cloud management", "end of life", "multi-vendor network", "network refresh planning"]
 slug: "cloud-management-for-old-and-mixed-network-devices"
 cover:
   image: "/covers/cloud-management-for-old-and-mixed-network-devices.jpg"
@@ -10,6 +10,9 @@ cover:
   hiddenInSingle: false
 audio: ["/audio/cloud-management-for-old-and-mixed-network-devices.mp3"]
 audioDuration: "5:01"
+seoTitle: "Old and mixed network devices in one synthetic twin"
+seoDescription: "Vendor cloud management favours new, supported gear from one maker. Old, mixed and end-of-support devices still belong in one synthetic twin of the network."
+categories: ["RKR SETU"]
 ---
 
 Most cloud management only works with newer gear from one vendor. SETU works the other way around. If a device is too old for a vendor's cloud, we still bring it into SETU. Twenty years old? Still in SETU. Mixed brands, end-of-support, never cloud-ready? All of it goes into one synthetic twin, so your whole network shows up, not just the newest part of it.
@@ -54,5 +57,7 @@ It also means older gear doesn't have to be replaced just to become visible. You
 - Plan refreshes against the whole network, old and new together, not just the part that is easiest to see.
 
 If you're new to the idea, start with [what a synthetic twin of a network is]({{< ref "what-is-a-synthetic-twin-of-a-network.md" >}}).
+
+Related reading: [replacing the right things first]({{< ref "rkr-podcast-ep02-replace-the-right-things-first.md" >}}). More in the [RKR SETU overview](/setu/).
 
 Demos are in person. Book a demo with our team: sales@rkr-networks.com

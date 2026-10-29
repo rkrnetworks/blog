@@ -10,6 +10,9 @@ cover:
   image: "/covers/dual-homed-server-wrong-path-after-reboot.jpg"
   alt: "Dual-homed server: both NICs up, traffic on the wrong path after a switch reboot (cover image)"
   hiddenInSingle: false
+seoTitle: "Dual-homed server takes the wrong path after a switch reboot"
+seoDescription: "After a switch reboot, a server's two links are up but its traffic runs through the wrong switch and a full uplink. See why in a synthetic twin and prevent it."
+categories: ["Outages and failover"]
 ---
 
 Dual-homing a server is supposed to be the easy part of redundancy. Two network cards, two cables, two switches. If one switch goes away, traffic moves to the other. When the switch comes back, things settle down again.
@@ -48,5 +51,7 @@ Two alternatives can be checked right away. Setting the bonds to return to the p
 - Include servers in switch maintenance plans, not just the switches themselves.
 
 Redundancy that only works one way is easy to miss. The failover goes fine, and the problem waits quietly for the next one.
+
+Related reading: [one LACP member down and uneven hashing]({{< ref "lacp-member-down-uneven-hashing.md" >}}), [a new switch becoming spanning tree root]({{< ref "new-switch-becomes-spanning-tree-root.md" >}}) and [one ToR switch failing in a GPU cluster]({{< ref "gpu-cluster-one-tor-switch-fails.md" >}}). More in the [outages and failover guide](/outages-and-failover/).
 
 Demos are in person. Book a demo with our team: sales@rkr-networks.com

@@ -2,7 +2,7 @@
 title: "RKR Podcast, episode 3: we're fully redundant. Prove it."
 date: 2026-10-29T10:10:00Z
 description: "A network lead brings the line every team says in the first meeting: we're fully redundant. An RKR technical marketing engineer answers with recorded SETU 1.0 demos. The idea running through the episode: redundancy is a claim until you've tested it."
-tags: ["podcast", "redundancy", "single points of failure", "N-2", "maintenance window", "synthetic twin"]
+tags: ["podcast", "redundancy", "single point of failure", "N-2", "maintenance window", "synthetic twin"]
 slug: "rkr-podcast-ep03-fully-redundant-prove-it"
 audio: ["/audio/rkr-podcast-ep03-fully-redundant-prove-it.mp3"]
 audioDuration: "4:54"
@@ -11,6 +11,9 @@ cover:
   alt: "RKR Podcast, episode 3: we're fully redundant. Prove it. (cover image)"
   hiddenInSingle: false
 # Podcast: RKR Networks Podcast, Episode 3. YouTube ID Y-bFm8qzwgw. Routing note matches the pinned YouTube comment (/workspace/youtube/ep03/note.txt).
+seoTitle: "Fully redundant? How to prove it | RKR Podcast 3"
+seoDescription: "Every team says it is fully redundant in the first meeting. An RKR engineer answers with recorded SETU 1.0 demos: redundancy is a claim until it is tested."
+categories: ["Podcast", "Outages and failover"]
 ---
 
 > Update, Oct 27, 2026: since this was recorded, a new demo shows a routing change on a synthetic twin, with routes withdrawn and failover checked against a baseline: https://youtu.be/ezmcUdKr4bo
@@ -76,5 +79,7 @@ Verify services, not only links: authentication, DHCP and name resolution.
 For the written versions, read [what goes dark when the UPS is on battery]({{< ref "ups-on-battery-what-goes-dark.md" >}}), [the maintenance and the second fault]({{< ref "rehearse-maintenance-second-fault.md" >}}) and [one pruned VLAN breaks authentication]({{< ref "pruned-vlan-breaks-authentication-every-link-up.md" >}}). The routing change from the update above is in [one deny line, 289 flows blocked]({{< ref "one-deny-line-289-flows-rehearse-the-change.md" >}}).
 
 Rehearse every change on the synthetic twin before it goes live.
+
+Related reading: [a branch DNS resolver as a single point of failure]({{< ref "branch-dns-resolver-single-point-of-failure.md" >}}). More in the [RKR Podcast page](/podcast/).
 
 Demos are in person. Book a demo with our team: sales@rkr-networks.com

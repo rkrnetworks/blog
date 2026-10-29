@@ -10,6 +10,9 @@ cover:
   image: "/covers/gpu-cluster-one-tor-switch-fails.jpg"
   alt: "One top-of-rack switch fails in a GPU cluster: how many training jobs stop? (cover image)"
   hiddenInSingle: false
+seoTitle: "One ToR switch fails in a GPU cluster: how many jobs stop?"
+seoDescription: "One top-of-rack switch fails in a GPU cluster and far more work stops than its servers carry. See how jobs spread across racks widen the pause, in a twin."
+categories: ["Data center", "Outages and failover"]
 ---
 
 In a traditional server room, a top-of-rack switch failure affects the servers in that rack. If they have dual connections, possibly nothing at all. In a GPU cluster running large training jobs, the same failure can pause work on hundreds of servers in racks that have nothing wrong with them.
@@ -50,5 +53,7 @@ In this example, the placement rule cuts the number of affected jobs sharply wit
 - Are spare switches and optics close enough to make a swap fast?
 
 Large clusters turn small failures into large pauses. The good news is that the size of that pause can be planned for, once you can see how the jobs and the network line up.
+
+Related reading: [a 1,024-GPU job during power maintenance]({{< ref "rehearse-maintenance-second-fault.md" >}}), [a dual-homed server after a switch reboot]({{< ref "dual-homed-server-wrong-path-after-reboot.md" >}}) and [uneven LACP hashing]({{< ref "lacp-member-down-uneven-hashing.md" >}}). More in the [data center guide](/data-center/).
 
 Demos are in person. Book a demo with our team: sales@rkr-networks.com

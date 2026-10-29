@@ -1,0 +1,15 @@
+{{- /* Meta description: seoDescription (tuned to 140-160 chars) > description > summary. Context: a page. */ -}}
+{{- $d := "" }}
+{{- if .IsHome }}
+{{- $d = site.Params.searchDescription | default site.Params.description }}
+{{- else if eq .Kind "taxonomy" }}
+{{- $d = .Params.seoDescription | default "Browse every topic on the RKR Networks blog, from Wi-Fi roaming and BGP to UPS runtime and GPU clusters, and find the posts that cover each one." }}
+{{- else if eq .Kind "term" }}
+{{- $d = .Params.seoDescription | default .Description | default (printf "Posts and guides on %s from RKR Networks: real failure scenarios, rehearsed in a synthetic twin before they reach production." .Title) }}
+{{- else }}
+{{- $d = .Params.seoDescription | default .Description | default .Summary | default site.Params.searchDescription }}
+{{- end }}
+{{- $pn := partial "page_number.html" . }}
+{{- $d = $d | plainify | htmlUnescape | replaceRE `\s+` " " | strings.TrimSpace }}
+{{- if gt $pn 1 }}{{ $d = printf "Page %d. %s" $pn $d }}{{ end }}
+{{- $d | plainify | htmlUnescape | replaceRE `\s+` " " | strings.TrimSpace | truncate 170 "" -}}

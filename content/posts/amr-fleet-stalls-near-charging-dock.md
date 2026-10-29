@@ -10,6 +10,9 @@ cover:
   image: "/covers/amr-fleet-stalls-near-charging-dock.jpg"
   alt: "Robots stall near the charging dock: finding the dead zone a fleet keeps driving into (cover image)"
   hiddenInSingle: false
+seoTitle: "Robots stall near the charging dock: find the Wi-Fi dead zone"
+seoDescription: "Mobile robots keep pausing in the same spot by their charging docks. See how docks, racking and one access point combine into a dead zone, in a synthetic twin."
+categories: ["Wi-Fi"]
 ---
 
 The fleet dashboard shows the same thing every shift. Robots finish a task, head back to charge, and stop for a few seconds just before the docking area. Then they carry on. Nobody is hurt and nothing collides, but at peak hours a small queue forms, and docking takes longer than it should.
@@ -50,5 +53,7 @@ Either way, the decision is made against the conditions robots actually face, no
 - Re-check whenever docks are added or the racking near them is rearranged.
 
 Robots are honest about where the network is weak. They stop there. The work is in seeing why that spot is weak at that hour, and what the smallest change is that fixes it.
+
+Related reading: [warehouse scanners that drop with four bars]({{< ref "warehouse-scanners-four-bars-seven-megabits.md" >}}), [AGVs queuing at one intersection]({{< ref "agvs-queue-at-one-intersection.md" >}}) and [new coverage holes after a 6 GHz move]({{< ref "six-ghz-rollout-new-coverage-holes.md" >}}). More in the [Wi-Fi troubleshooting guide](/wifi/).
 
 Demos are in person. Book a demo with our team: sales@rkr-networks.com

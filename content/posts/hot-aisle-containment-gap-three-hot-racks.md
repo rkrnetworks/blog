@@ -10,6 +10,9 @@ cover:
   image: "/covers/hot-aisle-containment-gap-three-hot-racks.jpg"
   alt: "A gap in hot aisle containment: why three racks run hot and the rest don't (cover image)"
   hiddenInSingle: false
+seoTitle: "Hot aisle containment gap: why three racks run hot"
+seoDescription: "Three racks at the end of a row run hot while cooling capacity looks fine. Trace it to a gap in hot aisle containment, and what closing it changes, in a twin."
+categories: ["Data center"]
 ---
 
 The row has twelve racks. Nine of them have inlet temperatures where you would expect. The last three, at the end nearest the wall, run several degrees warmer. The cooling units have spare capacity, the setpoints are fine, and the racks are not unusually dense.
@@ -44,5 +47,7 @@ The point is not to replace the walk with the twin. It is to let the team ask wh
 - Re-check after any work that opens containment, such as cable pulls or tray changes.
 
 Containment problems are rarely complicated. They are just easy to miss when the symptom shows up at the rack and the cause is in a seal three meters away.
+
+Related reading: [whether the room is really N+1]({{< ref "crac-unit-fails-is-the-room-really-n-plus-one.md" >}}), [cable tray fill for a new row]({{< ref "cable-tray-fill-before-adding-a-row.md" >}}) and [PDU phase imbalance]({{< ref "pdu-phase-imbalance-trips-rack-breaker.md" >}}). More in the [data center guide](/data-center/).
 
 Demos are in person. Book a demo with our team: sales@rkr-networks.com

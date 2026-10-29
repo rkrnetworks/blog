@@ -10,6 +10,8 @@ cover:
   hiddenInSingle: false
 audio: ["/audio/what-is-a-synthetic-twin-of-a-network.mp3"]
 audioDuration: "6:46"
+seoTitle: "What is a synthetic twin of a network? A plain explanation"
+categories: ["RKR SETU"]
 ---
 
 Every network engineer has a version of the same question. If I change this, what breaks? If this box dies tonight, who calls? Usually the honest answer is "probably nothing, but we'll find out." This post explains what a synthetic twin is and what it looks like in practice.
@@ -76,5 +78,7 @@ Outages and attackers both find the weak spots you haven't looked at, like the s
 - Test double failures, not just single ones. In the demo, one switch failing stranded nobody. Two failing together stranded six clients and left a subnet without a gateway.
 - Treat the impact report as part of the change, not an extra. If the change board can see the blast radius, the conversation gets shorter.
 - Keep a running list of single points of failure. Every scenario you run should add to it or cross something off.
+
+More in the [RKR SETU overview](/setu/).
 
 Demos are in person. Book a demo with our team: sales@rkr-networks.com

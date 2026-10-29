@@ -10,6 +10,9 @@ cover:
   image: "/covers/certificate-rotation-breaks-tls-inspection.jpg"
   alt: "A certificate rotation on the firewall broke one app: tracing TLS inspection failures (cover image)"
   hiddenInSingle: false
+seoTitle: "Firewall certificate rotation broke one app: TLS inspection"
+seoDescription: "The firewall inspection certificate renewed on time, browsers were OK, and one business app stopped connecting. Map what depends on it before the next renewal."
+categories: ["Change rehearsal"]
 ---
 
 Tuesday, 07:30. The security team renews the certificate the firewall uses to inspect encrypted traffic. It is a planned change, done a week before expiry. Browsers on managed laptops pick up the new certificate through the usual policy, and nobody notices anything.
@@ -48,5 +51,7 @@ That list turns into a plan. Update the manual trust on the label printing hosts
 - After the rotation, check the firewall's handshake failures by application for a day or two.
 
 Certificate rotation is routine, and it should be. The trouble is that the old certificate may have been propping up more than anyone wrote down.
+
+Related reading: [firewall rules that look unused but are still needed]({{< ref "firewall-rule-cleanup-unused-rule-still-needed.md" >}}), [one deny line that blocked 289 flows]({{< ref "one-deny-line-289-flows-rehearse-the-change.md" >}}) and [guest Wi-Fi reaching a corporate subnet]({{< ref "guest-wifi-reaches-corporate-vrf-leak.md" >}}). More in the [change rehearsal guide](/change-rehearsal/).
 
 Demos are in person. Book a demo with our team: sales@rkr-networks.com

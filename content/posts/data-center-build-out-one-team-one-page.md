@@ -10,6 +10,9 @@ cover:
   image: "/covers/data-center-build-out-one-team-one-page.jpg"
   alt: "One team, one page: a data center build-out in a synthetic twin (cover image)"
   hiddenInSingle: false
+seoTitle: "Data center build-out: racks, power and cooling on one page"
+seoDescription: "Building a data center means floor, trays, racks, pipework, power and cooling planned by many teams. Put more than 2,000 items on one page in a synthetic twin."
+categories: ["Data center"]
 ---
 
 How do we bring all the cooks onto the same page?
@@ -54,5 +57,7 @@ This fits how we think about the company as a whole. We build synthetic twins fo
 - Plan for the model to outlive the build. The people who run the hall will need it as much as the people who built it.
 
 For the bigger picture, start with [what a synthetic twin of a network is]({{< ref "what-is-a-synthetic-twin-of-a-network.md" >}}).
+
+Related reading: [checking cable tray fill before adding a row]({{< ref "cable-tray-fill-before-adding-a-row.md" >}}) and [15 data center incidents in one twin]({{< ref "fifteen-data-center-incidents-build-run-manage.md" >}}). More in the [data center guide](/data-center/).
 
 Demos are in person. Book a demo with our team: sales@rkr-networks.com

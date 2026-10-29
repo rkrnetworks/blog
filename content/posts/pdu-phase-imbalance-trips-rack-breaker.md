@@ -10,6 +10,9 @@ cover:
   image: "/covers/pdu-phase-imbalance-trips-rack-breaker.jpg"
   alt: "One phase at 90 percent: how PDU phase imbalance trips a rack breaker (cover image)"
   hiddenInSingle: false
+seoTitle: "PDU phase imbalance: one phase at 90% trips a rack breaker"
+seoDescription: "A three-phase rack PDU looks half empty and still trips a breaker when one phase carries most of the load. Find the imbalance and the server move that fixes it."
+categories: ["Data center", "Outages and failover"]
 ---
 
 The rack PDU reports 55 percent load. Then the other feed goes down for maintenance, and the breaker for one of its phases trips. Afterward, someone finds that phase had been running at about 90 percent while the other two were barely working.
@@ -48,5 +51,7 @@ Next, the twin can move two servers from L2 outlets to L3 outlets and fail feed 
 - Review a few racks each quarter rather than waiting for a trip to start the review.
 
 A breaker trip on a half-loaded rack feels unfair, but it is predictable. The information is already in the room. It just has to be put in one place and asked the right question.
+
+Related reading: [which systems reboot in a generator test]({{< ref "generator-transfer-test-what-reboots.md" >}}), [whether one cooling failure matters]({{< ref "crac-unit-fails-is-the-room-really-n-plus-one.md" >}}) and [busway maintenance and a second fault]({{< ref "rehearse-maintenance-second-fault.md" >}}). More in the [data center guide](/data-center/).
 
 Demos are in person. Book a demo with our team: sales@rkr-networks.com

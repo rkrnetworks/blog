@@ -10,6 +10,8 @@ cover:
   hiddenInSingle: false
 audio: ["/audio/wifi-keeps-dropping-trace-ticket-to-one-cable.mp3"]
 audioDuration: "6:21"
+seoTitle: "Wi-Fi keeps dropping on one floor: trace it to one cable"
+categories: ["Wi-Fi"]
 ---
 
 It's 21:40 and a ticket comes in. Guests on floor 8 say the Wi-Fi keeps dropping. It's not a full outage, just people walking from one end of the floor to the other and losing their connection. Nobody has said which corner, and nobody has said which access point, because guests don't know what an access point is.
@@ -66,5 +68,7 @@ SETU works alongside the Cisco, Aruba, Juniper and Arista gear you already run. 
 - Faults at night are when your process gets tested, whether the cause is a cut cable or someone poking at your network. Attackers practice. Your engineers should too.
 
 For the bigger picture of how this works, see [what a synthetic twin of a network is]({{< ref "what-is-a-synthetic-twin-of-a-network.md" >}}). For a louder version of the same idea, the [UPS on battery post]({{< ref "ups-on-battery-what-goes-dark.md" >}}) traces six alarms to one root cause.
+
+Related reading: [Wi-Fi drops traced to one switch]({{< ref "wifi-keeps-dropping-trace-to-one-switch.md" >}}) and [Wi-Fi connected with no IP address]({{< ref "wifi-connected-no-ip-address-dhcp-data-hall.md" >}}). More in the [Wi-Fi troubleshooting guide](/wifi/).
 
 Demos are in person. Book a demo with our team: sales@rkr-networks.com

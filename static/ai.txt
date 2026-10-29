@@ -1,9 +1,15 @@
 # ai.txt - RKR Networks Blog (https://blog.rkr-networks.com/)
-# Content on this site may not be used to train, fine-tune or evaluate AI or
-# machine learning models, or be included in AI training datasets.
-# Indexing for search and linking to our pages is welcome.
-# Copyright (c) 2026 RKR Networks. All rights reserved.
-# Questions: sales@rkr-networks.com
+# (c) 2026 RKR Networks LLC. All rights reserved.
+# No AI training or reuse without written permission.
+#
+# Content on this site (text, images, audio and video) may not be used to
+# train, fine-tune, evaluate or ground AI or machine learning models, or be
+# included in AI or machine learning datasets, without written permission
+# from RKR Networks LLC. Text and data mining rights are reserved
+# (see /.well-known/tdmrep.json). Indexing for search and linking is welcome.
+#
+# Terms: https://blog.rkr-networks.com/terms/
+# Permission requests: sales@rkr-networks.com
 
 User-Agent: *
 Disallow: /

@@ -1,0 +1,11 @@
+{{- /* Visible breadcrumbs: Home > Section > current page. Overrides PaperMod's (which stopped at the section). */ -}}
+{{- if (.Param "ShowBreadCrumbs") -}}
+<nav class="breadcrumbs" aria-label="Breadcrumb">
+  {{- range $i, $bc := .Ancestors.Reverse }}
+  {{- if $i }}<span class="bc-sep" aria-hidden="true">›</span>{{ end }}
+  <a href="{{ $bc.RelPermalink }}">{{ if eq $i 0 }}{{ i18n "home" | default "Home" }}{{ else }}{{ $bc.Title }}{{ end }}</a>
+  {{- end }}
+  <span class="bc-sep" aria-hidden="true">›</span>
+  <span class="bc-current" aria-current="page">{{ .Params.breadcrumb | default .LinkTitle }}</span>
+</nav>
+{{- end -}}

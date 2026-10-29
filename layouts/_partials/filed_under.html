@@ -1,0 +1,9 @@
+{{- /* "Part of the X guide" links from a post to its topic hubs. Context: a page. */ -}}
+{{- $cats := .Params.categories }}
+{{- $hubs := slice }}
+{{- range site.Params.hubs }}{{ if in $cats .category }}{{ $hubs = $hubs | append . }}{{ end }}{{ end }}
+{{- with $hubs }}
+<p class="filed-under">Part of
+  {{- range $i, $h := . }}{{ if $i }}{{ if eq $i (sub (len $hubs) 1) }} and{{ else }},{{ end }}{{ end }} the <a href="{{ $h.url | relLangURL }}">{{ $h.name }} guide</a>{{ end }}.
+</p>
+{{- end }}

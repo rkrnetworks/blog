@@ -1,0 +1,11 @@
+{{- /* Returns the paginator page number for list pages (1 elsewhere). Mirrors the .Paginate call in list.html exactly, so Hugo reuses the same paginator. */ -}}
+{{- $n := 1 }}
+{{- if and (in (slice "home" "section" "term") .Kind) (not (and site.Params.profileMode.enabled .IsHome)) (ne .Layout "hub") (ne .Layout "doc") }}
+{{- $pages := union .RegularPages .Sections }}
+{{- if .IsHome }}
+{{- $pages = where site.RegularPages "Type" "in" site.Params.mainSections }}
+{{- $pages = where $pages "Params.hiddenInHomeList" "!=" "true"  }}
+{{- end }}
+{{- $n = (.Paginate $pages).PageNumber }}
+{{- end }}
+{{- return $n }}

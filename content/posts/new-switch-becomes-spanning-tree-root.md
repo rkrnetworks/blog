@@ -10,6 +10,9 @@ cover:
   image: "/covers/new-switch-becomes-spanning-tree-root.jpg"
   alt: "A new access switch became spanning tree root: why the whole floor went slow (cover image)"
   hiddenInSingle: false
+seoTitle: "New switch became spanning tree root: why the floor went slow"
+seoDescription: "A switch added in a quiet corner becomes spanning tree root, and a whole floor's traffic takes the long way. See it in a synthetic twin before it happens."
+categories: ["Change rehearsal"]
 ---
 
 Someone needed four more ports in a meeting room, so a small switch went in under the table. It came out of the box with default settings. By lunchtime, half the third floor was complaining that file transfers crawled and video calls stuttered, and nobody connected the two events.
@@ -48,5 +51,7 @@ That second run is the useful one. It turns a rule everyone knows they should fo
 - When a whole floor goes slow at once with nothing down, look at the tree before you look at the applications.
 
 Spanning tree problems often look like application problems, because the network keeps working, only worse. Knowing where the root is, and where it would move, takes most of the mystery out of them.
+
+Related reading: [rehearsing a switch replacement]({{< ref "rehearse-switch-replacement-before-maintenance-window.md" >}}), [one pruned VLAN that broke logins]({{< ref "pruned-vlan-breaks-authentication-every-link-up.md" >}}) and [traffic on the wrong path after a reboot]({{< ref "dual-homed-server-wrong-path-after-reboot.md" >}}). More in the [change rehearsal guide](/change-rehearsal/).
 
 Demos are in person. Book a demo with our team: sales@rkr-networks.com

@@ -2,7 +2,7 @@
 title: "RKR Podcast, episode 4: it's up. Is it working?"
 date: 2026-10-29T10:15:00Z
 description: "Green dashboards and unhappy users. An RKR technical marketing engineer answers with recorded SETU 1.0 demos on Wi-Fi contention, uplink, QoS and roaming. The idea running through the episode: up isn't the same as working."
-tags: ["podcast", "Wi-Fi performance", "QoS", "roaming", "performance", "synthetic twin"]
+tags: ["podcast", "Wi-Fi troubleshooting", "QoS", "Wi-Fi roaming", "network performance", "synthetic twin"]
 slug: "rkr-podcast-ep04-its-up-is-it-working"
 audio: ["/audio/rkr-podcast-ep04-its-up-is-it-working.mp3"]
 audioDuration: "4:08"
@@ -11,6 +11,9 @@ cover:
   alt: "RKR Podcast, episode 4: it's up. Is it working? (cover image)"
   hiddenInSingle: false
 # Podcast: RKR Networks Podcast, Episode 4. YouTube ID NLsGNrAwiMk.
+seoTitle: "Network up, users unhappy: is it working? | RKR Podcast 4"
+seoDescription: "Green dashboards, unhappy users. An RKR engineer answers with SETU 1.0 demos on Wi-Fi contention, uplink, QoS and roaming: up is not the same as working."
+categories: ["Podcast", "Wi-Fi"]
 ---
 
 Every link is up. Every access point is green. And the tickets keep coming: calls stall, scans time out, screen shares stutter.
@@ -66,5 +69,7 @@ Each assumption was questioned one at a time. One of three changes moved nothing
 For the written versions, read [39 radios, 2 channels]({{< ref "wifi-interference-39-radios-two-channels.md" >}}), [four Wi-Fi bars, seven megabits]({{< ref "warehouse-scanners-four-bars-seven-megabits.md" >}}), [a packet can arrive and still be late]({{< ref "qos-packet-arrives-still-late.md" >}}) and [robot Wi-Fi roaming and the 42 ms gap]({{< ref "robot-wifi-roaming-42-ms-service-gap.md" >}}).
 
 Rehearse every change on the synthetic twin before it goes live.
+
+More in the [RKR Podcast page](/podcast/).
 
 Demos are in person. Book a demo with our team: sales@rkr-networks.com

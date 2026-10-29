@@ -1,14 +1,19 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-{{- if hugo.IsProduction | or (eq site.Params.env "production") | and (ne .Params.robotsNoIndex true) }}
-<meta name="robots" content="index, follow, noai, noimageai">
+{{- $noindex := partial "is_noindex.html" . }}
+{{- if hugo.IsProduction | or (eq site.Params.env "production") | and (not $noindex) }}
+<meta name="robots" content="index, follow, max-image-preview:large, noai, noimageai">
+{{- else if hugo.IsProduction | or (eq site.Params.env "production") }}
+<meta name="robots" content="noindex, follow, noai, noimageai">
 {{- else }}
 <meta name="robots" content="noindex, nofollow">
 {{- end }}
+{{- /* TDM reservation (W3C TDMRep): text and data mining rights are reserved. See /.well-known/tdmrep.json and /terms/. */}}
+<meta name="tdm-reservation" content="1">
 
 {{- /* Title */}}
-<title>{{ if .IsHome }}{{ else }}{{ if .Title }}{{ .Title }} | {{ end }}{{ end }}{{ site.Title }}</title>
+{{- partial "seo_title.html" . }}
 
 {{- /* Meta */}}
 {{- if .IsHome }}
@@ -18,11 +23,11 @@
     {{- range $i, $e := .Params.keywords }}{{ if $i }}, {{ end }}{{ $e }}{{ end }} {{- else }}
     {{- range $i, $e := .Params.tags }}{{ if $i }}, {{ end }}{{ $e }}{{ end }} {{- end -}}">
 {{- end }}
-<meta name="description" content="{{- with .Description }}{{ . }}{{- else }}{{- if or .IsPage .IsSection}}
-    {{- .Summary | default (printf "%s - %s" .Title  site.Title) }}{{- else }}
-    {{- with (site.Params.searchDescription | default site.Params.description) }}{{ . }}{{- end }}{{- end }}{{- end -}}">
+<meta name="description" content="{{ partial "seo_description.html" . }}">
 <meta name="author" content="{{ (partial "author.html" . ) }}">
+{{- if ne .Kind "404" }}
 <link rel="canonical" href="{{ if .Params.canonicalURL -}} {{ trim .Params.canonicalURL " " }} {{- else -}} {{ .Permalink }} {{- end }}">
+{{- end }}
 {{- if site.Params.analytics.google.SiteVerificationTag }}
 <meta name="google-site-verification" content="{{ site.Params.analytics.google.SiteVerificationTag }}">
 {{- end }}

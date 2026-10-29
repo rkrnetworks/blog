@@ -10,6 +10,9 @@ cover:
   image: "/covers/rehearse-maintenance-second-fault.jpg"
   alt: "Busway maintenance tonight: rehearse it, and the second fault, before the window (cover image)"
   hiddenInSingle: false
+seoTitle: "Busway maintenance: rehearse the window and the second fault"
+seoDescription: "Planned maintenance uses up one side of your power redundancy. Rehearse it in a synthetic twin to see what one more tripped breaker does to a 1,024-GPU job."
+categories: ["Change rehearsal", "Data center"]
 ---
 
 Tonight there's maintenance on one busway in the hall. The work is planned, the method statement is signed off, and the check says nothing loses power. One training job is running across every GPU in the room. The question everyone asks is simple: is it safe? The question that usually goes unasked is harder: safe until what?
@@ -79,5 +82,7 @@ The same thinking applies well beyond GPU halls. Any time planned work uses up o
 For the bigger picture, start with [what a synthetic twin of a network is]({{< ref "what-is-a-synthetic-twin-of-a-network.md" >}}). For another power story, see [what goes dark when the UPS is on battery]({{< ref "ups-on-battery-what-goes-dark.md" >}}).
 
 Rehearse the maintenance, and the second fault, before tonight. We build synthetic twins for all.
+
+Related reading: [a generator transfer test]({{< ref "generator-transfer-test-what-reboots.md" >}}) and [one ToR switch failing in a GPU cluster]({{< ref "gpu-cluster-one-tor-switch-fails.md" >}}). More in the [change rehearsal guide](/change-rehearsal/).
 
 Demos are in person. Book a demo with our team: sales@rkr-networks.com

@@ -10,6 +10,9 @@ cover:
   image: "/covers/cable-tray-fill-before-adding-a-row.jpg"
   alt: "Adding a row to the data hall: is the cable tray already full? (cover image)"
   hiddenInSingle: false
+seoTitle: "Adding a data hall row: is the cable tray already full?"
+seoDescription: "Racks, power and cooling for a new row get planned; the overhead cable tray often does not. Check tray fill along the whole route in a synthetic twin first."
+categories: ["Data center"]
 ---
 
 New rows tend to be planned from the floor up. How many racks, how much power per rack, which cooling units serve them. Those numbers get checked, discussed and signed off. Then the cabling team arrives to run fiber from the new row to the network core and finds that two sections of the overhead tray along the route are already packed.
@@ -46,5 +49,7 @@ With that visible early, the options are easier to weigh. Removing abandoned cab
 - Update the tray records when the project finishes, so the next row starts from the truth.
 
 Cable trays are the plumbing of a data hall. Nobody looks at them until they are full, and by then every option is harder than it would have been on paper.
+
+Related reading: [a data center build-out on one page]({{< ref "data-center-build-out-one-team-one-page.md" >}}), [aisle width and cable trays for humanoid robots]({{< ref "humanoid-robots-aisle-width-cable-trays.md" >}}) and [a hot aisle containment gap]({{< ref "hot-aisle-containment-gap-three-hot-racks.md" >}}). More in the [data center guide](/data-center/).
 
 Demos are in person. Book a demo with our team: sales@rkr-networks.com

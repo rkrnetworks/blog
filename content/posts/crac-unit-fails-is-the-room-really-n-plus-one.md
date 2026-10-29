@@ -10,6 +10,9 @@ cover:
   image: "/covers/crac-unit-fails-is-the-room-really-n-plus-one.jpg"
   alt: "One cooling unit fails: is the room really N+1? (cover image)"
   hiddenInSingle: false
+seoTitle: "One CRAC unit fails: is your data hall really N+1?"
+seoDescription: "A data hall rated N+1 for cooling should survive one unit failing. Airflow, load placement and maintenance can say otherwise. Test it in a synthetic twin."
+categories: ["Data center", "Outages and failover"]
 ---
 
 The design document says the room is N+1 for cooling. Six units are installed, five can carry the full design load, and any one of them can fail. It is a clear, sensible statement.
@@ -46,5 +49,7 @@ Then the planning questions. If maintenance takes one unit offline next week, wh
 - Revisit the claim whenever the load in a row changes significantly.
 
 N+1 is a good design goal. Keeping it true takes a check against the room as it is today, one unit at a time.
+
+Related reading: [why three racks run hot behind a containment gap]({{< ref "hot-aisle-containment-gap-three-hot-racks.md" >}}), [rehearsing maintenance and the second fault]({{< ref "rehearse-maintenance-second-fault.md" >}}) and [PDU phase imbalance]({{< ref "pdu-phase-imbalance-trips-rack-breaker.md" >}}). More in the [data center guide](/data-center/).
 
 Demos are in person. Book a demo with our team: sales@rkr-networks.com

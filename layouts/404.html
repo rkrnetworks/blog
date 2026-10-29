@@ -7,5 +7,8 @@
     <a class="btn-demo" href="{{ "posts/" | relLangURL }}">See all posts</a>
     <a class="btn-ghost" href="{{ "" | relLangURL }}">Go to the home page</a>
   </p>
+  <p class="nf-hubs">Or start from a topic:
+    {{- range $i, $h := site.Params.hubs }}{{ if $i }},{{ end }} <a href="{{ $h.url | relLangURL }}">{{ $h.name }}</a>{{ end }}
+    and the <a href="{{ "glossary/" | relLangURL }}">glossary</a>.</p>
 </section>
 {{- end }}{{/* end main */ -}}

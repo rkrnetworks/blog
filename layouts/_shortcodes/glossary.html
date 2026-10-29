@@ -1,0 +1,19 @@
+{{- /* Renders data/<name>.yaml as an anchored definition list. Usage: {{< glossary "glossary" >}} */ -}}
+{{- $terms := index hugo.Data (.Get 0 | default "glossary") }}
+{{- $letters := slice }}
+{{- range sort $terms "term" }}{{ $letters = $letters | append (substr (upper .term) 0 1) }}{{ end }}
+<nav class="gl-index" aria-label="Jump to letter">
+  {{- range uniq $letters }}<a href="#letter-{{ lower . }}">{{ . }}</a>{{ end }}
+</nav>
+<dl class="glossary">
+  {{- $prev := "" }}
+  {{- range sort $terms "term" }}
+  {{- $l := substr (upper .term) 0 1 }}
+  <dt id="{{ .term | anchorize }}"{{ if ne $l $prev }} data-letter="{{ $l }}"{{ end }}>
+    {{- if ne $l $prev }}<span class="gl-anchor" id="letter-{{ lower $l }}"></span>{{ end }}
+    <a class="gl-term" href="#{{ .term | anchorize }}">{{ .term }}</a>{{ with .aka }} <span class="gl-aka">({{ . }})</span>{{ end }}
+  </dt>
+  <dd>{{ .def | markdownify }}{{ with .see }} <span class="gl-see">Read: {{ range $i, $s := . }}{{ if $i }}, {{ end }}<a href="{{ $s.url | relLangURL }}">{{ $s.text }}</a>{{ end }}</span>{{ end }}</dd>
+  {{- $prev = $l }}
+  {{- end }}
+</dl>

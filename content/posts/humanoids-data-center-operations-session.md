@@ -10,6 +10,9 @@ cover:
   image: "/covers/humanoids-data-center-operations-session.jpg"
   alt: "Can humanoids run a data center? A futuristic DC operations session (cover image)"
   hiddenInSingle: false
+seoTitle: "Can humanoid robots run data center operations? A walkthrough"
+seoDescription: "Can a humanoid rack a new leaf, work routing and overlay faults and find a forgotten 2017 static route? An eight-minute data center session in a synthetic twin."
+categories: ["Data center"]
 ---
 
 Can humanoids be trained to work in a data center and manage it without human interference? That's what we're working towards at RKR Networks. This video is our longest so far: a futuristic data center operations and management session, with racking, cabling, configuration and verification, all in a synthetic twin.
@@ -54,5 +57,7 @@ Whether the hands are human or not, the method is the same: check every step, tr
 - When a change looks right and something still breaks, look for old static routes and other forgotten fixes.
 - Keep legacy devices in the model. Many of the faults in a real cleanup live on gear nobody tracks.
 - Work through cleanup as a list, one fault at a time, with a check after each.
+
+Related reading: [a first look at humanoids in data centers]({{< ref "humanoids-in-data-centers-substrate-teaser.md" >}}), [aisle width for humanoid robots]({{< ref "humanoid-robots-aisle-width-cable-trays.md" >}}) and [an OSPF adjacency stuck in EXSTART]({{< ref "ospf-stuck-exstart-mtu-mismatch.md" >}}). More in the [data center guide](/data-center/).
 
 Demos are in person. Book a demo with our team: sales@rkr-networks.com

@@ -1,0 +1,9 @@
+{{- /* Returns true for pages that should stay out of search results and the sitemap:
+       robotsNoIndex pages, the 404, category lists (the topic hubs are the indexable version),
+       and tag pages with fewer than 2 posts (thin). Context: a page. */ -}}
+{{- $no := false }}
+{{- if eq .Params.robotsNoIndex true }}{{ $no = true }}{{ end }}
+{{- if eq .Kind "404" }}{{ $no = true }}{{ end }}
+{{- if and (in (slice "taxonomy" "term") .Kind) (eq .Data.Plural "categories") }}{{ $no = true }}{{ end }}
+{{- if and (eq .Kind "term") (eq .Data.Plural "tags") (lt (len .Pages) 2) }}{{ $no = true }}{{ end }}
+{{- return $no }}

@@ -10,6 +10,9 @@ cover:
   image: "/covers/humanoid-robots-aisle-width-cable-trays.jpg"
   alt: "Humanoid robots in the data hall: where aisle width and cable trays get in the way (cover image)"
   hiddenInSingle: false
+seoTitle: "Humanoid robots in the data hall: aisle width and cable trays"
+seoDescription: "Data halls were laid out for people with carts and ladders. See where a humanoid robot fits, where it does not, and what it means for your next row, in a twin."
+categories: ["Data center"]
 ---
 
 Most conversations about humanoid robots in data centers start with the hands. Can a robot reseat a cable, swap a drive, read a label? Those are good questions. But before any of them matter, the robot has to get to the rack, stand in front of it and reach the part that needs work.
@@ -48,5 +51,7 @@ Then the twin can answer a design question. If the next row being planned uses a
 - Design new rows with robots in mind, even if they arrive years later.
 
 Robots will not reshape every data hall overnight. But each new row built today will still be standing when they arrive, and leaving them room takes very little.
+
+Related reading: [whether humanoids can work in data centers]({{< ref "humanoids-in-data-centers-substrate-teaser.md" >}}), [a humanoid data center operations session]({{< ref "humanoids-data-center-operations-session.md" >}}) and [cable tray fill]({{< ref "cable-tray-fill-before-adding-a-row.md" >}}). More in the [data center guide](/data-center/).
 
 Demos are in person. Book a demo with our team: sales@rkr-networks.com

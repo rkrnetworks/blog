@@ -10,6 +10,9 @@ cover:
   image: "/covers/robot-wifi-roaming-42-ms-service-gap.jpg"
   alt: "Robot Wi-Fi roaming: where does the 42 ms service gap come from? (cover image)"
   hiddenInSingle: false
+seoTitle: "Robot Wi-Fi roaming: where the 42 ms service gap comes from"
+seoDescription: "A robot roams between access points and the handover works, but at what cost? A synthetic twin accounts for a 42 ms gap and the assumptions that change it."
+categories: ["Wi-Fi"]
 ---
 
 A robot crosses from one radio to another. The radio says the handover worked. But what did it cost?
@@ -57,5 +60,7 @@ It also means roaming can be designed before a building is finished. If the netw
 - Expect some changes to do nothing. Finding those early saves time and keeps the configuration simpler.
 - For robots, design roaming against the routes they actually drive.
 - Model the network before the building is finished, so wireless design can follow the work.
+
+Related reading: [sticky clients that will not roam]({{< ref "sticky-wifi-clients-wont-roam.md" >}}), [an AGV that loses its control link]({{< ref "agv-control-link-drops-robot-keeps-moving.md" >}}) and [robots stalling near the dock]({{< ref "amr-fleet-stalls-near-charging-dock.md" >}}). More in the [Wi-Fi troubleshooting guide](/wifi/).
 
 Demos are in person. Book a demo with our team: sales@rkr-networks.com

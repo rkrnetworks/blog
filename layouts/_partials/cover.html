@@ -1,0 +1,21 @@
+{{- /* Cover image. Overrides PaperMod's: covers live in static/covers (not resources), so read their size with
+       images.Config and always emit width/height (no layout shift). Lazy on lists; eager + high priority on the post itself. */ -}}
+{{- with .cxt }}
+{{- if (and .Params.cover.image (not $.isHidden)) }}
+{{- $alt := (.Params.cover.alt | default .Params.cover.caption | default .Title | plainify) }}
+{{- $src := .Params.cover.image }}
+{{- $w := 0 }}{{ $h := 0 }}
+{{- $file := path.Join "static" (strings.TrimPrefix "/" $src) }}
+{{- if fileExists $file }}{{ with images.Config $file }}{{ $w = .Width }}{{ $h = .Height }}{{ end }}{{ end }}
+<figure class="entry-cover">
+  <img src="{{ $src | absURL }}" alt="{{ $alt }}"
+    {{- if $w }} width="{{ $w }}" height="{{ $h }}"{{ end }}
+    {{- if or $.IsSingle $.eager }} loading="eager" fetchpriority="high"{{ else }} loading="lazy"{{ end }} decoding="async">
+  {{- if $.IsSingle }}
+  {{- with .Params.cover.caption }}
+  <figcaption>{{ . | markdownify }}</figcaption>
+  {{- end }}
+  {{- end }}
+</figure>
+{{- end }}
+{{- end -}}

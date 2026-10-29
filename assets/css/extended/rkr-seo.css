@@ -1,0 +1,29 @@
+/* SEO + navigation additions: breadcrumbs, hubs, glossary, footer topics */
+.breadcrumbs{font-family:var(--font-mono);font-size:.78rem;color:var(--muted);margin:0 0 .9rem;display:flex;flex-wrap:wrap;align-items:center;gap:.35rem;min-width:0}
+.breadcrumbs a{color:var(--muted);text-decoration:none;border-bottom:1px solid transparent}
+.breadcrumbs a:hover{color:var(--accent);border-bottom-color:var(--accent-line)}
+.breadcrumbs .bc-sep{opacity:.6}
+.breadcrumbs .bc-current{color:var(--ink);max-width:36ch;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.filed-under{font-family:var(--font-mono);font-size:.82rem;color:var(--muted);margin:0 0 1rem}
+.filed-under a{color:var(--accent)}
+.hub-intro{max-width:72ch}
+.hub-posts{margin-top:2.5rem}
+.hub-posts>h2,.hub-others>h2{font-family:var(--font-display);font-size:1.35rem;margin:0 0 1rem}
+.hub-others{margin-top:2.5rem;padding-top:1.25rem;border-top:1px solid var(--accent-line)}
+.hub-others ul{list-style:none;padding:0;margin:0;display:flex;flex-wrap:wrap;gap:.5rem 1rem}
+.hub-others a{color:var(--accent);text-decoration:none}
+.rkr-footer-topics{display:flex;flex-wrap:wrap;justify-content:center;gap:.35rem 1rem;font-size:.85rem;margin:0 0 .75rem}
+.rkr-footer-topics a{color:var(--muted);text-decoration:none}
+.rkr-footer-topics a:hover{color:var(--accent)}
+.nf-hubs{margin-top:1.25rem;line-height:1.9}
+.nf-hubs a{color:var(--accent);margin-right:.75rem}
+.doc .doc-updated{font-family:var(--font-mono);font-size:.8rem;color:var(--muted)}
+.gl-index{display:flex;flex-wrap:wrap;gap:.35rem;margin:1rem 0 1.5rem;font-family:var(--font-mono)}
+.gl-index a{display:inline-block;min-width:1.9rem;text-align:center;padding:.15rem .35rem;border:1px solid var(--accent-line);border-radius:4px;color:var(--accent);text-decoration:none}
+.glossary{margin:0}
+.glossary dt{font-family:var(--font-display);font-weight:600;font-size:1.05rem;margin-top:1.4rem;color:var(--ink);scroll-margin-top:5rem}
+.glossary dd{margin:.3rem 0 0;line-height:1.6}
+.glossary .gl-aka{font-family:var(--font-mono);font-size:.78rem;color:var(--muted);font-weight:400;margin-left:.4rem}
+.glossary .gl-see{font-size:.85rem;color:var(--muted);margin-top:.25rem}
+.glossary .gl-see a{color:var(--accent)}
+.glossary .gl-letter{font-family:var(--font-mono);color:var(--accent);font-size:.9rem;margin-top:2rem;border-bottom:1px solid var(--accent-line);padding-bottom:.25rem}

@@ -1,0 +1,9 @@
+{{- /* The page's share image as a dict: url, width, height, alt. Cover image if set, else the site default. Context: a page. */ -}}
+{{- $src := .Params.cover.image | default site.Params.ogImage }}
+{{- $alt := .Params.cover.alt | default (printf "%s: %s" site.Title (.Title | default site.Params.hero.title)) | plainify }}
+{{- $w := 0 }}{{ $h := 0 }}
+{{- $file := path.Join "static" (strings.TrimPrefix "/" $src) }}
+{{- if fileExists $file }}
+{{- with images.Config $file }}{{ $w = .Width }}{{ $h = .Height }}{{ end }}
+{{- end }}
+{{- return (dict "url" ($src | absURL) "width" $w "height" $h "alt" $alt) }}

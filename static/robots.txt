@@ -1,32 +1,79 @@
 # RKR Networks Blog - crawler policy
-# Search engines are welcome. AI training and bulk scraping bots are not.
+# Search engines are welcome. AI training, AI dataset and bulk scraping crawlers are not.
+# Content use terms: https://blog.rkr-networks.com/terms/
+# (c) 2026 RKR Networks LLC. No AI training or reuse without written permission.
 
-# AI training and scraping crawlers
+# --- AI training, dataset and scraping crawlers: blocked ---
 User-agent: GPTBot
-User-agent: Google-Extended
 User-agent: CCBot
+User-agent: Google-Extended
+User-agent: GoogleOther
+User-agent: GoogleOther-Image
+User-agent: GoogleOther-Video
 User-agent: ClaudeBot
-User-agent: Claude-Web
 User-agent: anthropic-ai
+User-agent: Claude-Web
 User-agent: Bytespider
+User-agent: Applebot-Extended
+User-agent: meta-externalagent
 User-agent: Meta-ExternalAgent
 User-agent: Meta-ExternalFetcher
 User-agent: FacebookBot
-User-agent: Applebot-Extended
-User-agent: cohere-ai
-User-agent: cohere-training-data-crawler
 User-agent: Diffbot
+User-agent: ImagesiftBot
 User-agent: Omgilibot
 User-agent: Omgili
-User-agent: ImagesiftBot
+User-agent: PerplexityBot
+User-agent: cohere-ai
+User-agent: cohere-training-data-crawler
 User-agent: Amazonbot
+User-agent: AI2Bot
+User-agent: Ai2Bot-Dolma
 User-agent: Timpibot
+User-agent: PetalBot
+User-agent: YouBot
 User-agent: Webzio-Extended
 User-agent: Webzio
+User-agent: magpie-crawler
+User-agent: img2dataset
+User-agent: Scrapy
+User-agent: VelenPublicWebCrawler
+User-agent: Kangaroo Bot
+User-agent: PanguBot
+User-agent: Sidetrade indexer bot
+User-agent: FriendlyCrawler
+User-agent: ICC-Crawler
+User-agent: iaskspider/2.0
+User-agent: ISSCyberRiskCrawler
+User-agent: Brightbot 1.0
+User-agent: QualifiedBot
+User-agent: TikTokSpider
+User-agent: DeepSeekBot
+User-agent: Andibot
+User-agent: Factset_spyderbot
+User-agent: Crawlspace
+User-agent: SemrushBot-OCOB
+User-agent: Cotoyogi
 Disallow: /
 
-# Everyone else, including Googlebot, Bingbot, DuckDuckBot, Applebot,
-# OAI-SearchBot, ChatGPT-User and PerplexityBot (search, not training)
+# --- Search engines: allowed ---
+User-agent: Googlebot
+User-agent: Googlebot-Image
+User-agent: Bingbot
+User-agent: DuckDuckBot
+User-agent: Applebot
+User-agent: Yandex
+User-agent: Slurp
+Allow: /
+
+# --- AI search and user-initiated fetches (not training): allowed ---
+# OAI-SearchBot shows pages in ChatGPT search results with a link;
+# ChatGPT-User fetches a page only when a person asks about it.
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+Allow: /
+
+# --- Everyone else ---
 User-agent: *
 Allow: /
 

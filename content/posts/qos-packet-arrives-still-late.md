@@ -10,6 +10,9 @@ cover:
   image: "/covers/qos-packet-arrives-still-late.jpg"
   alt: "A packet can arrive and still be late: testing QoS in a synthetic twin (cover image)"
   hiddenInSingle: false
+seoTitle: "QoS problems: voice packets arrive but still miss the deadline"
+seoDescription: "A call connects and the audio packets arrive, yet they still miss their deadline. Follow one packet hop by hop, then test three QoS policies in a twin."
+categories: ["Change rehearsal"]
 ---
 
 A packet can arrive and still miss its deadline.
@@ -57,5 +60,7 @@ Without a way to rerun the same state, each of those would have been a change in
 - Measure deadlines, not only delivery. A packet that arrives late is a lost packet to a voice call.
 - Compare policies against the same state, so the result reflects the policy and not the time of day.
 - Keep the version that meets every limit, and the record of the ones that didn't.
+
+Related reading: [why up is not the same as working]({{< ref "rkr-podcast-ep04-its-up-is-it-working.md" >}}), [bad calls with full Wi-Fi bars]({{< ref "wifi-interference-39-radios-two-channels.md" >}}) and [one slow app on a healthy uplink]({{< ref "lacp-member-down-uneven-hashing.md" >}}). More in the [change rehearsal guide](/change-rehearsal/).
 
 Demos are in person. Book a demo with our team: sales@rkr-networks.com

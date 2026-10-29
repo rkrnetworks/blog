@@ -10,6 +10,9 @@ cover:
   image: "/covers/guest-wifi-reaches-corporate-vrf-leak.jpg"
   alt: "Guest Wi-Fi reaching a corporate subnet: tracing a VRF route leak (cover image)"
   hiddenInSingle: false
+seoTitle: "Guest Wi-Fi reaches a corporate subnet: tracing a VRF leak"
+seoDescription: "A visitor on guest Wi-Fi can reach a corporate printer, even with guest traffic in its own VRF. Trace the leak back to one shared-services change in a twin."
+categories: ["Wi-Fi", "Change rehearsal"]
 ---
 
 It started with a visitor's laptop that found a printer. Not the guest printer in reception, but one on the third floor of the corporate network. Someone in IT noticed the print job, asked how it got there, and found that a device on guest Wi-Fi could reach a whole corporate subnet.
@@ -48,5 +51,7 @@ Narrowing the guest import to just the DNS and DHCP addresses, and asking the sa
 - Review VRF import and export rules together, across devices, at least once a year.
 
 Segmentation is usually undone by small, sensible changes rather than one bad one. Seeing the whole picture of who can reach whom is the only reliable way to notice.
+
+Related reading: [the blast radius of a BGP route leak]({{< ref "bgp-route-leak-after-maintenance-blast-radius.md" >}}) and [a firewall certificate rotation that broke one app]({{< ref "certificate-rotation-breaks-tls-inspection.md" >}}). More in the [Wi-Fi troubleshooting guide](/wifi/).
 
 Demos are in person. Book a demo with our team: sales@rkr-networks.com

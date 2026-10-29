@@ -2,7 +2,7 @@
 title: "One deny line, 289 flows blocked: rehearse the change before the window"
 date: 2026-10-27T10:26:00Z
 description: "Two planned changes on an office campus: withdraw two routes and close the server farm. Rehearsed on a synthetic twin first, one deny line turned out to block 289 flows. Here is how it was found, fixed and checked."
-tags: ["change management", "change window", "access control lists", "routing", "change advisory board", "synthetic twin"]
+tags: ["change management", "maintenance window", "access control lists", "routing", "change advisory board", "synthetic twin"]
 slug: "one-deny-line-289-flows-rehearse-the-change"
 audio: ["/audio/one-deny-line-289-flows-rehearse-the-change.mp3"]
 audioDuration: "5:57"
@@ -11,6 +11,9 @@ cover:
   alt: "One deny line, 289 flows blocked: rehearse the change before the window (cover image)"
   hiddenInSingle: false
 # Video: setu_1_0_o (One deny line, 289 flows blocked). YouTube ID ezmcUdKr4bo.
+seoTitle: "One firewall deny line blocked 289 flows: rehearse ACL changes"
+seoDescription: "A route withdrawal and an ACL change both looked small, until one deny line blocked 289 flows. Rehearse the change on a synthetic twin before the window."
+categories: ["Change rehearsal"]
 ---
 
 Two changes are going in tonight. One withdraws a pair of routes. The other closes off the server farm. Both look small on paper. Both have been reviewed. The question at the Change Board is always the same: what will this actually do?
@@ -78,4 +81,6 @@ For the bigger picture, start with [what a synthetic twin of a network is]({{< r
 
 Rehearse the change before the window. We build synthetic twins for all.
 
-Demos are in person. Book a demo with our team: sales@rkr-networks.com.
+Related reading: [firewall rule cleanup]({{< ref "firewall-rule-cleanup-unused-rule-still-needed.md" >}}), [the blast radius of a BGP route leak]({{< ref "bgp-route-leak-after-maintenance-blast-radius.md" >}}) and [rehearsing every change]({{< ref "rkr-podcast-ep01-rehearse-every-change.md" >}}). More in the [change rehearsal guide](/change-rehearsal/).
+
+Demos are in person. Book a demo with our team: sales@rkr-networks.com

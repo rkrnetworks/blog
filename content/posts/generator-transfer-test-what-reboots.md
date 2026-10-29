@@ -10,6 +10,9 @@ cover:
   image: "/covers/generator-transfer-test-what-reboots.jpg"
   alt: "Generator transfer test: which systems reboot during the gap (cover image)"
   hiddenInSingle: false
+seoTitle: "Generator transfer test: which systems reboot in the gap?"
+seoDescription: "A monthly generator test should be uneventful, then one closet switch reboots with phones and cameras. Find the loads outside the UPS in a synthetic twin first."
+categories: ["Data center", "Outages and failover"]
 ---
 
 The generator test runs on the first Saturday of every month at 06:00. Utility power is cut on purpose, the generator starts, the transfer switch moves the building onto it, and after half an hour everything goes back. The facilities team signs the log. Usually that is the end of it.
@@ -48,5 +51,7 @@ That list is enough to act on. Move the switch in 2B onto the closet UPS, and ch
 - Re-check whenever a closet gets new equipment.
 
 A good generator test is boring. Making it boring again usually means finding a few devices that were never on the list in the first place.
+
+Related reading: [what goes dark when the UPS is on battery]({{< ref "ups-on-battery-what-goes-dark.md" >}}), [rehearsing power maintenance and a second fault]({{< ref "rehearse-maintenance-second-fault.md" >}}) and [a PDU breaker trip]({{< ref "pdu-phase-imbalance-trips-rack-breaker.md" >}}). More in the [data center guide](/data-center/).
 
 Demos are in person. Book a demo with our team: sales@rkr-networks.com

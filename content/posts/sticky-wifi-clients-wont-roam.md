@@ -2,7 +2,7 @@
 title: "Sticky clients: why laptops hold on to a far access point"
 date: 2026-10-29T10:00:00+05:30
 description: "A laptop sits under a strong access point but stays connected to a weak one across the floor. Sticky clients are a client decision, shaped by the network. A synthetic twin shows where they happen and which settings help."
-tags: ["Wi-Fi", "roaming", "wireless design", "sticky clients", "synthetic twin", "RKR SETU"]
+tags: ["Wi-Fi", "Wi-Fi roaming", "wireless design", "sticky clients", "synthetic twin", "RKR SETU"]
 slug: "sticky-wifi-clients-wont-roam"
 audio: ["/audio/sticky-wifi-clients-wont-roam.mp3"]
 audioDuration: "4:15"
@@ -10,6 +10,9 @@ cover:
   image: "/covers/sticky-wifi-clients-wont-roam.jpg"
   alt: "Sticky clients: why laptops hold on to a far access point (cover image)"
   hiddenInSingle: false
+seoTitle: "Sticky Wi-Fi clients: why laptops won't roam to a closer AP"
+seoDescription: "A laptop sits under a strong access point but clings to a weak one across the floor. See where sticky clients happen and which settings help, in a twin."
+categories: ["Wi-Fi"]
 ---
 
 A user walks from a meeting room at one end of the floor to their desk at the other. Their laptop still shows three bars, but pages load slowly and the next call is choppy. Looking at the controller, the laptop is still connected to the access point in the meeting room, thirty meters away, while an access point directly above their desk has almost nobody on it.
@@ -48,5 +51,7 @@ The twin also shows the cost of those changes. With lower power, one corner near
 - Remember that one device type may behave very differently from the rest. Test with the ones your users carry.
 
 Sticky clients will never fully go away, because the decision is not yours. But the network can make the right decision much easier for the client to reach.
+
+Related reading: [the cost of a robot's Wi-Fi roam]({{< ref "robot-wifi-roaming-42-ms-service-gap.md" >}}), [coverage holes after a 6 GHz move]({{< ref "six-ghz-rollout-new-coverage-holes.md" >}}) and [Wi-Fi that is up but not working]({{< ref "rkr-podcast-ep04-its-up-is-it-working.md" >}}). More in the [Wi-Fi troubleshooting guide](/wifi/).
 
 Demos are in person. Book a demo with our team: sales@rkr-networks.com

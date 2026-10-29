@@ -10,6 +10,9 @@ cover:
   image: "/covers/branch-dns-resolver-single-point-of-failure.jpg"
   alt: "When one DNS resolver goes, the branch goes: finding hidden dependencies (cover image)"
   hiddenInSingle: false
+seoTitle: "Branch DNS resolver: the single point of failure to find first"
+seoDescription: "A branch with two internet links and redundant switches still goes dark when one DNS resolver fails. Find the hidden dependency in a synthetic twin first."
+categories: ["Outages and failover"]
 ---
 
 The branch had two internet links, two firewalls in a pair, two core switches and a backup LTE router in the cupboard. It was, by every design review, a resilient site. Then the small server in the comms room that ran DNS for the branch went down for a firmware update, and for forty minutes nobody could open anything.
@@ -48,5 +51,7 @@ Then try the alternatives. Configure the tunnel endpoints by address, so the tun
 - When a whole site fails with links up, check name resolution early.
 
 Branch resilience is usually built one layer at a time. DNS sits across all of them, which is why it is so often the one layer nobody doubled.
+
+Related reading: [proving you are really redundant]({{< ref "rkr-podcast-ep03-fully-redundant-prove-it.md" >}}), [what goes dark when the UPS is on battery]({{< ref "ups-on-battery-what-goes-dark.md" >}}) and [a dual-homed server on the wrong path]({{< ref "dual-homed-server-wrong-path-after-reboot.md" >}}). More in the [outages and failover guide](/outages-and-failover/).
 
 Demos are in person. Book a demo with our team: sales@rkr-networks.com
