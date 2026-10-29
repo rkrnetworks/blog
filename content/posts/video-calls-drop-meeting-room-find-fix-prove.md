@@ -60,7 +60,7 @@ Then it's applied and re-checked. The gap in the room is gone.
 
 A fix that only works on a calm day isn't finished. So the film stresses it twice.
 
-First a radar event hits a floor-9 channel. Under DFS rules that access point has to leave the channel within 10 seconds. Every associated client is dropped and has to find its way back, and the access point moves to a clear channel.
+First a radar event hits a floor-9 channel. Under DFS rules that access point has to leave the channel within 10 seconds. In this take, every associated client is dropped and has to find its way back, and the access point moves to a clear channel.
 
 Then the floor-9 closet switch fails. Ten access points lose their uplink and wired hosts lose their gateway. 377 clients roam and stay online. 37 more roam but land below the SLA, and you can see exactly which ones and where they sit, long before this happens for real. For the wired side of the same kind of failure, see [how Wi-Fi drops trace back to one switch]({{< ref "wifi-keeps-dropping-trace-to-one-switch.md" >}}) and [rehearsing a switch replacement before the window]({{< ref "rehearse-switch-replacement-before-maintenance-window.md" >}}).
 

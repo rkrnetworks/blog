@@ -10,7 +10,7 @@ cover:
   image: "/covers/pdu-phase-imbalance-trips-rack-breaker.jpg"
   alt: "One phase at 90 percent: how PDU phase imbalance trips a rack breaker (cover image)"
   hiddenInSingle: false
-seoTitle: "PDU phase imbalance: one phase at 90% trips a rack breaker"
+seoTitle: "PDU phase imbalance: why one phase trips the rack breaker on failover"
 seoDescription: "A three-phase rack PDU looks half empty and still trips a breaker when one phase carries most of the load. Find the imbalance and the server move that fixes it."
 categories: ["Data center", "Outages and failover"]
 ---
