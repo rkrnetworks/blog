@@ -10,13 +10,13 @@ categories: ["Wi-Fi", "RKR SETU"]
 keywords: ["Wi-Fi slow at peak hours", "full bars but slow Wi-Fi", "SINR to MCS to throughput", "Wi-Fi airtime", "co-channel interference", "Wi-Fi coverage gaps by hour", "where Wi-Fi fails people", "synthetic twin", "RKR SETU"]
 slug: "full-bars-at-7-unusable-at-11"
 audio: ["/audio/full-bars-at-7-unusable-at-11.mp3"]
-audioDuration: "11:09"
+audioDuration: "11:10"
 videoDuration: "PT2M39S"
 cover:
   image: "/covers/full-bars-at-7-unusable-at-11.jpg"
   alt: "9,168 people. 20 buildings. Every half hour. A 3D Wi-Fi heatmap of RKR-Office-1 (cover image)"
   hiddenInSingle: false
-# Video: RKR SETU 1.0 estate film (2:39). YouTube ID: P8DXkrb278s
+# Video: RKR SETU 1.0 estate video (2:39). YouTube ID: P8DXkrb278s
 ---
 
 It's 07:00. You sit at a desk on the sixth floor. The access point (AP) is right above you. Your new laptop gets 178.7 Mbps.
@@ -27,7 +27,7 @@ Your laptop now gets 1.29 Mbps. Not enough for a video call.
 
 Nothing broke. The building filled up.
 
-Our new film follows that question across a whole estate: 20 buildings, 7 building types, every half hour of one day. All 20 sites are made up. Their names start with RKR-. It's a [synthetic twin](/glossary/#synthetic-twin), not a live network. Every number below is on screen in the film.
+Our new video follows that question across a whole estate: 20 buildings, 7 building types, every half hour of one day. All 20 sites are made up. Their names start with RKR-. It's a [synthetic twin](/glossary/#synthetic-twin), not a live network. Every number below is on screen in the video.
 
 {{< youtube P8DXkrb278s >}}
 
@@ -39,7 +39,7 @@ Most Wi-Fi maps answer one question: how strong is the signal here?
 
 People care about something else: can I work here, right now?
 
-So the film doesn't colour each point by signal. It colours each point by the rate a new laptop would get there, at that half hour. Red means a gap. A point is a gap if either is true:
+So the demo doesn't colour each point by signal. It colours each point by the rate a new laptop would get there, at that half hour. Red means a gap. A point is a gap if either is true:
 
 - **Signal is below -67 dBm.** This is our gap line. It's also a long-used cell-edge target for voice over Wi-Fi, from [Cisco's voice design guidance](http://www.cisco.com/en/US/docs/solutions/Enterprise/Mobility/emob30dg/Voice.html).
 - **The rate is below 1.5 Mbps.** That's our line for a 1:1 video call. [Microsoft says](https://learn.microsoft.com/en-us/microsoftteams/prepare-network#bandwidth-requirements) Teams can deliver HD video in under 1.5 Mbps.
@@ -66,11 +66,11 @@ For a CIO or CFO, this is the useful view. Not "is the Wi-Fi good?" but "where d
 
 ## The engineering: one desk, step by step
 
-Here's the chain the film shows for that sixth-floor desk at RKR-Office-1. The laptop is 1.0 m above the floor. The serving AP is on channel 165.
+Here's the chain the demo shows for that sixth-floor desk at RKR-Office-1. The laptop is 1.0 m above the floor. The serving AP is on channel 165.
 
 **1. Signal.** How much of the AP's energy reaches the laptop. Walls, floors and distance reduce it. Here it's strong all day.
 
-**2. Interference.** Other APs on the same channel add noise. The film sums nearby APs by their on-air share: the more an AP transmits, the more it counts. One same-channel AP is heard, at -66.0 dBm. Its on-air share rises from 3 % to 52.5 %. Interference rises from -81.2 to -68.8 dBm.
+**2. Interference.** Other APs on the same channel add noise. The demo sums nearby APs by their on-air share: the more an AP transmits, the more it counts. One same-channel AP is heard, at -66.0 dBm. Its on-air share rises from 3 % to 52.5 %. Interference rises from -81.2 to -68.8 dBm.
 
 **3. SINR.** [SINR](/glossary/#sinr) compares the signal with noise plus interference. The noise floor here is -96.0 dBm. SINR falls from 45.7 dB to 32.5 dB.
 
@@ -82,7 +82,7 @@ Here's the chain the film shows for that sixth-floor desk at RKR-Office-1. The l
 
 **7. New-laptop rate.** Throughput × airtime left. 109.9 Mbps × 1.17 % is about 1.29 Mbps.
 
-The film's verdict for 11:00: interference + busy cell.
+The demo's verdict for 11:00: interference + busy cell.
 
 The signal barely moved. The SINR still allows a fast link. The fail comes at the last step: there's almost no airtime left.
 
@@ -102,7 +102,7 @@ The signal barely moved. The SINR still allows a fast link. The fail comes at th
 
 ## Three more places it fails
 
-The film runs four deep dives. The other three are different buildings.
+The video runs four deep dives. The other three are different buildings.
 
 **RKR-Healthcare-3.** From 00:00 to 06:00, the rate at the test point drops from 24.7 Mbps to 0.
 
@@ -114,7 +114,7 @@ Strong signal in every case. The fail is in the airtime.
 
 ## Checking the model
 
-A model is only useful if you can trust it. So the film checks it.
+A model is only useful if you can trust it. So the demo checks it.
 
 With each building empty, we compared our signal field with the product's own coverage, point by point. 20 of 20 sites were checked. 19 matched with a max difference of 0.000 dB. The other, RKR-Office-1 F9, had a max difference of 0.078 dB across 8,677 points.
 
@@ -122,7 +122,7 @@ The load, the crowd and the half hours sit on top of that base.
 
 ## The compute budget
 
-None of this needs a data centre. The film shows the budget:
+None of this needs a data centre. The video shows the budget:
 
 - 20 sites, 48 half-hours each.
 - 20,113 CPU-seconds, about 5.6 CPU-hours (labelled "CPU · 19 sites" on screen).
@@ -141,7 +141,7 @@ These checks work on any vendor's gear.
 - **Test the real job.** Run a video call at a full desk. Compare what you get with 1.5 Mbps.
 - **Map it by time, not just by place.** Ask where the building fails people, and when.
 
-Want the single-office version? Watch our film on why Wi-Fi gets worse as the floor fills up: https://youtu.be/Ig0WLggOQQw. For channel plans, see [39 radios, 2 channels]({{< ref "wifi-interference-39-radios-two-channels.md" >}}) and [four bars, seven megabits]({{< ref "warehouse-scanners-four-bars-seven-megabits.md" >}}). If calls drop in one room, read [find the cause, fix it, prove it]({{< ref "video-calls-drop-meeting-room-find-fix-prove.md" >}}). New to the idea? Start with [what a synthetic twin of a network is]({{< ref "what-is-a-synthetic-twin-of-a-network.md" >}}).
+Want the single-office version? Watch our video on why Wi-Fi gets worse as the floor fills up: https://youtu.be/Ig0WLggOQQw. For channel plans, see [39 radios, 2 channels]({{< ref "wifi-interference-39-radios-two-channels.md" >}}) and [four bars, seven megabits]({{< ref "warehouse-scanners-four-bars-seven-megabits.md" >}}). If calls drop in one room, read [find the cause, fix it, prove it]({{< ref "video-calls-drop-meeting-room-find-fix-prove.md" >}}). New to the idea? Start with [what a synthetic twin of a network is]({{< ref "what-is-a-synthetic-twin-of-a-network.md" >}}).
 
 ## The takeaway
 

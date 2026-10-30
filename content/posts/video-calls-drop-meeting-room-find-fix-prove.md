@@ -22,7 +22,7 @@ It's 11:00 on a Tuesday. The ticket says video calls keep dropping in the floor-
 
 Most Wi-Fi teams know this ticket. It's never a full outage. It's one room, at certain times, for certain people, and it's very hard to reproduce once someone walks in with a laptop.
 
-Our new film follows this ticket from start to finish in RKR SETU 1.0, inside a synthetic twin of a made-up two-tower office at peak: 3,555 people and 8,891 devices. The office is invented, and every figure in the film was computed in the synthetic twin in this take. Nothing here is measured from a live site.
+Our new video follows this ticket from start to finish in RKR SETU 1.0, inside a synthetic twin of a made-up two-tower office at peak: 3,555 people and 8,891 devices. The office is invented, and every figure in the demo was computed in the synthetic twin in this take. Nothing here is measured from a live site.
 
 {{< youtube 0Ex_imr6qKY >}}
 
@@ -30,7 +30,7 @@ Watch it on YouTube: https://youtu.be/0Ex_imr6qKY
 
 ## Design first, then validate against voice
 
-The film starts before the ticket exists. Floor 9 is designed in the synthetic twin: twenty access points, the antennas they use, the interference around them and the furniture in the rooms. Couches, tables and people all change how a room behaves for a radio. If interference is your usual suspect, we looked at that on its own in [39 radios, 2 channels]({{< ref "wifi-interference-39-radios-two-channels.md" >}}).
+The video starts before the ticket exists. Floor 9 is designed in the synthetic twin: twenty access points, the antennas they use, the interference around them and the furniture in the rooms. Couches, tables and people all change how a room behaves for a radio. If interference is your usual suspect, we looked at that on its own in [39 radios, 2 channels]({{< ref "wifi-interference-39-radios-two-channels.md" >}}).
 
 Then the design is checked against voice, the hardest everyday job on Wi-Fi. A good-looking heatmap is not the same as a good call. Voice needs a strong signal, a quiet noise floor and a second access point ready for the roam.
 
@@ -44,7 +44,7 @@ There are three usual suspects for dropped calls in one room:
 - Contention: too many devices on one channel.
 - Roaming: the handover between access points is slow or lands badly.
 
-In the film, the twin checks each one. Contention isn't it. The roam is quick, about 21 ms. The cause is coverage: a gap at about -105 dBm inside the meeting room, called F9-G1, 11 m from the nearest access point. Two suspects are ruled out before anyone walks to the room.
+In the demo, the twin checks each one. Contention isn't it. The roam is quick, about 21 ms. The cause is coverage: a gap at about -105 dBm inside the meeting room, called F9-G1, 11 m from the nearest access point. Two suspects are ruled out before anyone walks to the room.
 
 Roaming is often the first thing people blame. When it really is the roam, it looks different, as in [sticky clients that hold on to a far access point]({{< ref "sticky-wifi-clients-wont-roam.md" >}}) and [the 42 ms service gap on a robot]({{< ref "robot-wifi-roaming-42-ms-service-gap.md" >}}).
 
@@ -58,7 +58,7 @@ Then it's applied and re-checked. The gap in the room is gone.
 
 ## Then break it on purpose
 
-A fix that only works on a calm day isn't finished. So the film stresses it twice.
+A fix that only works on a calm day isn't finished. So the demo stresses it twice.
 
 First a radar event hits a floor-9 channel. Under DFS rules that access point has to leave the channel within 10 seconds. In this take, every associated client is dropped and has to find its way back, and the access point moves to a clear channel.
 
@@ -66,7 +66,7 @@ Then the floor-9 closet switch fails. Ten access points lose their uplink and wi
 
 ## The proof
 
-The film ends with the two things a change board actually wants: the change record (AP-01, 17 to 23 dBm, who, what and why) and the blast report for the closet switch failure, listing every affected client and what happens to it.
+The video ends with the two things a change board actually wants: the change record (AP-01, 17 to 23 dBm, who, what and why) and the blast report for the closet switch failure, listing every affected client and what happens to it.
 
 ## A checklist for your next "calls drop in one room" ticket
 
