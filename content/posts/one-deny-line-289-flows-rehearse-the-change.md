@@ -5,7 +5,7 @@ description: "Two planned changes on an office campus: withdraw two routes and c
 tags: ["change management", "maintenance window", "access control lists", "routing", "change advisory board", "synthetic twin"]
 slug: "one-deny-line-289-flows-rehearse-the-change"
 audio: ["/audio/one-deny-line-289-flows-rehearse-the-change.mp3"]
-audioDuration: "5:57"
+audioDuration: "6:10"
 cover:
   image: "/covers/one-deny-line-289-flows-rehearse-the-change.jpg"
   alt: "One deny line, 289 flows blocked: rehearse the change before the window (cover image)"
@@ -22,7 +22,7 @@ Two changes are going in tonight. One withdraws a pair of routes. The other clos
 
 A change request lists the lines that will change. It rarely lists the traffic that will change.
 
-Routes and access rules are read top to bottom. A line in the wrong place can quietly win over every line below it. Nobody sees that in a diff. It shows up the next morning, as tickets.
+Routes aren't read in order. A router picks the most specific route that matches. Access rules are read top to bottom, so a line in the wrong place can quietly win over every line below it. Nobody sees that in a diff. It shows up the next morning, as tickets.
 
 The usual check is to read the config carefully and hope. A better check is to run the change against every flow on the site before anyone types it in.
 
