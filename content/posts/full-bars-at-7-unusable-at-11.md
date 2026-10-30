@@ -9,6 +9,8 @@ tags: ["Wi-Fi", "Wi-Fi troubleshooting", "wireless design", "SINR", "MCS", "airt
 categories: ["Wi-Fi", "RKR SETU"]
 keywords: ["Wi-Fi slow at peak hours", "full bars but slow Wi-Fi", "SINR to MCS to throughput", "Wi-Fi airtime", "co-channel interference", "Wi-Fi coverage gaps by hour", "where Wi-Fi fails people", "synthetic twin", "RKR SETU"]
 slug: "full-bars-at-7-unusable-at-11"
+audio: ["/audio/full-bars-at-7-unusable-at-11.mp3"]
+audioDuration: "11:09"
 videoDuration: "PT2M39S"
 cover:
   image: "/covers/full-bars-at-7-unusable-at-11.jpg"
