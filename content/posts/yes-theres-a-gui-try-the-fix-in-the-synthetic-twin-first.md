@@ -2,15 +2,15 @@
 title: "Yes, there's a GUI: try the fix in the synthetic twin first"
 date: 2026-11-01T12:30:00Z
 draft: false
-description: "The RKR SETU GUI in 50 seconds: a 3D synthetic twin of a building, a simulated switch-port failure, the access point's cable traced to its exact switch port with length, the fix rehearsed in the synthetic twin, and a survey walk over modelled Wi-Fi coverage."
+description: "The RKR SETU GUI in 50 seconds: a 3D synthetic twin of a multi-floor building, a simulated switch-port failure, the access point's cable traced to its exact switch port with length, the fix rehearsed in the synthetic twin, and a survey walk over modelled Wi-Fi coverage."
 seoTitle: "Yes, there's a GUI: trace it, then try the fix in the synthetic twin"
-seoDescription: "See the RKR SETU GUI: a 3D synthetic twin of a building. Inject a port failure, trace the AP's cable to its exact switch port with length, and rehearse the fix in the synthetic twin first."
+seoDescription: "See the RKR SETU GUI: a 3D synthetic twin of a multi-floor building. Inject a port failure, trace the AP's cable to its exact switch port with length, and rehearse the fix in the synthetic twin first."
 tags: ["network GUI", "access point", "access switch", "cable trace", "Wi-Fi survey", "Wi-Fi coverage", "change rehearsal", "synthetic twin", "RKR SETU"]
 categories: ["RKR SETU", "Change rehearsal"]
 keywords: ["RKR SETU GUI", "synthetic twin GUI", "3D synthetic twin", "trace access point to switch port", "cable length", "failure injection", "rehearse network fix", "Wi-Fi survey points", "modelled Wi-Fi coverage", "synthetic twin", "RKR SETU"]
 slug: "yes-theres-a-gui-try-the-fix-in-the-synthetic-twin-first"
 audio: ["/audio/yes-theres-a-gui-try-the-fix-in-the-synthetic-twin-first.mp3"]
-audioDuration: "3:21"
+audioDuration: "3:29"
 videoDuration: "PT51S"
 cover:
   image: "/covers/yes-theres-a-gui-try-the-fix-in-the-synthetic-twin-first.jpg"
@@ -21,7 +21,7 @@ cover:
 
 Yes, there's a GUI.
 
-And there's a lot behind it. In 50 seconds, this demo shows RKR SETU's [synthetic twin](/glossary/#synthetic-twin) of a building in 3D. Then it breaks something on purpose, traces one access point's cable to its switch port, and rehearses the fix in the synthetic twin first.
+And there's a lot behind it. In 50 seconds, this demo shows RKR SETU's [synthetic twin](/glossary/#synthetic-twin) of a whole multi-floor building in 3D: every floor, every access point, every cable from the access point to its switch port. Then it breaks something on purpose, traces it, and rehearses the fix in the synthetic twin first.
 
 {{< youtube 6hD3JO2_Je0 >}}
 
@@ -49,13 +49,13 @@ Break it here, not on the floor.
 
 ## Walk the floor, record survey points
 
-The last part of the demo walks the floor with an avatar, recording survey points as it goes. Each point carries signal strength, signal-to-noise ratio and channel at that spot.
+The last part of the demo walks the floor with an avatar, recording survey points as it goes: 18 on this floor. Each point carries signal strength, signal-to-noise ratio and channel at that spot.
 
-Under the walk is modelled Wi-Fi coverage, computed by the synthetic twin. The walk records the survey points on top of it.
+Under the walk is modelled Wi-Fi coverage, floor by floor, computed by the synthetic twin. The walk records the survey points on top of it.
 
 ## Why it matters
 
-Most network work isn't hard because the fix is hard. It's hard because you can't easily try it first. A synthetic twin of your building, with cables traced to their ports and coverage modelled, gives you that place. Experiment safely there, then touch the real network.
+Most network work isn't hard because the fix is hard. It's hard because you can't easily try it first. A synthetic twin of your building, with every cable traced to its port and coverage modelled per floor, gives you that place. Experiment safely there, then touch the real network.
 
 If you want the longer version of this idea, read [what a synthetic twin of a network is]({{< ref "what-is-a-synthetic-twin-of-a-network.md" >}}). For a similar ticket traced end to end, see [Wi-Fi keeps dropping? Trace it to one switch]({{< ref "wifi-keeps-dropping-trace-to-one-switch.md" >}}). And for a change rehearsed before it went live, see [one deny line, 289 flows]({{< ref "one-deny-line-289-flows-rehearse-the-change.md" >}}).
 
