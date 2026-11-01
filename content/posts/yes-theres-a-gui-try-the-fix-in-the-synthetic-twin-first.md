@@ -16,16 +16,16 @@ cover:
   image: "/covers/yes-theres-a-gui-try-the-fix-in-the-synthetic-twin-first.jpg"
   alt: "Yes, there's a GUI: try the fix in the synthetic twin first (cover image)"
   hiddenInSingle: false
-# Video: setu_ui, RKR SETU GUI demo (0:51). YouTube ID: VIDEO_ID_SETU_UI
+# Video: setu_ui, RKR SETU GUI demo (0:51). YouTube ID: 6hD3JO2_Je0
 ---
 
 Yes, there's a GUI.
 
 And there's a lot behind it. In 50 seconds, this demo shows RKR SETU's [synthetic twin](/glossary/#synthetic-twin) of a whole multi-floor building in 3D: every floor, every access point, every cable from the access point to its switch port. Then it breaks something on purpose, traces it, and rehearses the fix in the synthetic twin first.
 
-{{< youtube VIDEO_ID_SETU_UI >}}
+{{< youtube 6hD3JO2_Je0 >}}
 
-Watch it on YouTube: https://youtu.be/VIDEO_ID_SETU_UI
+Watch it on YouTube: https://youtu.be/6hD3JO2_Je0
 
 ## Inject a failure
 
