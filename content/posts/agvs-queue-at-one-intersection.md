@@ -52,4 +52,4 @@ Robots that wait are telling you something. The hard part is working out whether
 
 Related reading: [a dead zone near the charging docks]({{< ref "amr-fleet-stalls-near-charging-dock.md" >}}), [robot Wi-Fi roaming gaps]({{< ref "robot-wifi-roaming-42-ms-service-gap.md" >}}) and [what an AGV does when its control link drops]({{< ref "agv-control-link-drops-robot-keeps-moving.md" >}}). More in the [Wi-Fi troubleshooting guide](/wifi/).
 
-Demos are in person. Book a demo with our team: sales@rkr-networks.com
+Book a demo with our team: sales@rkr-networks.com. In person or online.

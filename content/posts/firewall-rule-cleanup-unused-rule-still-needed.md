@@ -54,4 +54,4 @@ A clean firewall policy is worth the effort. The goal is to make it smaller with
 
 Related reading: [rehearsing an ACL change against every flow]({{< ref "one-deny-line-289-flows-rehearse-the-change.md" >}}) and [a certificate rotation that broke TLS inspection]({{< ref "certificate-rotation-breaks-tls-inspection.md" >}}). More in the [change rehearsal guide](/change-rehearsal/).
 
-Demos are in person. Book a demo with our team: sales@rkr-networks.com
+Book a demo with our team: sales@rkr-networks.com. In person or online.

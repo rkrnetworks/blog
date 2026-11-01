@@ -80,4 +80,4 @@ Rehearse every change on the synthetic twin before it goes live.
 
 Related reading: [old and mixed devices in one twin]({{< ref "cloud-management-for-old-and-mixed-network-devices.md" >}}). More in the [RKR Podcast page](/podcast/).
 
-Demos are in person. Book a demo with our team: sales@rkr-networks.com
+Book a demo with our team: sales@rkr-networks.com. In person or online.

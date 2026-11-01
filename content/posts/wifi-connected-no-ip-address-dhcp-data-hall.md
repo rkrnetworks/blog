@@ -63,4 +63,4 @@ That's the reason we keep campus and data center in one synthetic twin, rather t
 
 Related reading: [logins failing with every link up]({{< ref "pruned-vlan-breaks-authentication-every-link-up.md" >}}). More in the [Wi-Fi troubleshooting guide](/wifi/).
 
-Demos are in person. Book a demo with our team: sales@rkr-networks.com
+Book a demo with our team: sales@rkr-networks.com. In person or online.

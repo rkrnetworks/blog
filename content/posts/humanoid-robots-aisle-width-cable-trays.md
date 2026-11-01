@@ -54,4 +54,4 @@ Robots will not reshape every data hall overnight. But each new row built today 
 
 Related reading: [whether humanoids can work in data centers]({{< ref "humanoids-in-data-centers-substrate-teaser.md" >}}), [a humanoid data center operations session]({{< ref "humanoids-data-center-operations-session.md" >}}) and [cable tray fill]({{< ref "cable-tray-fill-before-adding-a-row.md" >}}). More in the [data center guide](/data-center/).
 
-Demos are in person. Book a demo with our team: sales@rkr-networks.com
+Book a demo with our team: sales@rkr-networks.com. In person or online.

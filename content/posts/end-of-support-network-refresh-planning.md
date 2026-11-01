@@ -67,4 +67,4 @@ To see how the same "what if it fails" approach works for a planned change, read
 
 Related reading: [proving what to replace first]({{< ref "rkr-podcast-ep02-replace-the-right-things-first.md" >}}) and [predicting what goes dark]({{< ref "ups-on-battery-what-goes-dark.md" >}}). More in the [outages and failover guide](/outages-and-failover/).
 
-Demos are in person. Book a demo with our team: sales@rkr-networks.com
+Book a demo with our team: sales@rkr-networks.com. In person or online.

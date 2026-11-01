@@ -15,6 +15,9 @@
         {{ . }}
       </a>
       {{- end }}
+      {{- with site.Params.hero.ctaNote }}
+      <span class="hero-cta-note">{{ . }}</span>
+      {{- end }}
     </p>
     {{- end }}
   </div>

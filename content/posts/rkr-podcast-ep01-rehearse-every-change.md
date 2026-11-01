@@ -84,4 +84,4 @@ Rehearse every change on the synthetic twin before it goes live.
 
 Related reading: [one deny line that blocked 289 flows]({{< ref "one-deny-line-289-flows-rehearse-the-change.md" >}}). More in the [RKR Podcast page](/podcast/).
 
-Demos are in person. Book a demo with our team: sales@rkr-networks.com
+Book a demo with our team: sales@rkr-networks.com. In person or online.

@@ -78,4 +78,4 @@ If you're curious how the same idea handles a quieter problem, the next post fol
 
 Related reading: [a generator transfer test]({{< ref "generator-transfer-test-what-reboots.md" >}}) and [a hidden single point of failure]({{< ref "branch-dns-resolver-single-point-of-failure.md" >}}). More in the [outages and failover guide](/outages-and-failover/).
 
-Demos are in person. Book a demo with our team: sales@rkr-networks.com
+Book a demo with our team: sales@rkr-networks.com. In person or online.

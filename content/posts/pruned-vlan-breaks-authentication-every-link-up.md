@@ -62,4 +62,4 @@ The same habit shows up in our post on [rehearsing a switch replacement before t
 
 Related reading: [a new switch becoming spanning tree root]({{< ref "new-switch-becomes-spanning-tree-root.md" >}}) and [Wi-Fi connected with no IP address]({{< ref "wifi-connected-no-ip-address-dhcp-data-hall.md" >}}). More in the [change rehearsal guide](/change-rehearsal/).
 
-Demos are in person. Book a demo with our team: sales@rkr-networks.com
+Book a demo with our team: sales@rkr-networks.com. In person or online.

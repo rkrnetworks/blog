@@ -61,4 +61,4 @@ We wrote about a similar ticket that ended at one cable in [tracing the ticket t
 
 Related reading: [rehearsing a switch replacement]({{< ref "rehearse-switch-replacement-before-maintenance-window.md" >}}). More in the [Wi-Fi troubleshooting guide](/wifi/).
 
-Demos are in person. Book a demo with our team: sales@rkr-networks.com
+Book a demo with our team: sales@rkr-networks.com. In person or online.

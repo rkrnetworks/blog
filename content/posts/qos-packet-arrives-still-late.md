@@ -63,4 +63,4 @@ Without a way to rerun the same state, each of those would have been a change in
 
 Related reading: [why up is not the same as working]({{< ref "rkr-podcast-ep04-its-up-is-it-working.md" >}}), [bad calls with full Wi-Fi bars]({{< ref "wifi-interference-39-radios-two-channels.md" >}}) and [one slow app on a healthy uplink]({{< ref "lacp-member-down-uneven-hashing.md" >}}). More in the [change rehearsal guide](/change-rehearsal/).
 
-Demos are in person. Book a demo with our team: sales@rkr-networks.com
+Book a demo with our team: sales@rkr-networks.com. In person or online.

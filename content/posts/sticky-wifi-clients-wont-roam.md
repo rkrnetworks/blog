@@ -54,4 +54,4 @@ Sticky clients will never fully go away, because the decision is not yours. But 
 
 Related reading: [the cost of a robot's Wi-Fi roam]({{< ref "robot-wifi-roaming-42-ms-service-gap.md" >}}), [coverage holes after a 6 GHz move]({{< ref "six-ghz-rollout-new-coverage-holes.md" >}}) and [Wi-Fi that is up but not working]({{< ref "rkr-podcast-ep04-its-up-is-it-working.md" >}}). More in the [Wi-Fi troubleshooting guide](/wifi/).
 
-Demos are in person. Book a demo with our team: sales@rkr-networks.com
+Book a demo with our team: sales@rkr-networks.com. In person or online.

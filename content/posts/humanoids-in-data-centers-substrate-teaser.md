@@ -62,4 +62,4 @@ Can a humanoid work a data center? Eventually, yes.
 
 Related reading: [the full humanoid operations session]({{< ref "humanoids-data-center-operations-session.md" >}}) and [where humanoid robots fit in the hall]({{< ref "humanoid-robots-aisle-width-cable-trays.md" >}}). More in the [data center guide](/data-center/).
 
-Demos are in person. Book a demo with our team: sales@rkr-networks.com
+Book a demo with our team: sales@rkr-networks.com. In person or online.

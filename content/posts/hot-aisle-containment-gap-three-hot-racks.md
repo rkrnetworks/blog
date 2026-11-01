@@ -50,4 +50,4 @@ Containment problems are rarely complicated. They are just easy to miss when the
 
 Related reading: [whether the room is really N+1]({{< ref "crac-unit-fails-is-the-room-really-n-plus-one.md" >}}), [cable tray fill for a new row]({{< ref "cable-tray-fill-before-adding-a-row.md" >}}) and [PDU phase imbalance]({{< ref "pdu-phase-imbalance-trips-rack-breaker.md" >}}). More in the [data center guide](/data-center/).
 
-Demos are in person. Book a demo with our team: sales@rkr-networks.com
+Book a demo with our team: sales@rkr-networks.com. In person or online.

@@ -52,4 +52,4 @@ The new band is worth having. It just needs to be planned as a new band, not as 
 
 Related reading: [39 radios on two channels]({{< ref "wifi-interference-39-radios-two-channels.md" >}}), [sticky Wi-Fi clients]({{< ref "sticky-wifi-clients-wont-roam.md" >}}) and [a Wi-Fi dead zone near the docks]({{< ref "amr-fleet-stalls-near-charging-dock.md" >}}). More in the [Wi-Fi troubleshooting guide](/wifi/).
 
-Demos are in person. Book a demo with our team: sales@rkr-networks.com
+Book a demo with our team: sales@rkr-networks.com. In person or online.

@@ -56,4 +56,4 @@ Route leaks are rarely dramatic in the moment. They are just expensive to clean 
 
 Related reading: [rehearsing a route withdrawal before the window]({{< ref "one-deny-line-289-flows-rehearse-the-change.md" >}}), [a VRF route leak from guest Wi-Fi]({{< ref "guest-wifi-reaches-corporate-vrf-leak.md" >}}) and [OSPF stuck in EXSTART]({{< ref "ospf-stuck-exstart-mtu-mismatch.md" >}}). More in the [change rehearsal guide](/change-rehearsal/).
 
-Demos are in person. Book a demo with our team: sales@rkr-networks.com
+Book a demo with our team: sales@rkr-networks.com. In person or online.

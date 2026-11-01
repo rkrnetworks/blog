@@ -83,4 +83,4 @@ Rehearse the change before the window. We build synthetic twins for all.
 
 Related reading: [firewall rule cleanup]({{< ref "firewall-rule-cleanup-unused-rule-still-needed.md" >}}), [the blast radius of a BGP route leak]({{< ref "bgp-route-leak-after-maintenance-blast-radius.md" >}}) and [rehearsing every change]({{< ref "rkr-podcast-ep01-rehearse-every-change.md" >}}). More in the [change rehearsal guide](/change-rehearsal/).
 
-Demos are in person. Book a demo with our team: sales@rkr-networks.com
+Book a demo with our team: sales@rkr-networks.com. In person or online.

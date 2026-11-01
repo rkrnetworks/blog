@@ -85,4 +85,4 @@ Rehearse the maintenance, and the second fault, before tonight. We build synthet
 
 Related reading: [a generator transfer test]({{< ref "generator-transfer-test-what-reboots.md" >}}) and [one ToR switch failing in a GPU cluster]({{< ref "gpu-cluster-one-tor-switch-fails.md" >}}). More in the [change rehearsal guide](/change-rehearsal/).
 
-Demos are in person. Book a demo with our team: sales@rkr-networks.com
+Book a demo with our team: sales@rkr-networks.com. In person or online.

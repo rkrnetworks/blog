@@ -1000,6 +1000,7 @@ code, pre, kbd, samp { font-family: var(--font-mono); }
 }
 .post-cta-line { margin-top: 10px; font-size: 16px; color: #BECDDC; }
 .post-cta .btn-demo { margin-top: 18px; color: var(--navy); background: var(--signal); }
+.post-cta-note { margin-top: 12px; font-size: 14px; color: #BECDDC; }
 
 /* ---------- Post footer: tags, older/newer, share ---------- */
 .post-footer { margin-top: 0; }

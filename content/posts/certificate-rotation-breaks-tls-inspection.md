@@ -54,4 +54,4 @@ Certificate rotation is routine, and it should be. The trouble is that the old c
 
 Related reading: [firewall rules that look unused but are still needed]({{< ref "firewall-rule-cleanup-unused-rule-still-needed.md" >}}), [one deny line that blocked 289 flows]({{< ref "one-deny-line-289-flows-rehearse-the-change.md" >}}) and [guest Wi-Fi reaching a corporate subnet]({{< ref "guest-wifi-reaches-corporate-vrf-leak.md" >}}). More in the [change rehearsal guide](/change-rehearsal/).
 
-Demos are in person. Book a demo with our team: sales@rkr-networks.com
+Book a demo with our team: sales@rkr-networks.com. In person or online.

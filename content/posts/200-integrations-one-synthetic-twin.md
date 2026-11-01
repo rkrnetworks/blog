@@ -51,4 +51,4 @@ That's the idea behind the video: 200+ integrations, one synthetic twin.
 
 New to the idea? Start with [what a synthetic twin of a network is]({{< ref "what-is-a-synthetic-twin-of-a-network.md" >}}), or read our [introduction to RKR SETU]({{< ref "introducing-rkr-setu-synthetic-twin-network-it-ops.md" >}}).
 
-Demos are in person. Book a demo with our team: sales@rkr-networks.com
+Book a demo with our team: sales@rkr-networks.com. In person or online.

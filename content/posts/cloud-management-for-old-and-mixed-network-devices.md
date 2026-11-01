@@ -60,4 +60,4 @@ If you're new to the idea, start with [what a synthetic twin of a network is]({{
 
 Related reading: [replacing the right things first]({{< ref "rkr-podcast-ep02-replace-the-right-things-first.md" >}}). More in the [RKR SETU overview](/setu/).
 
-Demos are in person. Book a demo with our team: sales@rkr-networks.com
+Book a demo with our team: sales@rkr-networks.com. In person or online.

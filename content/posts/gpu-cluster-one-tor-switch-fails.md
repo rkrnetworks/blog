@@ -56,4 +56,4 @@ Large clusters turn small failures into large pauses. The good news is that the 
 
 Related reading: [a 1,024-GPU job during power maintenance]({{< ref "rehearse-maintenance-second-fault.md" >}}), [a dual-homed server after a switch reboot]({{< ref "dual-homed-server-wrong-path-after-reboot.md" >}}) and [uneven LACP hashing]({{< ref "lacp-member-down-uneven-hashing.md" >}}). More in the [data center guide](/data-center/).
 
-Demos are in person. Book a demo with our team: sales@rkr-networks.com
+Book a demo with our team: sales@rkr-networks.com. In person or online.

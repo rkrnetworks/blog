@@ -54,4 +54,4 @@ Spanning tree problems often look like application problems, because the network
 
 Related reading: [rehearsing a switch replacement]({{< ref "rehearse-switch-replacement-before-maintenance-window.md" >}}), [one pruned VLAN that broke logins]({{< ref "pruned-vlan-breaks-authentication-every-link-up.md" >}}) and [traffic on the wrong path after a reboot]({{< ref "dual-homed-server-wrong-path-after-reboot.md" >}}). More in the [change rehearsal guide](/change-rehearsal/).
 
-Demos are in person. Book a demo with our team: sales@rkr-networks.com
+Book a demo with our team: sales@rkr-networks.com. In person or online.

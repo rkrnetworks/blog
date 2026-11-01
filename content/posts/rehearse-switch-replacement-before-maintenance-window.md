@@ -67,4 +67,4 @@ For a wider tour of what a twin can do on a smaller site, including two switches
 
 Related reading: [a new switch that became spanning tree root]({{< ref "new-switch-becomes-spanning-tree-root.md" >}}) and [Wi-Fi drops traced to one switch]({{< ref "wifi-keeps-dropping-trace-to-one-switch.md" >}}). More in the [change rehearsal guide](/change-rehearsal/).
 
-Demos are in person. Book a demo with our team: sales@rkr-networks.com
+Book a demo with our team: sales@rkr-networks.com. In person or online.

@@ -53,6 +53,6 @@ The show is for people who own a network and answer for it: network leads, infra
 
 ## Why a podcast
 
-Written posts are good for detail. Conversation is better for the objections. Each episode puts the hard question first and makes the answer earn its place, the way a good customer meeting does. If you want to see the demos themselves in person, the details are below.
+Written posts are good for detail. Conversation is better for the objections. Each episode puts the hard question first and makes the answer earn its place, the way a good customer meeting does. If you want to see the demos themselves, in person or online, the details are below.
 
 New to the idea behind the show? Start with [what RKR SETU is](/setu/).

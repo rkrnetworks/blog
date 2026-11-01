@@ -81,4 +81,4 @@ Outages and attackers both find the weak spots you haven't looked at, like the s
 
 More in the [RKR SETU overview](/setu/).
 
-Demos are in person. Book a demo with our team: sales@rkr-networks.com
+Book a demo with our team: sales@rkr-networks.com. In person or online.

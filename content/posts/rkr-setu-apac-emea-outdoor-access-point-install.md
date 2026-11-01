@@ -65,4 +65,4 @@ For the bigger picture, start with [what a synthetic twin of a network is]({{< r
 
 Related reading: [humanoids in data centers]({{< ref "humanoids-in-data-centers-substrate-teaser.md" >}}) and [what RKR SETU 1.0 does]({{< ref "introducing-rkr-setu-synthetic-twin-network-it-ops.md" >}}). More in the [RKR SETU overview](/setu/).
 
-Demos are in person. Book a demo with our team: sales@rkr-networks.com
+Book a demo with our team: sales@rkr-networks.com. In person or online.

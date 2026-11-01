@@ -60,4 +60,4 @@ If you saw the build-out in [one team, one page]({{< ref "data-center-build-out-
 
 Related reading: [what one failed cooling unit does]({{< ref "crac-unit-fails-is-the-room-really-n-plus-one.md" >}}) and [a generator transfer test]({{< ref "generator-transfer-test-what-reboots.md" >}}). More in the [data center guide](/data-center/).
 
-Demos are in person. Book a demo with our team: sales@rkr-networks.com
+Book a demo with our team: sales@rkr-networks.com. In person or online.

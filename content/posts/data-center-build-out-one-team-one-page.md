@@ -60,4 +60,4 @@ For the bigger picture, start with [what a synthetic twin of a network is]({{< r
 
 Related reading: [checking cable tray fill before adding a row]({{< ref "cable-tray-fill-before-adding-a-row.md" >}}) and [15 data center incidents in one twin]({{< ref "fifteen-data-center-incidents-build-run-manage.md" >}}). More in the [data center guide](/data-center/).
 
-Demos are in person. Book a demo with our team: sales@rkr-networks.com
+Book a demo with our team: sales@rkr-networks.com. In person or online.

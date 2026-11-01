@@ -72,4 +72,4 @@ Rehearse every change on the synthetic twin before it goes live.
 
 More in the [RKR Podcast page](/podcast/).
 
-Demos are in person. Book a demo with our team: sales@rkr-networks.com
+Book a demo with our team: sales@rkr-networks.com. In person or online.

@@ -65,4 +65,4 @@ For another case where full bars hid the real cause, see [39 radios, 2 channels]
 
 Related reading: [a warehouse Wi-Fi dead zone]({{< ref "amr-fleet-stalls-near-charging-dock.md" >}}). More in the [Wi-Fi troubleshooting guide](/wifi/).
 
-Demos are in person. Book a demo with our team: sales@rkr-networks.com
+Book a demo with our team: sales@rkr-networks.com. In person or online.

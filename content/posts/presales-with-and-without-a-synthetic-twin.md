@@ -67,4 +67,4 @@ If you haven't seen the product tour yet, start with [introducing RKR SETU 1.0](
 
 Related reading: [what a synthetic twin of a network is]({{< ref "what-is-a-synthetic-twin-of-a-network.md" >}}) and [RKR SETU 1.0 in APAC and EMEA]({{< ref "rkr-setu-apac-emea-outdoor-access-point-install.md" >}}). More in the [RKR SETU overview](/setu/).
 
-Demos are in person. Book a demo with our team: sales@rkr-networks.com
+Book a demo with our team: sales@rkr-networks.com. In person or online.

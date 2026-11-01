@@ -54,4 +54,4 @@ Redundancy that only works one way is easy to miss. The failover goes fine, and 
 
 Related reading: [one LACP member down and uneven hashing]({{< ref "lacp-member-down-uneven-hashing.md" >}}), [a new switch becoming spanning tree root]({{< ref "new-switch-becomes-spanning-tree-root.md" >}}) and [one ToR switch failing in a GPU cluster]({{< ref "gpu-cluster-one-tor-switch-fails.md" >}}). More in the [outages and failover guide](/outages-and-failover/).
 
-Demos are in person. Book a demo with our team: sales@rkr-networks.com
+Book a demo with our team: sales@rkr-networks.com. In person or online.

@@ -54,4 +54,4 @@ A good generator test is boring. Making it boring again usually means finding a 
 
 Related reading: [what goes dark when the UPS is on battery]({{< ref "ups-on-battery-what-goes-dark.md" >}}), [rehearsing power maintenance and a second fault]({{< ref "rehearse-maintenance-second-fault.md" >}}) and [a PDU breaker trip]({{< ref "pdu-phase-imbalance-trips-rack-breaker.md" >}}). More in the [data center guide](/data-center/).
 
-Demos are in person. Book a demo with our team: sales@rkr-networks.com
+Book a demo with our team: sales@rkr-networks.com. In person or online.

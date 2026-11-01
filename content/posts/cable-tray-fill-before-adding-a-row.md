@@ -52,4 +52,4 @@ Cable trays are the plumbing of a data hall. Nobody looks at them until they are
 
 Related reading: [a data center build-out on one page]({{< ref "data-center-build-out-one-team-one-page.md" >}}), [aisle width and cable trays for humanoid robots]({{< ref "humanoid-robots-aisle-width-cable-trays.md" >}}) and [a hot aisle containment gap]({{< ref "hot-aisle-containment-gap-three-hot-racks.md" >}}). More in the [data center guide](/data-center/).
 
-Demos are in person. Book a demo with our team: sales@rkr-networks.com
+Book a demo with our team: sales@rkr-networks.com. In person or online.

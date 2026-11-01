@@ -54,4 +54,4 @@ Segmentation is usually undone by small, sensible changes rather than one bad on
 
 Related reading: [the blast radius of a BGP route leak]({{< ref "bgp-route-leak-after-maintenance-blast-radius.md" >}}) and [a firewall certificate rotation that broke one app]({{< ref "certificate-rotation-breaks-tls-inspection.md" >}}). More in the [Wi-Fi troubleshooting guide](/wifi/).
 
-Demos are in person. Book a demo with our team: sales@rkr-networks.com
+Book a demo with our team: sales@rkr-networks.com. In person or online.

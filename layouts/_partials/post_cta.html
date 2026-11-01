@@ -11,6 +11,9 @@
       {{ . }}
     </a>
     {{- end }}
+    {{- with .ctaNote }}
+    <p class="post-cta-note">{{ . }}</p>
+    {{- end }}
   </div>
 </aside>
 {{- end }}

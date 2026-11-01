@@ -147,4 +147,4 @@ Want the single-office version? Watch our video on why Wi-Fi gets worse as the f
 
 Signal tells you if the radio can reach you. It doesn't tell you if you can work. A synthetic twin models that, at every point, every half hour.
 
-Demos are in person. Book a demo with our team: sales@rkr-networks.com
+Book a demo with our team: sales@rkr-networks.com. In person or online.

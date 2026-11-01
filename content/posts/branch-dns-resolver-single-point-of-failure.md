@@ -54,4 +54,4 @@ Branch resilience is usually built one layer at a time. DNS sits across all of t
 
 Related reading: [proving you are really redundant]({{< ref "rkr-podcast-ep03-fully-redundant-prove-it.md" >}}), [what goes dark when the UPS is on battery]({{< ref "ups-on-battery-what-goes-dark.md" >}}) and [a dual-homed server on the wrong path]({{< ref "dual-homed-server-wrong-path-after-reboot.md" >}}). More in the [outages and failover guide](/outages-and-failover/).
 
-Demos are in person. Book a demo with our team: sales@rkr-networks.com
+Book a demo with our team: sales@rkr-networks.com. In person or online.

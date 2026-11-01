@@ -52,4 +52,4 @@ N+1 is a good design goal. Keeping it true takes a check against the room as it 
 
 Related reading: [why three racks run hot behind a containment gap]({{< ref "hot-aisle-containment-gap-three-hot-racks.md" >}}), [rehearsing maintenance and the second fault]({{< ref "rehearse-maintenance-second-fault.md" >}}) and [PDU phase imbalance]({{< ref "pdu-phase-imbalance-trips-rack-breaker.md" >}}). More in the [data center guide](/data-center/).
 
-Demos are in person. Book a demo with our team: sales@rkr-networks.com
+Book a demo with our team: sales@rkr-networks.com. In person or online.

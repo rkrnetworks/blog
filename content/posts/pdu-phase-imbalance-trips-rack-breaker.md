@@ -54,4 +54,4 @@ A breaker trip on a half-loaded rack feels unfair, but it is predictable. The in
 
 Related reading: [which systems reboot in a generator test]({{< ref "generator-transfer-test-what-reboots.md" >}}), [whether one cooling failure matters]({{< ref "crac-unit-fails-is-the-room-really-n-plus-one.md" >}}) and [busway maintenance and a second fault]({{< ref "rehearse-maintenance-second-fault.md" >}}). More in the [data center guide](/data-center/).
 
-Demos are in person. Book a demo with our team: sales@rkr-networks.com
+Book a demo with our team: sales@rkr-networks.com. In person or online.

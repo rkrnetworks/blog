@@ -55,4 +55,4 @@ EXSTART is one of those states that tells you exactly where to look, once you kn
 
 Related reading: [a BGP route leak after maintenance]({{< ref "bgp-route-leak-after-maintenance-blast-radius.md" >}}) and [routing and overlay faults in a data center session]({{< ref "humanoids-data-center-operations-session.md" >}}). More in the [outages and failover guide](/outages-and-failover/).
 
-Demos are in person. Book a demo with our team: sales@rkr-networks.com
+Book a demo with our team: sales@rkr-networks.com. In person or online.

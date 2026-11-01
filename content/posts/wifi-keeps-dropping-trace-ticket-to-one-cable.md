@@ -71,4 +71,4 @@ For the bigger picture of how this works, see [what a synthetic twin of a networ
 
 Related reading: [Wi-Fi drops traced to one switch]({{< ref "wifi-keeps-dropping-trace-to-one-switch.md" >}}) and [Wi-Fi connected with no IP address]({{< ref "wifi-connected-no-ip-address-dhcp-data-hall.md" >}}). More in the [Wi-Fi troubleshooting guide](/wifi/).
 
-Demos are in person. Book a demo with our team: sales@rkr-networks.com
+Book a demo with our team: sales@rkr-networks.com. In person or online.

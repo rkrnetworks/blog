@@ -56,4 +56,4 @@ Link aggregation is reliable and simple, which is exactly why its uneven corners
 
 Related reading: [a dual-homed server on the wrong path]({{< ref "dual-homed-server-wrong-path-after-reboot.md" >}}), [packets that arrive but still miss the deadline]({{< ref "qos-packet-arrives-still-late.md" >}}) and [up versus working]({{< ref "rkr-podcast-ep04-its-up-is-it-working.md" >}}). More in the [outages and failover guide](/outages-and-failover/).
 
-Demos are in person. Book a demo with our team: sales@rkr-networks.com
+Book a demo with our team: sales@rkr-networks.com. In person or online.

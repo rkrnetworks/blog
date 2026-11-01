@@ -60,4 +60,4 @@ Whether the hands are human or not, the method is the same: check every step, tr
 
 Related reading: [a first look at humanoids in data centers]({{< ref "humanoids-in-data-centers-substrate-teaser.md" >}}), [aisle width for humanoid robots]({{< ref "humanoid-robots-aisle-width-cable-trays.md" >}}) and [an OSPF adjacency stuck in EXSTART]({{< ref "ospf-stuck-exstart-mtu-mismatch.md" >}}). More in the [data center guide](/data-center/).
 
-Demos are in person. Book a demo with our team: sales@rkr-networks.com
+Book a demo with our team: sales@rkr-networks.com. In person or online.

@@ -63,4 +63,4 @@ For a closer look at what happens to a robot during a roam, see [where the 42 ms
 
 Related reading: [AGVs that queue at one intersection]({{< ref "agvs-queue-at-one-intersection.md" >}}) and [robots stalling near the charging dock]({{< ref "amr-fleet-stalls-near-charging-dock.md" >}}). More in the [outages and failover guide](/outages-and-failover/).
 
-Demos are in person. Book a demo with our team: sales@rkr-networks.com
+Book a demo with our team: sales@rkr-networks.com. In person or online.

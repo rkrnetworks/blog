@@ -62,4 +62,4 @@ We build synthetic twins for all.
 
 Related reading: [presales with and without a synthetic twin]({{< ref "presales-with-and-without-a-synthetic-twin.md" >}}) and [tracing a Wi-Fi ticket to one switch]({{< ref "wifi-keeps-dropping-trace-to-one-switch.md" >}}). More in the [RKR SETU overview](/setu/).
 
-Demos are in person. Book a demo with our team: sales@rkr-networks.com
+Book a demo with our team: sales@rkr-networks.com. In person or online.

@@ -56,4 +56,4 @@ Robots are honest about where the network is weak. They stop there. The work is 
 
 Related reading: [warehouse scanners that drop with four bars]({{< ref "warehouse-scanners-four-bars-seven-megabits.md" >}}), [AGVs queuing at one intersection]({{< ref "agvs-queue-at-one-intersection.md" >}}) and [new coverage holes after a 6 GHz move]({{< ref "six-ghz-rollout-new-coverage-holes.md" >}}). More in the [Wi-Fi troubleshooting guide](/wifi/).
 
-Demos are in person. Book a demo with our team: sales@rkr-networks.com
+Book a demo with our team: sales@rkr-networks.com. In person or online.

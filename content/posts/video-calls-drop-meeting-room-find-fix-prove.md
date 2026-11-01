@@ -80,4 +80,4 @@ New to the idea? Start with [what a synthetic twin of a network is]({{< ref "wha
 
 Break it here first. Fix it here first.
 
-Demos are in person. Book a demo with our team: sales@rkr-networks.com
+Book a demo with our team: sales@rkr-networks.com. In person or online.

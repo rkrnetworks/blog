@@ -63,4 +63,4 @@ It also means roaming can be designed before a building is finished. If the netw
 
 Related reading: [sticky clients that will not roam]({{< ref "sticky-wifi-clients-wont-roam.md" >}}), [an AGV that loses its control link]({{< ref "agv-control-link-drops-robot-keeps-moving.md" >}}) and [robots stalling near the dock]({{< ref "amr-fleet-stalls-near-charging-dock.md" >}}). More in the [Wi-Fi troubleshooting guide](/wifi/).
 
-Demos are in person. Book a demo with our team: sales@rkr-networks.com
+Book a demo with our team: sales@rkr-networks.com. In person or online.

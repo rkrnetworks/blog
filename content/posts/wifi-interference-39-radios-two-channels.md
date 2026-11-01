@@ -65,4 +65,4 @@ Changing the plan, and then rechecking the whole building, is what turned three 
 
 Related reading: [four bars and seven megabits]({{< ref "warehouse-scanners-four-bars-seven-megabits.md" >}}) and [moving to 6 GHz]({{< ref "six-ghz-rollout-new-coverage-holes.md" >}}). More in the [Wi-Fi troubleshooting guide](/wifi/).
 
-Demos are in person. Book a demo with our team: sales@rkr-networks.com
+Book a demo with our team: sales@rkr-networks.com. In person or online.
