@@ -11,7 +11,7 @@ hiddenInRss: true
 hideDemoCta: true
 ---
 
-All content on blog.rkr-networks.com, including text, images, cover art, diagrams, video and audio, is © 2026 RKR Networks LLC. All rights reserved.
+All content on blog.rkr-networks.com, including text, images, cover art, diagrams, video and audio, is © 2026 RKR Networks LLP. All rights reserved.
 
 ## What you are welcome to do
 
@@ -21,8 +21,8 @@ All content on blog.rkr-networks.com, including text, images, cover art, diagram
 
 ## What needs our written permission first
 
-- **AI and machine learning use.** Using any content from this site to train, fine-tune, evaluate or ground an AI or machine learning model, or to build a dataset for that purpose, is not permitted without written permission from RKR Networks LLC.
-- **Text and data mining.** RKR Networks LLC reserves its rights under Article 4 of EU Directive 2019/790 and similar laws. This reservation is expressed in machine-readable form through the `tdm-reservation` meta tag, [/.well-known/tdmrep.json](/.well-known/tdmrep.json), [/robots.txt](/robots.txt) and [/ai.txt](/ai.txt).
+- **AI and machine learning use.** Using any content from this site to train, fine-tune, evaluate or ground an AI or machine learning model, or to build a dataset for that purpose, is not permitted without written permission from RKR Networks LLP.
+- **Text and data mining.** RKR Networks LLP reserves its rights under Article 4 of EU Directive 2019/790 and similar laws. This reservation is expressed in machine-readable form through the `tdm-reservation` meta tag, [/.well-known/tdmrep.json](/.well-known/tdmrep.json), [/robots.txt](/robots.txt) and [/ai.txt](/ai.txt).
 - **Republishing.** Copying whole posts, large parts of posts, images or videos to another site, feed, product or publication.
 - **Automated collection.** Scraping or bulk downloading the site, beyond normal search engine indexing.
 

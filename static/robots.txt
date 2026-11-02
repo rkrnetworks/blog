@@ -1,7 +1,7 @@
 # RKR Networks Blog - crawler policy
 # Search engines are welcome. AI training, AI dataset and bulk scraping crawlers are not.
 # Content use terms: https://blog.rkr-networks.com/terms/
-# (c) 2026 RKR Networks LLC. No AI training or reuse without written permission.
+# (c) 2026 RKR Networks LLP. No AI training or reuse without written permission.
 
 # --- AI training, dataset and scraping crawlers: blocked ---
 User-agent: GPTBot

@@ -5,7 +5,7 @@ locale = "en-US"
 title = "RKR Networks Blog"
 theme = "PaperMod"
 enableRobotsTXT = false
-copyright = "© 2026 RKR Networks LLC. All rights reserved. No AI training or reuse without written permission."
+copyright = "© 2026 RKR Networks LLP. All rights reserved. No AI training or reuse without written permission."
 enableGitInfo = true
 
 [pagination]
@@ -73,7 +73,7 @@ enableGitInfo = true
 
   [params.organization]
     name = "RKR Networks"
-    legalName = "RKR Networks LLC"
+    legalName = "RKR Networks LLP"
     url = "https://www.rkr-networks.com"
     logo = "/images/logo.png"
     email = "sales@rkr-networks.com"
