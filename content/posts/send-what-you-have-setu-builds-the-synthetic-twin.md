@@ -10,7 +10,7 @@ categories: ["RKR SETU"]
 keywords: ["network onboarding", "no network drawings", "network documentation", "build a synthetic twin from configs", "equipment list to network model", "3D synthetic twin", "show clients", "LLDP neighbors", "ping path", "synthetic twin", "RKR SETU"]
 slug: "send-what-you-have-setu-builds-the-synthetic-twin"
 audio: ["/audio/send-what-you-have-setu-builds-the-synthetic-twin.mp3"]
-audioDuration: "4:58"
+audioDuration: "4:50"
 videoDuration: "PT1M56S"
 cover:
   image: "/covers/send-what-you-have-setu-builds-the-synthetic-twin.jpg"
@@ -76,6 +76,6 @@ No matter how little you have, SETU builds the synthetic twin.
 
 If you want the longer version of the idea, read [what a synthetic twin of a network is]({{< ref "what-is-a-synthetic-twin-of-a-network.md" >}}). To see what you can do once the twin is built, see [Yes, there's a GUI: try the fix in the synthetic twin first]({{< ref "yes-theres-a-gui-try-the-fix-in-the-synthetic-twin-first.md" >}}).
 
-RKR-Corporate-7 is a made-up demo estate. All devices, people and addresses in it are simulated.
+Shown with sample data. SETU builds yours from your real files.
 
 Book a demo with our team: sales@rkr-networks.com. In person or online.
